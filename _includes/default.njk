@@ -59,9 +59,8 @@ body, html {
     <i class="fa fa-remove"></i>
   </a>
   <div class="w3-bar-block w3-center">
-    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Menu One</a>
-    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Menu Two</a>
-    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Menu Three</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black">About</a>
+    <a href="#goals" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Goals</a>
   </div>
 </nav>
 
@@ -84,6 +83,7 @@ body, html {
 </div>
 
 <!-- Container (About Section) -->
+<a id="about">
 <div class="w3-content w3-container w3-padding-64" id="about">
   {% markdown %}
     {%- include "about.md" -%}
@@ -91,6 +91,7 @@ body, html {
 </div>
 
 <!-- Container (Goals Section) -->
+<a id="goals">
 <div class="w3-content w3-container w3-padding-64" id="about">
   <h3 class="w3-center">Goals for 2020 Medicaid Marches:</h3>
   {% markdown %}
