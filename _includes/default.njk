@@ -18,21 +18,29 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 </style>
 <body>
 
+<!-- Language switcher. -->
+<div class="w3-display-topright w3-padding-large w3-xlarge w3-text-grey">
+  <a id="local" href="javascript:void(0)" class="w3-button w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">Es</a>
+</div>
+
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
 <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
   <!-- Avatar image in top left corner -->
   <img src='{{ "/img/96805680_10157171890982592_5352465068355223552_o.png" | url }}' style="width:100%">
   <a href="#" class="w3-bar-item w3-button w3-padding-large">
     <i class="fa fa-home w3-xxlarge"></i>
-    <p>HOME</p>
+    <div class="en"><p>HOME</p></div>
+    <div class="es" style="display:none"><p>HOGAR</p></div>
   </a>
   <a href="#about" class="w3-bar-item w3-button w3-padding-large">
     <i class="fa fa-user w3-xxlarge"></i>
-    <p>ABOUT</p>
+    <div class="en"><p>ABOUT</p></div>
+    <div class="es" style="display:none"><p>SOBRE</p></div>
   </a>
   <a href="#goals" class="w3-bar-item w3-button w3-padding-large">
     <i class="fa fa-th w3-xxlarge"></i>
-    <p>Goals</p>
+    <div class="en"><p>GOALS</p></div>
+    <div class="es" style="display:none"><p>METAS</p></div>
   </a>
   <!-- <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black"> -->
   <!--   <i class="fa fa-envelope w3-xxlarge"></i> -->
@@ -43,10 +51,10 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 <!-- Navbar on small screens (Hidden on medium and large screens) -->
 <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
   <div class="w3-bar w3-opacity w3-hover-opacity-off w3-center w3-small">
-    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button w3-text-grey">ABOUT</a>
-    <a href="#goals" class="w3-bar-item w3-button w3-text-grey">GOALS</a>
-  </div>
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important"><div class="en">HOME</div><div class="es" style="display:none">HOGAR</div></a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey"><div class="en">ABOUT</div><div class="es" style="display:none">SOBRE</div></a>
+    <a href="#goals" class="w3-bar-item w3-button w3-text-grey"><div class="en">GOALS</div><div class="es" style="display:none">METAS</div>
+  </div></a>
 </div>
 
 <!-- Page Content -->
@@ -60,21 +68,35 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
   <!-- About Section -->
   <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-    <h2 class="w3-text-dark-grey">About</h2>
+    <h2 class="w3-text-dark-grey"><div class="en">About</div><div class="es" style="display:none">Metas</div></h2>
     <hr style="width:200px" class="w3-opacity">
+    <div class="en">
     {% markdown %}
-      {%- include "about.md" -%}
+      {%- include "en/about.md" -%}
     {% endmarkdown %}
+    </div>
+    <div class="es" style="display:none">
+    {% markdown %}
+      {%- include "es/about.md" -%}
+    {% endmarkdown %}
+    </div>
   <!-- End About Section -->
   </div>
 
   <!-- Goals Section -->
   <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="goals">
-    <h2 class="w3-text-dark-grey">Goals</h2>
+    <h2 class="w3-text-dark-grey"><div class="en">Goals</div><div class="es" style="display:none">Metas</div></h2>
     <hr style="width:200px" class="w3-opacity">
+    <div class="en">
     {% markdown %}
-      {%- include "goals.md" -%}
+      {%- include "en/goals.md" -%}
     {% endmarkdown %}
+    </div>
+    <div class="es" style="display:none">
+    {% markdown %}
+      {%- include "es/goals.md" -%}
+    {% endmarkdown %}
+    </div>
   <!-- End Goals Section -->
   </div>
   
@@ -87,7 +109,8 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <i class="fa fa-twitter w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
     <p class="w3-medium">
-      For more information and to get involved contact:</br>
+      <span class="en">For more information and to get involved contact:</span>
+      <span class="es" style="display:none">Para obtener más información y participar, comuníquese con:</span></br>
       Nijmie Dzurinko, co-chair Pennsylvania PPC:NCMR: ​nijmied@gmail.com
     </p>
 
@@ -97,6 +120,53 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 <!-- END PAGE CONTENT -->
 </div>
 
+<script>
+// Missing in some older browsers
+document.getElementsByClass = function(needle) {
+  function acceptNode(node) {
+    if (node.hasAttribute("class")) {
+      var c = " " + node.className + " ";
+       if (c.indexOf(" " + needle + " ") != -1)
+         return NodeFilter.FILTER_ACCEPT;
+    }
+    return NodeFilter.FILTER_SKIP;
+  }
+  var treeWalker = document.createTreeWalker(document.documentElement,
+      NodeFilter.SHOW_ELEMENT, acceptNode, true);
+  var outArray = new Array();
+  if (treeWalker) {
+    var node = treeWalker.nextNode();
+    while (node) {
+      outArray.push(node);
+      node = treeWalker.nextNode();
+    }
+  }
+  return outArray;
+}
+
+function switch_language(){
+  ["en", "es"].forEach(function(lang)
+{
+    if (document.getElementById("local").innerHTML != "En" ){
+      document.getElementById("local").innerHTML = "En";
+    } else {
+      document.getElementById("local").innerHTML = "Es";
+    }
+    var elements = document.getElementsByClassName(lang);
+    for (var i in elements) {
+      if (elements.hasOwnProperty(i)) {
+        if (elements[i].style.display == 'none'){
+            elements[i].style.display = 'inline';
+        } else {
+            elements[i].style.display = 'none';
+        }
+      }
+    }
+  }
+  )
+}
+document.getElementById("local").addEventListener('click', switch_language);
+</script>
+
 </body>
 </html>
-
