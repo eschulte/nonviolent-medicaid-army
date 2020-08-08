@@ -4,148 +4,99 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
-body, html {
-  height: 100%;
-  color: #777;
-  line-height: 1.8;
-}
-
-/* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* First image (Logo. Full height) */
-.bgimg-1 {
-  background-image: url("{{ "/img/96805680_10157171890982592_5352465068355223552_o.png" | url}}");
-  min-height: 100%;
-}
-
-/* Second image (Portfolio) */
-.bgimg-2 {
-  background-image: url("{{ "/img/96805680_10157171890982592_5352465068355223552_o.png" | url}}");
-  min-height: 400px;
-}
-
-/* Third image (Contact) */
-.bgimg-3 {
-  background-image: url("{{ "/img/96805680_10157171890982592_5352465068355223552_o.png" | url}}");
-  min-height: 400px;
-}
-
-.w3-wide {letter-spacing: 10px;}
-.w3-hover-opacity {cursor: pointer;}
-
-/* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1600px) {
-  .bgimg-1, .bgimg-2, .bgimg-3 {
-    background-attachment: scroll;
-    min-height: 400px;
-  }
-}
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) { #main { margin-left: 0} }
 </style>
 <body>
 
-<!-- Sidebar -->
-<nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
-    <i class="fa fa-remove"></i>
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src='{{ "/img/96805680_10157171890982592_5352465068355223552_o.png" | url }}' style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
   </a>
-  <div class="w3-bar-block w3-center">
-    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black">About</a>
-    <a href="#goals" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Goals</a>
-  </div>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#goals" class="w3-bar-item w3-button w3-padding-large">
+    <i class="fa fa-th w3-xxlarge"></i>
+    <p>Goals</p>
+  </a>
+  <!-- <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black"> -->
+  <!--   <i class="fa fa-envelope w3-xxlarge"></i> -->
+  <!--   <p>CONTACT</p> -->
+  <!-- </a> -->
 </nav>
 
-<div class="w3-content" style="max-width:1500px">
-
-<!-- Header -->
-<div class="w3-opacity">
-<span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span>
-<div class="w3-clear"></div>
-</div>
-
-<!-- First Parallax Image with Logo Text -->
-<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-  <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">
-      <span class="w3-hide-small">{{ title }}</span>
-      <span class="w3-hide-large">NMA</span>
-    </span>
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey">ABOUT</a>
+    <a href="#goals" class="w3-bar-item w3-button w3-text-grey">GOALS</a>
   </div>
 </div>
 
-<!-- Container (About Section) -->
-<a id="about">
-<div class="w3-content w3-container w3-padding-64" id="about">
-  {% markdown %}
-    {%- include "about.md" -%}
-  {% endmarkdown %}
-</div>
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center" id="home">
+    <!-- <h1 class="w3-text-dark-grey">{{ title }}</h1> -->
+    <!-- <p>Photographer and Web Designer.</p> -->
+    <img src='{{ "/img/96805680_10157171890982592_5352465068355223552_o.png" | url }}' alt="boy" class="w3-image" width="992" height="1108">
+  </header>
 
-<!-- Container (Goals Section) -->
-<a id="goals">
-<div class="w3-content w3-container w3-padding-64" id="about">
-  <h3 class="w3-center">Goals for 2020 Medicaid Marches:</h3>
-  {% markdown %}
-    {%- include "goals.md" -%}
-  {% endmarkdown %}
-</div>
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-dark-grey">About</h2>
+    <hr style="width:200px" class="w3-opacity">
+    {% markdown %}
+      {%- include "about.md" -%}
+    {% endmarkdown %}
+  <!-- End About Section -->
+  </div>
 
-<!-- Footer -->
-<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
-  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-  <div class="w3-xlarge w3-section">
+  <!-- Goals Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="goals">
+    <h2 class="w3-text-dark-grey">Goals</h2>
+    <hr style="width:200px" class="w3-opacity">
+    {% markdown %}
+      {%- include "goals.md" -%}
+    {% endmarkdown %}
+  <!-- End Goals Section -->
+  </div>
+  
+  <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa fa-instagram w3-hover-opacity"></i>
     <i class="fa fa-snapchat w3-hover-opacity"></i>
     <i class="fa fa-pinterest-p w3-hover-opacity"></i>
     <i class="fa fa-twitter w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
-  </div>
+    <p class="w3-medium">
+      For more information and to get involved contact:</br>
+      Nijmie Dzurinko, co-chair Pennsylvania PPC:NCMR: ​nijmied@gmail.com
+    </p>
 
-  <p>
-    For more information and to get involved contact:</br>
-    Nijmie Dzurinko, co-chair Pennsylvania PPC:NCMR: ​nijmied@gmail.com
-  </p>
-</footer>
- 
-<script>
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
+  <!-- End footer -->
+  </footer>
 
-// Used to toggle the menu on small screens when clicking on the menu button
-function toggleFunction() {
-    var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-
-// Open and close sidebar
-function w3_open() {
-  document.getElementById("mySidebar").style.width = "100%";
-  document.getElementById("mySidebar").style.display = "block";
-}
-
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-}
-</script>
+<!-- END PAGE CONTENT -->
+</div>
 
 </body>
 </html>
+
