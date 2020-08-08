@@ -8,6 +8,10 @@ module.exports = function(eleventyConfig) {
   md.use(require("markdown-it-anchor"));
   eleventyConfig.setLibrary("md", md);
 
+  eleventyConfig.addPairedShortcode("markdown", (content) => {
+    return md.render(content);
+  });
+
   eleventyConfig.addPassthroughCopy("img");
 
   // eleventyConfig.addPlugin(require("@11ty/eleventy-navigation"));

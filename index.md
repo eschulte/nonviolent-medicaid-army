@@ -1,9 +1,4 @@
 ---
 layout: default
-title: Foo is the Name
+title: Nonviolent Medicaid Army
 ---
-
-List
-1. Foo
-2. Bar
-3. Baz
