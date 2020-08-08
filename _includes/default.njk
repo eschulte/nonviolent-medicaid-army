@@ -19,8 +19,8 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 <body>
 
 <!-- Language switcher. -->
-<div class="w3-display-topright w3-padding-large w3-xlarge w3-text-grey">
-  <a id="local" href="javascript:void(0)" class="w3-button w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">Es</a>
+<div class="w3-display-topright w3-padding-large w3-text-grey">
+  <a id="local" href="javascript:void(0)" class="w3-button w3-xlarge w3-padding w3-display-topright" style="padding:6px 24px">Es</a>
 </div>
 
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
@@ -145,13 +145,13 @@ document.getElementsByClass = function(needle) {
 }
 
 function switch_language(){
+  if (document.getElementById("local").innerHTML == "En" ){
+    document.getElementById("local").innerHTML = "Es";
+  } else {
+    document.getElementById("local").innerHTML = "En";
+  }
   ["en", "es"].forEach(function(lang)
 {
-    if (document.getElementById("local").innerHTML != "En" ){
-      document.getElementById("local").innerHTML = "En";
-    } else {
-      document.getElementById("local").innerHTML = "Es";
-    }
     var elements = document.getElementsByClassName(lang);
     for (var i in elements) {
       if (elements.hasOwnProperty(i)) {
