@@ -15,29 +15,30 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 #main {margin-left: 120px}
 /* Remove margins from "page content" on small screens */
 @media only screen and (max-width: 600px) { #main { margin-left: 0} }
+.bgimg {background-image: url('{{"/img/zachary-keimig-s8ZTEbJNN7E-unsplash.jpg" | url}}')}
 </style>
-<body>
+<body class="bgimg">
 
 <!-- Language switcher. -->
-<div class="w3-display-topright w3-padding-large w3-text-grey">
+<div class="w3-display-topright w3-padding-large w3-text-white">
   <a id="local" href="javascript:void(0)" class="w3-button w3-xlarge w3-padding w3-display-topright" style="padding:6px 24px">Es</a>
 </div>
 
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
-<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center w3-text-grey">
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center w3-text-white" style="background:transparent;">
   <!-- Avatar image in top left corner -->
   <img src='{{ "/img/96805680_10157171890982592_5352465068355223552_o.png" | url }}' style="width:100%">
-  <a href="#" class="w3-bar-item w3-button w3-padding-large">
+  <a href="#" class="w3-bar-item w3-padding-large">
     <i class="fa fa-home w3-xxlarge"></i>
     <div class="en"><p>HOME</p></div>
     <div class="es" style="display:none"><p>HOGAR</p></div>
   </a>
-  <a href="#about" class="w3-bar-item w3-button w3-padding-large">
+  <a href="#about" class="w3-bar-item w3-padding-large">
     <i class="fa fa-users w3-xxlarge"></i>
     <div class="en"><p>ABOUT</p></div>
     <div class="es" style="display:none"><p>SOBRE</p></div>
   </a>
-  <a href="#goals" class="w3-bar-item w3-button w3-padding-large">
+  <a href="#goals" class="w3-bar-item w3-padding-large">
     <i class="fa fa-check-square w3-xxlarge"></i>
     <div class="en"><p>GOALS</p></div>
     <div class="es" style="display:none"><p>METAS</p></div>
@@ -52,8 +53,8 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
   <div class="w3-bar w3-opacity w3-hover-opacity-off w3-center w3-small">
     <a href="#" class="w3-bar-item w3-button" style="width:25% !important"><div class="en">HOME</div><div class="es" style="display:none">HOGAR</div></a>
-    <a href="#about" class="w3-bar-item w3-button w3-text-grey"><div class="en">ABOUT</div><div class="es" style="display:none">SOBRE</div></a>
-    <a href="#goals" class="w3-bar-item w3-button w3-text-grey"><div class="en">GOALS</div><div class="es" style="display:none">METAS</div>
+    <a href="#about" class="w3-bar-item w3-button w3-text-white"><div class="en">ABOUT</div><div class="es" style="display:none">SOBRE</div></a>
+    <a href="#goals" class="w3-bar-item w3-button w3-text-white"><div class="en">GOALS</div><div class="es" style="display:none">METAS</div>
   </div></a>
 </div>
 
@@ -67,8 +68,8 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   </header>
 
   <!-- About Section -->
-  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-    <h2 class="w3-text-dark-grey"><div class="en">About</div><div class="es" style="display:none">Metas</div></h2>
+  <div class="w3-content w3-justify w3-text-white w3-padding-64" id="about">
+    <h2 class="w3-text-white"><div class="en">About</div><div class="es" style="display:none">Metas</div></h2>
     <hr style="width:200px" class="w3-opacity">
     <div class="en">
     {% markdown %}
@@ -84,8 +85,8 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   </div>
 
   <!-- Goals Section -->
-  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="goals">
-    <h2 class="w3-text-dark-grey"><div class="en">Goals</div><div class="es" style="display:none">Metas</div></h2>
+  <div class="w3-content w3-justify w3-text-white w3-padding-64" id="goals">
+    <h2 class="w3-text-white"><div class="en">Goals</div><div class="es" style="display:none">Metas</div></h2>
     <hr style="width:200px" class="w3-opacity">
     <div class="en">
     {% markdown %}
@@ -101,7 +102,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   </div>
   
   <!-- Footer -->
-  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+  <footer class="w3-content w3-padding-64 w3-text-white w3-xlarge">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa fa-instagram w3-hover-opacity"></i>
     <i class="fa fa-snapchat w3-hover-opacity"></i>
