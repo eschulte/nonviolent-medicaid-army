@@ -4,33 +4,40 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-.w3-row-padding img {margin-bottom: 12px}
-/* Set the width of the sidebar to 120px */
-.w3-sidebar {width: 120px;}
-/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-#main {margin-left: 120px}
-/* Remove margins from "page content" on small screens */
-@media only screen and (max-width: 600px) { #main { margin-left: 0} }
-.bgimg {
-  background-image: 
+body,h1,h2{font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg, .bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+sidebar-padded {}
+@media (min-width: 600px){ .sidebar-padded { padding-left:200px; } }
+.bgimg {background-image: 
     linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
     ),
-    url('{{"/img/zachary-keimig-s8ZTEbJNN7E-unsplash.jpg" | url}}');
-  background-size: contain;
-}
-.bgimg2 {
-  background-image: url('{{"/img/clay-banks-OCFh2PGLoQk-unsplash.jpg" | url}}');
-  background-size: auto;
-}
-
+    url('{{"/img/clay-banks-OCFh2PGLoQk-unsplash.jpg" | url}}')}
+.bgimg2 {background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),url('{{"/img/zachary-keimig-s8ZTEbJNN7E-unsplash.jpg" | url}}')}
 </style>
-<body class="bgimg">
+<body class="w3-dark-grey">
+
+<!-- Header / Home-->
+<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-text-light-grey w3-center">
+    <h1 class="w3-jumbo">{{ title }}</h1>
+    <h2><b>2020-09-30</b></h2>
+  </div>
+</header>
 
 <!-- Language switcher. -->
 <div class="w3-display-topright w3-padding-large w3-text-white">
@@ -38,28 +45,26 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 </div>
 
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
-<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center w3-text-white" style="background:transparent;">
+<nav class="w3-sidebar w3-small w3-hide-small w3-center w3-text-white" style="background:transparent; top:0px; left:0px;">
   <!-- Avatar image in top left corner -->
   <img src='{{ "/img/96805680_10157171890982592_5352465068355223552_trans_invert.png" | url }}' style="width:100%">
-  <a href="#" class="w3-bar-item w3-padding-large">
+  <a href="#" class="w3-bar-item">
     <i class="fa fa-home w3-xxlarge"></i>
     <div class="en"><p>HOME</p></div>
     <div class="es" style="display:none"><p>HOGAR</p></div>
   </a>
-  <a href="#about" class="w3-bar-item w3-padding-large">
+  </br>
+  <a href="#about" class="w3-bar-item">
     <i class="fa fa-users w3-xxlarge"></i>
     <div class="en"><p>ABOUT</p></div>
     <div class="es" style="display:none"><p>SOBRE</p></div>
   </a>
-  <a href="#goals" class="w3-bar-item w3-padding-large">
+  </br>
+  <a href="#goals" class="w3-bar-item">
     <i class="fa fa-check-square w3-xxlarge"></i>
     <div class="en"><p>GOALS</p></div>
     <div class="es" style="display:none"><p>METAS</p></div>
   </a>
-  <!-- <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black"> -->
-  <!--   <i class="fa fa-envelope w3-xxlarge"></i> -->
-  <!--   <p>CONTACT</p> -->
-  <!-- </a> -->
 </nav>
 
 <!-- Navbar on small screens (Hidden on medium and large screens) -->
@@ -71,34 +76,30 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   </div></a>
 </div>
 
-<!-- Page Content -->
-<div class="w3-padding-large" id="main">
-  <!-- Header/Home -->
-  <div class="w3-content w3-justify w3-text-white w3-padding-64" id="about">
-    <div class="w3-text-white w3-center">
-      <h1 class="w3-jumbo">{{ title }}</h1>
-    </div>
-  </header>
-
-  <!-- About Section -->
-  <div class="w3-content w3-justify w3-text-white w3-padding-64" id="about">
-    <h2 class="w3-text-white"><div class="en">About</div><div class="es" style="display:none">Metas</div></h2>
-    <hr style="width:200px" class="w3-opacity">
-    <div class="en">
+<!-- About Section -->
+<div class="sidebar-padded w3-container w3-padding-64 w3-dark-grey w3-grayscale-min" id="us">
+  <div class="w3-content">
+    <h1 class="w3-center w3-text-grey"></h1>
+    <img class="w3-right w3-round w3-grayscale-min" src='{{"/img/clay-banks-_2Y4C5ZnYs4-unsplash.jpg" | url}}'
+         style="width:100%;margin:32px 0;max-width:600px;">
+  <h2 class="w3-text-white"><div class="en">About</div><div class="es" style="display:none">Metas</div></h2>
+  <hr style="width:200px" class="w3-opacity">
+  <div class="en">
     {% markdown %}
-      {%- include "en/about.md" -%}
+    {%- include "en/about.md" -%}
     {% endmarkdown %}
-    </div>
-    <div class="es" style="display:none">
-    {% markdown %}
-      {%- include "es/about.md" -%}
-    {% endmarkdown %}
-    </div>
-  <!-- End About Section -->
   </div>
+  <div class="es" style="display:none">
+    {% markdown %}
+    {%- include "es/about.md" -%}
+    {% endmarkdown %}
+  </div>
+  </div>
+</div>
 
-  <!-- Goals Section -->
-  <div class="w3-content w3-justify w3-text-white w3-padding-64" id="goals">
+<!-- Goals Section -->
+<div class="sidebar-padded w3-display-container bgimg2 w3-padding-64">
+  <div class="w3-content w3-text-light-grey">
     <h2 class="w3-text-white"><div class="en">Goals</div><div class="es" style="display:none">Metas</div></h2>
     <hr style="width:200px" class="w3-opacity">
     <div class="en">
@@ -111,11 +112,15 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
       {%- include "es/goals.md" -%}
     {% endmarkdown %}
     </div>
-  <!-- End Goals Section -->
   </div>
-  
-  <!-- Footer -->
-  <footer class="w3-content w3-padding-64 w3-text-white w3-xlarge">
+</div>
+
+<div class="sidebar-padded w3-container w3-padding-64 w3-dark-grey w3-grayscale-min w3-center" id="wedding">
+  <div class="w3-content">
+    <!-- <h1 class="w3-text-grey"><b>THE WEDDING</b></h1> -->
+    <img class="w3-round-large w3-grayscale-min" src='{{"/img/andrew-donovan-valdivia-jPHtcEqYgQ8-unsplash.jpg" | url}}'
+         style="width:80%;margin:64px 0; max-width:400px;">
+    </br>
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa fa-instagram w3-hover-opacity"></i>
     <i class="fa fa-snapchat w3-hover-opacity"></i>
@@ -127,12 +132,10 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
       <span class="es" style="display:none">Para obtener más información y participar, comuníquese con:</span></br>
       Nijmie Dzurinko, co-chair Pennsylvania PPC:NCMR: ​nijmied@gmail.com
     </p>
-
-  <!-- End footer -->
-  </footer>
-
-<!-- END PAGE CONTENT -->
+  </div>
 </div>
+
+</body>
 
 <script>
 // Missing in some older browsers
@@ -181,6 +184,4 @@ function switch_language(){
 }
 document.getElementById("local").addEventListener('click', switch_language);
 </script>
-
-</body>
 </html>
