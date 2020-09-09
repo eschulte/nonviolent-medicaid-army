@@ -5,3 +5,5 @@ package-lock.json
 w3.css
 
 data/
+
+.DS_Store
