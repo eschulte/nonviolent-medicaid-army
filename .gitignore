@@ -2,4 +2,6 @@ _site/
 node_modules/
 package-lock.json
 
+w3.css
+
 data/

@@ -24,18 +24,23 @@ sidebar-padded {}
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
     ),
-    url('{{"/img/clay-banks-OCFh2PGLoQk-unsplash-prog.jpg" | url}}')}
+    url('{{"/img/IMG_9077.JPG" | url}}')}
 .bgimg2 {background-image: 
     linear-gradient(
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
     ),url('{{"/img/zachary-keimig-s8ZTEbJNN7E-unsplash-prog.jpg" | url}}')}
+.w3-display-middle-high{position:absolute;top:30%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+@media (min-width:600px){.big-up{clear:both;}}
+@media (min-width:900px){.big-up{clear:both;transform: translateY(-64px);height:0;}}
+@media (min-width:600px){.bigger-up{clear:both;}}
+@media (min-width:1080px){.bigger-up{clear:both;transform: translateY(-64px);height:0;}}
 </style>
 <body class="w3-dark-grey">
 
 <!-- Header / Home-->
-<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
-  <div class="w3-display-middle w3-text-light-grey w3-center">
+<header class="w3-display-container w3-wide bgimg" id="home">
+  <div class="w3-display-middle-high w3-text-white w3-center">
     <h1 class="w3-jumbo">{{ title }}</h1>
     <h2><b>2020-09-30</b></h2>
   </div>
@@ -82,12 +87,11 @@ sidebar-padded {}
 </div>
 
 <!-- About Section -->
-<div class="sidebar-padded w3-container w3-padding-64 w3-dark-grey w3-grayscale-min" id="about">
+<div class="sidebar-padded w3-container w3-padding-64 w3-dark-grey " id="about">
   <div class="w3-content">
-    <h1 class="w3-center w3-text-grey"></h1>
-    <img class="w3-right w3-round w3-grayscale-min" src='{{"/img/clay-banks-_2Y4C5ZnYs4-unsplash-prog.jpg" | url}}'
+    <img class="w3-right w3-round " src='{{"/img/Jublee-Harrisburg-2020-0018.jpg" | url}}'
          style="width:100%;margin:32px 0;max-width:600px;">
-  <h2 class="w3-text-white"><div class="en">About</div><div class="es" style="display:none">Sobre</div></h2>
+  <h2 class="w3-text-white big-up"><div class="en">About</div><div class="es" style="display:none">Sobre</div></h2>
   <hr style="width:200px" class="w3-opacity">
   <div class="en">
     {% markdown %}
@@ -105,7 +109,9 @@ sidebar-padded {}
 <!-- Goals Section -->
 <div class="sidebar-padded w3-display-container bgimg2 w3-padding-64" id="goals">
   <div class="w3-content w3-text-light-grey">
-    <h2 class="w3-text-white"><div class="en">Goals</div><div class="es" style="display:none">Metas</div></h2>
+    <img class="w3-right w3-round " src='{{"/img/image2-crop.jpg" | url}}'
+         style="width:90%; margin:0 5%; max-width:700px;">
+    <h2 class="w3-text-white bigger-up"><div class="en">Goals</div><div class="es" style="display:none">Metas</div></h2>
     <hr style="width:200px" class="w3-opacity">
     <div class="en">
     {% markdown %}
@@ -120,11 +126,11 @@ sidebar-padded {}
   </div>
 </div>
 
-<div class="sidebar-padded w3-container w3-padding-64 w3-dark-grey w3-grayscale-min w3-center" id="wedding">
+<div class="sidebar-padded w3-container w3-padding-64 w3-dark-grey  w3-center" id="wedding">
   <div class="w3-content">
     <!-- <h1 class="w3-text-grey"><b>THE WEDDING</b></h1> -->
-    <img class="w3-round-large w3-grayscale-min" src='{{"/img/andrew-donovan-valdivia-jPHtcEqYgQ8-unsplash-prog.jpg" | url}}'
-         style="width:80%;margin:64px 0; max-width:400px;">
+    <img class="w3-round-large " src='{{"/img/IMG-0001.JPG" | url}}'
+         style="width:100%;margin-bottom:64px;">
     </br>
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa fa-instagram w3-hover-opacity"></i>
