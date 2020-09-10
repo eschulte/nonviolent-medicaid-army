@@ -21,8 +21,8 @@ sidebar-padded {}
 @media (min-width: 600px){ .sidebar-padded { padding-left:200px; } }
 .bgimg {background-image: 
     linear-gradient(
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2)
+      rgba(0, 0, 0, 0.0),
+      rgba(0, 0, 0, 0.0)
     ),
     url('{{"/img/72286505_3307812459243757_5697027247718793216_o-crop.jpg" | url}}')}
 .bgimg2 {background-image: 
@@ -37,28 +37,28 @@ sidebar-padded {}
 @media (min-width:600px){.bigger-up{clear:both;}}
 @media (min-width:1080px){.bigger-up{clear:both;transform: translateY(-64px);height:0;}}
 </style>
-<body class="w3-dark-grey">
+<body class="w3-white">
 
 <!-- Header / Home-->
 <header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
-  <div class="w3-display-middle-high w3-text-light-gray w3-center">
-    <h1 class="w3-jumbo">{{ title }}</h1>
-    <h2><b>2020-09-30</b></h2>
+  <div class="w3-display-middle-high w3-center">
+    <h1 class="w3-text-white w3-jumbo">{{ title }}</h1>
+    <h2 class="w3-text-white"><b>2020-09-30</b></h2>
   </div>
 </header>
 
 <!-- Language switcher. -->
 <div class="w3-display-topright">
-  <button id="local" href="javascript:void(0)" class="w3-xlarge w3-padding w3-display-topright w3-text-white"
+  <button id="local" href="javascript:void(0)" class="w3-xlarge w3-padding w3-display-topright "
           style="background-color:transparent; text-decoration:none; border:none;">
     Es
   </button>
 </div>
 
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
-<nav class="w3-sidebar w3-small w3-hide-small w3-center w3-text-white" style="background:transparent; top:0px; left:0px;">
+<nav class="w3-sidebar w3-small w3-hide-small w3-center w3-text-black" style="background:#f1f1f1aa; top:0px; left:0px;">
   <!-- Avatar image in top left corner -->
-  <img src='{{ "/img/96805680_10157171890982592_5352465068355223552_trans_invert.png" | url }}' style="width:100%">
+  <img src='{{ "/img/96805680_10157171890982592_5352465068355223552_trans.png" | url }}' style="width:100%">
   <a href="#" class="w3-bar-item">
     <i class="fa fa-home w3-xxlarge"></i>
     <div class="en"><p>HOME</p></div>
@@ -86,18 +86,18 @@ sidebar-padded {}
 
 <!-- Navbar on small screens (Hidden on medium and large screens) -->
 <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-  <div class="w3-bar w3-opacity w3-hover-opacity-off w3-center w3-small">
+  <div class="w3-bar w3-opacity w3-hover-opacity-off w3-center w3-small" style="background:#f1f1f166;">
     <a href="#" class="w3-bar-item w3-button" style="width:25% !important"><div class="en">HOME</div><div class="es" style="display:none">HOGAR</div></a>
-    <a href="#marches" class="w3-bar-item w3-button w3-text-white"><div class="en">MARCHES</div><div class="es" style="display:none">MANIFESTACIÓN</div></a>
-    <a href="#about" class="w3-bar-item w3-button w3-text-white"><div class="en">ABOUT</div><div class="es" style="display:none">SOBRE</div></a>
-    <a href="#goals" class="w3-bar-item w3-button w3-text-white"><div class="en">GOALS</div><div class="es" style="display:none">METAS</div>
+    <a href="#marches" class="w3-bar-item w3-button "><div class="en">MARCHES</div><div class="es" style="display:none">MANIFESTACIÓN</div></a>
+    <a href="#about" class="w3-bar-item w3-button "><div class="en">ABOUT</div><div class="es" style="display:none">SOBRE</div></a>
+    <a href="#goals" class="w3-bar-item w3-button "><div class="en">GOALS</div><div class="es" style="display:none">METAS</div>
   </div></a>
 </div>
 
 <!-- Marches Section -->
-<div class="sidebar-padded w3-padding-64 w3-dark-grey " id="marches">
+<div class="sidebar-padded w3-padding-64 w3-light-gray" id="marches">
   <div class="w3-content">
-    <h2 class="w3-text-white"><div class="en">Marches</div><div class="es" style="display:none">MANIFESTACIÓN</div></h2>
+    <h2 class=""><div class="en">Marches</div><div class="es" style="display:none">MANIFESTACIÓN</div></h2>
     <hr style="width:200px" class="w3-opacity">
     <div class="w3-row-padding w3-padding-16 w3-center">
 {% for march in marches %}
@@ -108,7 +108,7 @@ sidebar-padded {}
 
 <div class="w3-half w3-container w3-margin-bottom">
 <img src="{{ march.image | url}}" alt="" style="width:100%; max-height: 300px; object-fit: cover;">
-<div class="w3-container w3-gray march-details">
+<div class="w3-container w3-white march-details">
 <h3>{{ march.name }}</h3>
 <b>Date:</b> {{ march.date }}</br>
 {% if march.address %}
@@ -128,11 +128,11 @@ sidebar-padded {}
 </div>
 
 <!-- About Section -->
-<div class="sidebar-padded w3-container w3-padding-64 w3-dark-grey " id="about">
+<div class="sidebar-padded w3-container w3-padding-64 w3-light-gray " id="about">
   <div class="w3-content">
     <img class="w3-right w3-round " src='{{"/img/Jublee-Harrisburg-2020-0018.jpg" | url}}'
          style="width:100%;margin:32px 0;max-width:600px;">
-  <h2 class="w3-text-white big-up"><div class="en">About</div><div class="es" style="display:none">Sobre</div></h2>
+  <h2 class="big-up"><div class="en">About</div><div class="es" style="display:none">Sobre</div></h2>
   <hr style="width:200px" class="w3-opacity">
   <div class="en">
     {% markdown %}
@@ -148,11 +148,11 @@ sidebar-padded {}
 </div>
 
 <!-- Goals Section -->
-<div class="sidebar-padded w3-display-container bgimg2 w3-padding-64" id="goals">
-  <div class="w3-content w3-text-light-grey">
+<div class="sidebar-padded w3-display-container w3-padding-64 w3-light-gray" id="goals">
+  <div class="w3-content">
     <img class="w3-right w3-round " src='{{"/img/image2-crop.jpg" | url}}'
          style="width:90%; margin:0 5%; max-width:700px;">
-    <h2 class="w3-text-white bigger-up"><div class="en">Goals</div><div class="es" style="display:none">Metas</div></h2>
+    <h2 class="bigger-up"><div class="en">Goals</div><div class="es" style="display:none">Metas</div></h2>
     <hr style="width:200px" class="w3-opacity">
     <div class="en">
     {% markdown %}
@@ -167,7 +167,7 @@ sidebar-padded {}
   </div>
 </div>
 
-<div class="sidebar-padded w3-container w3-padding-64 w3-dark-grey  w3-center" id="wedding">
+<div class="sidebar-padded w3-container w3-padding-64 w3-light-grey  w3-center" id="wedding">
   <div class="w3-content">
     <!-- <h1 class="w3-text-grey"><b>THE WEDDING</b></h1> -->
     <img class="w3-round-large " src='{{"/img/bojangles.jpg" | url}}'
