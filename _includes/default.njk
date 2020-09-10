@@ -21,8 +21,8 @@ sidebar-padded {}
 @media (min-width: 600px){ .sidebar-padded { padding-left:200px; } }
 .bgimg {background-image: 
     linear-gradient(
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
     ),
     url('{{"/img/72286505_3307812459243757_5697027247718793216_o-crop.jpg" | url}}')}
 .bgimg2 {background-image: 
@@ -30,6 +30,7 @@ sidebar-padded {}
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
     ),url('{{"/img/zachary-keimig-s8ZTEbJNN7E-unsplash-prog.jpg" | url}}')}
+.march-details{ text-align: left; }
 .w3-display-middle-high{position:absolute;top:26%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
 @media (min-width:600px){.big-up{clear:both;}}
 @media (min-width:900px){.big-up{clear:both;transform: translateY(-64px);height:0;}}
@@ -64,6 +65,12 @@ sidebar-padded {}
     <div class="es" style="display:none"><p>HOGAR</p></div>
   </a>
   </br>
+  <a href="#marches" class="w3-bar-item">
+    <i class="fa fa-users w3-xxlarge"></i>
+    <div class="en"><p>MARCHES</p></div>
+    <div class="es" style="display:none"><p>MANIFESTACIÓN</p></div>
+  </a>
+  </br>
   <a href="#about" class="w3-bar-item">
     <i class="fa fa-users w3-xxlarge"></i>
     <div class="en"><p>ABOUT</p></div>
@@ -81,9 +88,43 @@ sidebar-padded {}
 <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
   <div class="w3-bar w3-opacity w3-hover-opacity-off w3-center w3-small">
     <a href="#" class="w3-bar-item w3-button" style="width:25% !important"><div class="en">HOME</div><div class="es" style="display:none">HOGAR</div></a>
+    <a href="#marches" class="w3-bar-item w3-button w3-text-white"><div class="en">MARCHES</div><div class="es" style="display:none">MANIFESTACIÓN</div></a>
     <a href="#about" class="w3-bar-item w3-button w3-text-white"><div class="en">ABOUT</div><div class="es" style="display:none">SOBRE</div></a>
     <a href="#goals" class="w3-bar-item w3-button w3-text-white"><div class="en">GOALS</div><div class="es" style="display:none">METAS</div>
   </div></a>
+</div>
+
+<!-- Marches Section -->
+<div class="sidebar-padded w3-padding-64 w3-dark-grey " id="marches">
+  <div class="w3-content">
+    <h2 class="w3-text-white"><div class="en">Marches</div><div class="es" style="display:none">MANIFESTACIÓN</div></h2>
+    <hr style="width:200px" class="w3-opacity">
+    <div class="w3-row-padding w3-padding-16 w3-center">
+{% for march in marches %}
+
+{% if (loop.index0 % 2) == 0 %}
+</div><div class="w3-row-padding w3-padding-16 w3-center">
+{% endif %}
+
+<div class="w3-half w3-container w3-margin-bottom">
+<img src="{{ march.image | url}}" alt="" style="width:100%; max-height: 300px; object-fit: cover;">
+<div class="w3-container w3-gray march-details">
+<h3>{{ march.name }}</h3>
+<b>Date:</b> {{ march.date }}</br>
+{% if march.address %}
+<b>Address:</b> {{ march.address }}</br>
+{% endif %}
+</br>
+<b>Details:</b>
+<hr style="width:100px; border-top: 1px solid black; margin: 0.25em 0;" class="w3-opacity">
+{% markdown %}
+{{ march.details }}
+{% endmarkdown %}
+</div>
+</div>
+{% endfor %}
+    </div>
+  </div>
 </div>
 
 <!-- About Section -->
@@ -129,7 +170,7 @@ sidebar-padded {}
 <div class="sidebar-padded w3-container w3-padding-64 w3-dark-grey  w3-center" id="wedding">
   <div class="w3-content">
     <!-- <h1 class="w3-text-grey"><b>THE WEDDING</b></h1> -->
-    <img class="w3-round-large " src='{{"/img/IMG-0001.JPG" | url}}'
+    <img class="w3-round-large " src='{{"/img/bojangles.jpg" | url}}'
          style="width:100%;margin-bottom:64px;">
     </br>
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
