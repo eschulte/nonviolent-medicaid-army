@@ -91,7 +91,7 @@ marches:
       We will march around St. Joseph’s Hospital that currently sits empty, sharing information and powerful testimonies along the way. Despite having grounds to hold UPMC accountable for their actions and harm done to our communities, people in power are allowing them to sell the property to a real estate developer to create primarily luxury housing and boutiques while people are suffering and dying in Lancaster County Prison, sleeping on the streets, and facing homelessness. Pennsylvania state legislators, Mayor Sorace, Lancaster City Council (if they pass the rezoning petition), and Governor Wolf have abdicated their responsibility - in the middle of a pandemic and global economic crisis - to re-open closed hospitals like St. Joseph’s hospital and bring them under public control.
 slides:
   - img/IMG_9077.JPG
-  - img/Vermont Workers' Center Barre Medicaid March (2019).jpg
+  - img/vermont.jpg
   - img/WhatsApp Image 2020-09-06 at 12.09.51.jpeg
   - img/WhatsApp Image 2020-09-06 at 12.10.33.jpeg
   - img/bojangles.jpg
