@@ -89,12 +89,94 @@ marches:
       The South Central PA Medicaid March will begin in front of St. Joseph’s hospital at 250 College Ave, Lancaster, PA. UPMC received one of the largest Covid-19 relief packages, has $6 BILLION dollars in reserve, and recently wrote legislation that was passed nearly unanimously by our state legislature that will grant healthcare profiteers like UPMC & Penn Medicine LGH $500 MILLION of our tax dollars plus control over our nursing home facilities, based on regions, we are concerned about who will be in charge of the nursing home facilities in South Central PA given we have a significant elderly population in our region. 
 
       We will march around St. Joseph’s Hospital that currently sits empty, sharing information and powerful testimonies along the way. Despite having grounds to hold UPMC accountable for their actions and harm done to our communities, people in power are allowing them to sell the property to a real estate developer to create primarily luxury housing and boutiques while people are suffering and dying in Lancaster County Prison, sleeping on the streets, and facing homelessness. Pennsylvania state legislators, Mayor Sorace, Lancaster City Council (if they pass the rezoning petition), and Governor Wolf have abdicated their responsibility - in the middle of a pandemic and global economic crisis - to re-open closed hospitals like St. Joseph’s hospital and bring them under public control.
+  - name: Medicaid March
+    image: /img/119733204_2965210437042527_4301759276544947103_o.jpg 
+    day: 2020-10-03
+    date: Saturday, October 3, 2020 at 12:00 PM – 2:00 PM EDT
+    address: Fayetteville, N.C.
+    details: |
+      NC Raise Up, North Carolina Poor People's Campaign, Fayetteville PACT, and Action NC are coming together to demand HEALTHCARE FOR ALL AND WORKER SAFETY! 
+
+      From corporate CEOs to elected officials, our health and safety is being ignored on and off the job. Workers are the experts on the problems and the solutions of our lives. 
+
+      We're fed up with lack of safety equipment and protections on the job. 
+
+      We're fed up with healthcare only being available to a few in the wealthiest country in the world. 
+
+      We're fed up with risking our lives for poverty wages-- hazardous work deserves hazard pay! 
+
+      Access to healthcare and workplace safety issues are racial justice issues. Low wage workers are disproportionately Black and Brown people AND a disproportionate number of Black and Brown people do not have access to healthcare. 
+
+      In solidarity with the Non-Violent Medicaid Army, workers and allies are taking action across the country the last week of September. 
+
+      We are coming together to force CEOs and elected officials to value people's health over corporate profits. 
+
+      WE DEMAND healthcare for all and a voice on the job setting health and safety standards. 
+
+      Join us on Saturday, October 3rd at noon for the Medicaid March!
+
+      Specific details for the march to be released soon!!
+  - name: Kansas City March for Medicaid
+    image: /img/118775978_933499063821448_6455191371589512034_n.jpg 
+    day: 2020-09-29
+    date: Tuesday, September 29, 2020 at 5:30 PM CDT
+    details: |
+      We’re getting into step!
+
+      Join Kansas Poor People’s Campaign and partners for our statewide week of action: Medicaid Marches!
+
+      Beginning at KU Med on 39th & Rainbow and marching from Wyandotte County into Johnson County, we will be raising the alarm about the economic and healthcare injustices and inequities in our metro area! No more siphoning resources from the poor to help the rich get richer! We won’t be silent anymore!
+
+      The Kansas City Medicaid March will be part of a statewide week of marches across KS and across the country with the Nonviolent Medicaid Army. 
+      Masks are a necessity for marching and we will be following strict safety and social distancing protocols.
+  - name: Johnstown March for Medicaid, Against Police Budget Increases
+    image: /img/119005102_4658234414201548_3550022997135552435_o.jpg 
+    day: 2020-09-29
+    date: Tuesday, September 29, 2020 at 4:00 PM – 6:00 PM EDT
+    address: Johnstown Central Park
+    details: |
+      Join Put People First! PA and partners for our statewide week of action: Medicaid Marches!
+      Johnstown City Council has plans to increase the police department's budget by $250,000 and hire new officers, at a time when the city can barely balance its budget and despite the department's track record of violence. We don't need more cops! We need our city and state elected leaders to put our tax dollars into healthcare, housing, Covid19 testing, and other resources for poor and dispossessed people to get through this crisis! 
+
+      We demand:
+      *City Council: Cancel plans to increase the police budget and hire new officers. Put that money into forming a crisis response team of healthcare and social workers in situations where police are not needed.
+      *Governor Wolf: Apply for a federal waiver to expand Medicaid to all PA residents in the midst of the pandemic and global economic depression in which 1.5 million people in PA are losing employer-based insurance.
+      *PA Legislature: Create an Office of the Public Healthcare Advocate, a state office that fights for the healthcare rights of our people! Restore the adult dental benefit in Medicaid that was cut in 2011
+      For more on these and other statewide demands see: www.putpeoplefirstpa.org/coronavirus
+      Masks are a necessity for marching and we will be following strict safety and social distancing protocols.
+  - name: Altoona Area Medicaid March
+    image: /img/118958031_763072724472292_755521234660551273_n.jpg 
+    day: 2020-10-03
+    date: Saturday, October 3, 2020 at 2:00 PM – 4:00 PM EDT
+    address: UPMC Hospital-Altoona -- 620 Howard Ave, Altoona, PA
+    details: |
+      We have to stay in the streets!
+      Join Put People First! PA and partners for our statewide week of action: Medicaid Marches!
+
+      The Altoona Medicaid March will be part of a statewide week of marches across PA and across the country with the Nonviolent Medicaid Army!
+
+      The Altoona Medicaid March will begin at 620 Howard Ave UPMC Altoona and end at the Heritage Plaza.
+
+       Governor Wolf have abdicated his responsibility - in the middle of a pandemic and global economic crisis - to re-open closed hospitals like Hahnemann and bring them under public control. 
+
+      We demand:
+      *Apply for a federal waiver to expand Medicaid to all PA residents in the midst of the pandemic and global economic depression in which 1.5 million people in PA are losing employer-based insurance
+
+      *PA Legislature: Create an Office of the Public Healthcare Advocate, a state office that fights for the healthcare rights of our people! 
+      *Restore the adult dental benefit in Medicaid that was cut in 2011
+
+      For more on these and other statewide demands see: www.putpeoplefirstpa.org/coronavirus
+
+      Masks are a necessity for marching and we will be following strict safety and social distancing protocols.
 slides:
+  - img/bojangles.jpg
   - img/IMG_9077.JPG
   - img/vermont.jpg
   - img/WhatsApp Image 2020-09-06 at 12.09.51.jpeg
   - img/WhatsApp Image 2020-09-06 at 12.10.33.jpeg
-  - img/bojangles.jpg
   - img/image0.jpeg
   - img/image1.jpeg
+  - img/27E6D2BB-B7DE-4184-ADFA-9CEAB47DC328.jpeg
+  - img/2EDA5F3F-2216-41A1-AF50-35229ACE38B1.jpeg
+  - img/640641E4-BCFC-4D5F-9046-F71D51B10945.jpeg 
 ---
