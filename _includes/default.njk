@@ -32,6 +32,12 @@ sidebar-padded {}
     ),url('{{"/img/zachary-keimig-s8ZTEbJNN7E-unsplash-prog.jpg" | url}}')}
 .march-details{ text-align: left; }
 .w3-display-middle-high{position:absolute;top:26%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.clamped{
+  height: 400px;
+  max-height: 400px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
 @media (min-width:600px){.big-up{clear:both;}}
 @media (min-width:900px){.big-up{clear:both;transform: translateY(-64px);height:0;}}
 @media (min-width:600px){.bigger-up{clear:both;}}
@@ -108,7 +114,7 @@ sidebar-padded {}
 
 <div class="w3-half w3-container w3-margin-bottom">
 <img src="{{ march.image | url}}" alt="" style="width:100%; max-height: 300px; object-fit: cover;">
-<div class="w3-container w3-gray march-details">
+<div class="w3-container w3-gray march-details clamped">
 <h3>{{ march.name }}</h3>
 <b>Date:</b> {{ march.date }}</br>
 {% if march.address %}
