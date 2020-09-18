@@ -89,4 +89,12 @@ marches:
       The South Central PA Medicaid March will begin in front of St. Joseph’s hospital at 250 College Ave, Lancaster, PA. UPMC received one of the largest Covid-19 relief packages, has $6 BILLION dollars in reserve, and recently wrote legislation that was passed nearly unanimously by our state legislature that will grant healthcare profiteers like UPMC & Penn Medicine LGH $500 MILLION of our tax dollars plus control over our nursing home facilities, based on regions, we are concerned about who will be in charge of the nursing home facilities in South Central PA given we have a significant elderly population in our region. 
 
       We will march around St. Joseph’s Hospital that currently sits empty, sharing information and powerful testimonies along the way. Despite having grounds to hold UPMC accountable for their actions and harm done to our communities, people in power are allowing them to sell the property to a real estate developer to create primarily luxury housing and boutiques while people are suffering and dying in Lancaster County Prison, sleeping on the streets, and facing homelessness. Pennsylvania state legislators, Mayor Sorace, Lancaster City Council (if they pass the rezoning petition), and Governor Wolf have abdicated their responsibility - in the middle of a pandemic and global economic crisis - to re-open closed hospitals like St. Joseph’s hospital and bring them under public control.
+slides:
+  - img/IMG_9077.JPG
+  - img/Vermont Workers' Center Barre Medicaid March (2019).jpg
+  - img/WhatsApp Image 2020-09-06 at 12.09.51.jpeg
+  - img/WhatsApp Image 2020-09-06 at 12.10.33.jpeg
+  - img/bojangles.jpg
+  - img/image0.jpeg
+  - img/image1.jpeg
 ---
