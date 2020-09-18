@@ -295,7 +295,7 @@ img {vertical-align: middle;}
     {% for slide in slides %}
     <div class="mySlides fade">
       <div class="numbertext">{{ loop.index }} / {{ slides.length }}</div>
-      <img src='{{ slide | url }}' style="max-height: 600px;">
+      <img src='{{ slide | url }}' style="max-height: 600px; max-width: 100%;">
     </div>
     {% endfor %}
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
