@@ -32,6 +32,20 @@ sidebar-padded {}
     ),url('/img/zachary-keimig-s8ZTEbJNN7E-unsplash-prog.jpg')}
 .march-details{ text-align: left; }
 .w3-display-middle-high{position:absolute;top:26%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.clamped{
+  height: 300px;
+  max-height: 300px;
+  overflow-y: scroll;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.clamped::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.clamped{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
 @media (min-width:600px){.big-up{clear:both;}}
 @media (min-width:900px){.big-up{clear:both;transform: translateY(-64px);height:0;}}
 @media (min-width:600px){.bigger-up{clear:both;}}
@@ -107,54 +121,10 @@ sidebar-padded {}
 
 
 <div class="w3-half w3-container w3-margin-bottom">
-<img src="/img/118786551_933501083821246_8769786577728461574_n.jpg" alt="" style="width:100%; max-height: 300px; object-fit: cover;">
-<div class="w3-container w3-gray march-details">
-<h3>Pittsburg March for Medicaid</h3>
-<b>Date:</b> Saturday, October 3, 2020 at 10:00 AM CDT</br>
-
-</br>
-<b>Details:</b>
-<hr style="width:100px; border-top: 1px solid black; margin: 0.25em 0;" class="w3-opacity">
-<p>We have to stay in the streets! Join Kansas Poor People’s Campaign and partners for our statewide week of action: Medicaid Marches!</p>
-<p>The Pittsburg Medicaid March will be part of a statewide week of marches across KS and across the country with the Nonviolent Medicaid Army.</p>
-<p>Masks are a necessity for marching and we will be following strict safety and social distancing protocols.</p>
-
-</div>
-</div>
-
-
-
-
-<div class="w3-half w3-container w3-margin-bottom">
-<img src="/img/119007735_10157478457807592_6720634131099702671_o.jpg" alt="" style="width:100%; max-height: 300px; object-fit: cover;">
-<div class="w3-container w3-gray march-details">
-<h3>Bellows Falls: March for Medicaid!</h3>
-<b>Date:</b> Saturday, October 3, 2020 at 12:00 PM EDT</br>
-
-<b>Address:</b> 1 Hospital Ct, Bellows Falls, VT 05101-1448, United States</br>
-
-</br>
-<b>Details:</b>
-<hr style="width:100px; border-top: 1px solid black; margin: 0.25em 0;" class="w3-opacity">
-<p>Join us on Saturday, October 3rd for a socially-distanced march and rally demanding Governor Scott:</p>
-<ol>
-<li>Guarantee healthcare as a human right for all Vermont residents, regardless of income or immigration status.  2. Cut the state's contract with OneCare, an unaccountable for-profit company siphoning off millions in Medicaid funding that should be spent on people's healthcare.</li>
-</ol>
-<p><strong>Meet at 12pm at the Rockingham Health Center, 1 Hospital Court in Bellows Falls</strong></p>
-<p>This event is part of a national &amp;quot;Medicaid March&amp;quot; week of action organized by the Nonviolent Medicaid Army with events in Vermont, Pennsylvania, North Carolina and Kansas. Our goal is to build the movement for healthcare and demand an end to state violence in all of its forms, including the 189k people -- disproportionately poor and people of color -- who have died from COVID19 at the hands of a government more committed to bailing out corporations than keeping people safe, and the 700 people who were dying every day in this country from poverty before the pandemic even started.</p>
-<p>Healthcare is a Human Right! Medicaid for All!</p>
-
-</div>
-</div>
-
-
-
-</div><div class="w3-row-padding w3-padding-16 w3-center">
-
-
-<div class="w3-half w3-container w3-margin-bottom">
-<img src="/img/118294635_4551050501586607_8467832772771818091_n.jpg" alt="" style="width:100%; max-height: 300px; object-fit: cover;">
-<div class="w3-container w3-gray march-details">
+  <div style="min-height: 300px" class="w3-gray">
+    <img src="/img/118294635_4551050501586607_8467832772771818091_n.jpg" alt="" style="width:100%; max-height: 300px; object-fit: cover;">
+  </div>
+<div class="w3-container w3-gray march-details clamped">
 <h3>Philadelphia Medicaid March</h3>
 <b>Date:</b> Thursday, October 1, 2020 at 4:00 PM – 5:30 PM EDT</br>
 
@@ -175,8 +145,10 @@ sidebar-padded {}
 
 
 <div class="w3-half w3-container w3-margin-bottom">
-<img src="/img/118717664_4623750464316610_1121620829994264544_o.jpg" alt="" style="width:100%; max-height: 300px; object-fit: cover;">
-<div class="w3-container w3-gray march-details">
+  <div style="min-height: 300px" class="w3-gray">
+    <img src="/img/118717664_4623750464316610_1121620829994264544_o.jpg" alt="" style="width:100%; max-height: 300px; object-fit: cover;">
+  </div>
+<div class="w3-container w3-gray march-details clamped">
 <h3>UPMC Gets Rich, We Get Sick: Pittsburgh March for Medicaid!</h3>
 <b>Date:</b> Thursday, October 1, 2020 at 4:00 PM – 6:00 PM EDT</br>
 
@@ -197,8 +169,10 @@ sidebar-padded {}
 
 
 <div class="w3-half w3-container w3-margin-bottom">
-<img src="/img/118990826_4643202912371365_5996310042559417365_o.jpg" alt="" style="width:100%; max-height: 300px; object-fit: cover;">
-<div class="w3-container w3-gray march-details">
+  <div style="min-height: 300px" class="w3-gray">
+    <img src="/img/118990826_4643202912371365_5996310042559417365_o.jpg" alt="" style="width:100%; max-height: 300px; object-fit: cover;">
+  </div>
+<div class="w3-container w3-gray march-details clamped">
 <h3>Northeast PA Medicaid March</h3>
 <b>Date:</b> Friday, October 2, 2020 at 3:30 PM – 5:00 PM EDT</br>
 
@@ -221,8 +195,60 @@ sidebar-padded {}
 
 
 <div class="w3-half w3-container w3-margin-bottom">
-<img src="/img/119006764_179475933699446_6095253118759293547_n.jpg" alt="" style="width:100%; max-height: 300px; object-fit: cover;">
-<div class="w3-container w3-gray march-details">
+  <div style="min-height: 300px" class="w3-gray">
+    <img src="/img/118786551_933501083821246_8769786577728461574_n.jpg" alt="" style="width:100%; max-height: 300px; object-fit: cover;">
+  </div>
+<div class="w3-container w3-gray march-details clamped">
+<h3>Pittsburg March for Medicaid</h3>
+<b>Date:</b> Saturday, October 3, 2020 at 10:00 AM CDT</br>
+
+</br>
+<b>Details:</b>
+<hr style="width:100px; border-top: 1px solid black; margin: 0.25em 0;" class="w3-opacity">
+<p>We have to stay in the streets! Join Kansas Poor People’s Campaign and partners for our statewide week of action: Medicaid Marches!</p>
+<p>The Pittsburg Medicaid March will be part of a statewide week of marches across KS and across the country with the Nonviolent Medicaid Army.</p>
+<p>Masks are a necessity for marching and we will be following strict safety and social distancing protocols.</p>
+
+</div>
+</div>
+
+
+
+</div><div class="w3-row-padding w3-padding-16 w3-center">
+
+
+<div class="w3-half w3-container w3-margin-bottom">
+  <div style="min-height: 300px" class="w3-gray">
+    <img src="/img/119007735_10157478457807592_6720634131099702671_o.jpg" alt="" style="width:100%; max-height: 300px; object-fit: cover;">
+  </div>
+<div class="w3-container w3-gray march-details clamped">
+<h3>Bellows Falls: March for Medicaid!</h3>
+<b>Date:</b> Saturday, October 3, 2020 at 12:00 PM EDT</br>
+
+<b>Address:</b> 1 Hospital Ct, Bellows Falls, VT 05101-1448, United States</br>
+
+</br>
+<b>Details:</b>
+<hr style="width:100px; border-top: 1px solid black; margin: 0.25em 0;" class="w3-opacity">
+<p>Join us on Saturday, October 3rd for a socially-distanced march and rally demanding Governor Scott:</p>
+<ol>
+<li>Guarantee healthcare as a human right for all Vermont residents, regardless of income or immigration status.  2. Cut the state's contract with OneCare, an unaccountable for-profit company siphoning off millions in Medicaid funding that should be spent on people's healthcare.</li>
+</ol>
+<p><strong>Meet at 12pm at the Rockingham Health Center, 1 Hospital Court in Bellows Falls</strong></p>
+<p>This event is part of a national &amp;quot;Medicaid March&amp;quot; week of action organized by the Nonviolent Medicaid Army with events in Vermont, Pennsylvania, North Carolina and Kansas. Our goal is to build the movement for healthcare and demand an end to state violence in all of its forms, including the 189k people -- disproportionately poor and people of color -- who have died from COVID19 at the hands of a government more committed to bailing out corporations than keeping people safe, and the 700 people who were dying every day in this country from poverty before the pandemic even started.</p>
+<p>Healthcare is a Human Right! Medicaid for All!</p>
+
+</div>
+</div>
+
+
+
+
+<div class="w3-half w3-container w3-margin-bottom">
+  <div style="min-height: 300px" class="w3-gray">
+    <img src="/img/119006764_179475933699446_6095253118759293547_n.jpg" alt="" style="width:100%; max-height: 300px; object-fit: cover;">
+  </div>
+<div class="w3-container w3-gray march-details clamped">
 <h3>Montgomery County Medicaid March</h3>
 <b>Date:</b> Saturday, October 3, 2020 at 12:00 PM – 5:00 PM EDT</br>
 
@@ -242,8 +268,10 @@ sidebar-padded {}
 
 
 <div class="w3-half w3-container w3-margin-bottom">
-<img src="/img/118090847_720449428533194_9174590894802604914_n.jpg" alt="" style="width:100%; max-height: 300px; object-fit: cover;">
-<div class="w3-container w3-gray march-details">
+  <div style="min-height: 300px" class="w3-gray">
+    <img src="/img/118090847_720449428533194_9174590894802604914_n.jpg" alt="" style="width:100%; max-height: 300px; object-fit: cover;">
+  </div>
+<div class="w3-container w3-gray march-details clamped">
 <h3>South Central PA Medicaid March</h3>
 <b>Date:</b> Saturday, October 3, 2020 at 3:00 PM EDT</br>
 
