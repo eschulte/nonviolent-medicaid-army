@@ -4,6 +4,7 @@ title: Nonviolent Medicaid Army
 marches:
   - name: Pittsburg March for Medicaid
     image: /img/118786551_933501083821246_8769786577728461574_n.jpg
+    day: 2020-10-03
     date: Saturday, October 3, 2020 at 10:00 AM CDT
     details: |
       We have to stay in the streets! Join Kansas Poor People’s Campaign and partners for our statewide week of action: Medicaid Marches!
@@ -13,6 +14,7 @@ marches:
       Masks are a necessity for marching and we will be following strict safety and social distancing protocols.
   - name: "Bellows Falls: March for Medicaid!"
     image: /img/119007735_10157478457807592_6720634131099702671_o.jpg
+    day: 2020-10-03
     date: Saturday, October 3, 2020 at 12:00 PM EDT
     address: 1 Hospital Ct, Bellows Falls, VT 05101-1448, United States
     details: |
@@ -27,6 +29,7 @@ marches:
       Healthcare is a Human Right! Medicaid for All!
   - name: Philadelphia Medicaid March
     image: /img/118294635_4551050501586607_8467832772771818091_n.jpg
+    day: 2020-10-01
     date: Thursday, October 1, 2020 at 4:00 PM – 5:30 PM EDT
     address: 400 N Broad St, Philadelphia, PA 19130-4015, United States
     details: |
@@ -39,6 +42,7 @@ marches:
       We will end just down the street at the former Hahnemann Hospital that also sits empty. However in this case owner Joel Freedman is preparing to sell the building to a real estate developer to create high end condos. Mayor Kenney, Health Commissioner Thomas Farley and Governor Wolf have abdicated their responsibility - in the middle of a pandemic and global economic crisis - to re-open closed hospitals like Hahnemann and bring them under public control.
   - name: "UPMC Gets Rich, We Get Sick: Pittsburgh March for Medicaid!"
     image: /img/118717664_4623750464316610_1121620829994264544_o.jpg
+    day: 2020-10-01
     date: Thursday, October 1, 2020 at 4:00 PM – 6:00 PM EDT
     address: 501 Grant St, Pittsburgh, PA 15219-4403, United States
     details: |
@@ -47,6 +51,7 @@ marches:
       UPMC got a billion dollar bailout to help fight Covid19, yet we are no closer to stopping the pandemic in Allegheny County and thousands of us are unemployed, uninsured, and behind on rent.
   - name: Northeast PA Medicaid March
     image: /img/118990826_4643202912371365_5996310042559417365_o.jpg
+    day: 2020-10-02
     date: Friday, October 2, 2020 at 3:30 PM – 5:00 PM EDT
     address: Wilkes Barre Public Square 2 Public Sq, Wilkes-Barre, PA 18701
     details: |
@@ -63,6 +68,7 @@ marches:
       The Northeast PA Medicaid March will begin on Friday October 2nd at 3:30 pm at the Public Square in Wilkes Barre and then march to the Police Headquarters and end at the County Assistance Office.
   - name: Montgomery County Medicaid March
     image: /img/119006764_179475933699446_6095253118759293547_n.jpg
+    day: 2020-10-03
     date: Saturday, October 3, 2020 at 12:00 PM – 5:00 PM EDT
     details: |
       WE HAVE TO STAY IN THE STREETS!!
@@ -72,6 +78,7 @@ marches:
       The Montgomery County Healthcare Rights Committee of Put People First! PA will be holding a car caravan on Saturday October 3rd, as part of a statewide week of “Medicaid Marches” across Pennsylvania and across the country with the Nonviolent Medicaid Army!
   - name: South Central PA Medicaid March
     image: /img/118090847_720449428533194_9174590894802604914_n.jpg
+    day: 2020-10-03
     date: Saturday, October 3, 2020 at 3:00 PM EDT
     address: 250 College Ave, Lancaster, PA 17603-3363, United States
     details: |
