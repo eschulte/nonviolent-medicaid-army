@@ -3,6 +3,7 @@ layout: default
 title: Nonviolent Medicaid Army
 marches:
   - name: Pittsburg March for Medicaid
+    link: https://www.facebook.com/events/s/pittsburg-march-for-medicaid/750671165479904/
     image: /img/118786551_933501083821246_8769786577728461574_n.jpg
     day: 2020-10-03
     date: Saturday, October 3, 2020 at 10:00 AM CDT
@@ -13,6 +14,7 @@ marches:
 
       Masks are a necessity for marching and we will be following strict safety and social distancing protocols.
   - name: "Bellows Falls: March for Medicaid!"
+    link: https://www.facebook.com/events/939761249861078
     image: /img/119007735_10157478457807592_6720634131099702671_o.jpg
     day: 2020-10-03
     date: Saturday, October 3, 2020 at 12:00 PM EDT
@@ -28,6 +30,7 @@ marches:
 
       Healthcare is a Human Right! Medicaid for All!
   - name: Philadelphia Medicaid March
+    link: https://www.facebook.com/events/299747397780540
     image: /img/118294635_4551050501586607_8467832772771818091_n.jpg
     day: 2020-10-01
     date: Thursday, October 1, 2020 at 4:00 PM – 5:30 PM EDT
@@ -41,6 +44,7 @@ marches:
 
       We will end just down the street at the former Hahnemann Hospital that also sits empty. However in this case owner Joel Freedman is preparing to sell the building to a real estate developer to create high end condos. Mayor Kenney, Health Commissioner Thomas Farley and Governor Wolf have abdicated their responsibility - in the middle of a pandemic and global economic crisis - to re-open closed hospitals like Hahnemann and bring them under public control.
   - name: "UPMC Gets Rich, We Get Sick: Pittsburgh March for Medicaid!"
+    link: https://www.facebook.com/events/310722463525022
     image: /img/118717664_4623750464316610_1121620829994264544_o.jpg
     day: 2020-10-01
     date: Thursday, October 1, 2020 at 4:00 PM – 6:00 PM EDT
@@ -50,6 +54,7 @@ marches:
 
       UPMC got a billion dollar bailout to help fight Covid19, yet we are no closer to stopping the pandemic in Allegheny County and thousands of us are unemployed, uninsured, and behind on rent.
   - name: Northeast PA Medicaid March
+    link: https://www.facebook.com/events/2447778825519353
     image: /img/118990826_4643202912371365_5996310042559417365_o.jpg
     day: 2020-10-02
     date: Friday, October 2, 2020 at 3:30 PM – 5:00 PM EDT
@@ -67,6 +72,7 @@ marches:
 
       The Northeast PA Medicaid March will begin on Friday October 2nd at 3:30 pm at the Public Square in Wilkes Barre and then march to the Police Headquarters and end at the County Assistance Office.
   - name: Montgomery County Medicaid March
+    link: https://www.facebook.com/events/320937185675510
     image: /img/119006764_179475933699446_6095253118759293547_n.jpg
     day: 2020-10-03
     date: Saturday, October 3, 2020 at 12:00 PM – 5:00 PM EDT
@@ -77,6 +83,7 @@ marches:
 
       The Montgomery County Healthcare Rights Committee of Put People First! PA will be holding a car caravan on Saturday October 3rd, as part of a statewide week of “Medicaid Marches” across Pennsylvania and across the country with the Nonviolent Medicaid Army!
   - name: South Central PA Medicaid March
+    link: https://www.facebook.com/events/417091032584890
     image: /img/118090847_720449428533194_9174590894802604914_n.jpg
     day: 2020-10-03
     date: Saturday, October 3, 2020 at 3:00 PM EDT
@@ -90,6 +97,7 @@ marches:
 
       We will march around St. Joseph’s Hospital that currently sits empty, sharing information and powerful testimonies along the way. Despite having grounds to hold UPMC accountable for their actions and harm done to our communities, people in power are allowing them to sell the property to a real estate developer to create primarily luxury housing and boutiques while people are suffering and dying in Lancaster County Prison, sleeping on the streets, and facing homelessness. Pennsylvania state legislators, Mayor Sorace, Lancaster City Council (if they pass the rezoning petition), and Governor Wolf have abdicated their responsibility - in the middle of a pandemic and global economic crisis - to re-open closed hospitals like St. Joseph’s hospital and bring them under public control.
   - name: Medicaid March
+    link: https://www.facebook.com/events/s/medicaid-march/611323159529146/
     image: /img/119733204_2965210437042527_4301759276544947103_o.jpg 
     day: 2020-10-03
     date: Saturday, October 3, 2020 at 12:00 PM – 2:00 PM EDT
@@ -117,6 +125,7 @@ marches:
 
       Specific details for the march to be released soon!!
   - name: Kansas City March for Medicaid
+    link: https://www.facebook.com/events/s/kansas-city-march-for-medicaid/401361201173255/
     image: /img/118775978_933499063821448_6455191371589512034_n.jpg 
     day: 2020-09-29
     date: Tuesday, September 29, 2020 at 5:30 PM CDT
@@ -130,6 +139,7 @@ marches:
       The Kansas City Medicaid March will be part of a statewide week of marches across KS and across the country with the Nonviolent Medicaid Army. 
       Masks are a necessity for marching and we will be following strict safety and social distancing protocols.
   - name: Johnstown March for Medicaid, Against Police Budget Increases
+    link: https://www.facebook.com/events/1540563729470934
     image: /img/119005102_4658234414201548_3550022997135552435_o.jpg 
     day: 2020-09-29
     date: Tuesday, September 29, 2020 at 4:00 PM – 6:00 PM EDT
@@ -145,6 +155,7 @@ marches:
       For more on these and other statewide demands see: www.putpeoplefirstpa.org/coronavirus
       Masks are a necessity for marching and we will be following strict safety and social distancing protocols.
   - name: Altoona Area Medicaid March
+    link: https://www.facebook.com/events/2021115288019009
     image: /img/118958031_763072724472292_755521234660551273_n.jpg 
     day: 2020-10-03
     date: Saturday, October 3, 2020 at 2:00 PM – 4:00 PM EDT
