@@ -271,6 +271,13 @@ marches:
       - Call attention to the crisis that preceded COVID with 700 people dying every day in this country due to poverty.
 
       - Take action together united across lines of division as the leading social force that has a program to address the prolonged crisis that we are in, drawing on and from the Jubilee policy platform of the Poor People’s Campaign: A National Call for Moral Revival and using healthcare as a rallying point for our class. The platform can be found here: https://www.poorpeoplescampaign.org/about/jubilee-platform/
+  - name: "Massachusetts Medicaid Army Caravan March"
+    image: /img/national-logo-0.jpg
+    day: 2020-10-02
+    date: Friday, October 2, 2020 at 12:00 noon to 2:00pm EST
+    address: Methadone Mile, Melnea Cass Blvd. & Massachusetts Avenue, Boston, MA. -- Ending in a "Rock the Vote" Rally, speak-out in the hood, location, Bartlett Yard Community Drive-In. Roxbury, MA.
+    details: |
+      Massachusetts (Massachusetts joins the National Medicaid March convened by the MAPPC, 1199SEIU Healthcare Workers, MA.,MA. Union of the Homeless,Mass Peace Action Fund Healthcare not Warfare Coalition, Racial Justice groups, Physicians, Educators, Impactors and Faith Community) unite together to call attention to homelessness, healthcare, housing horror on "Methadone Mile" known as one of the best hospital area and first responder Triage areas...located on the New Market Square Development Mile.
 slides:
   - img/bojangles.jpg
   - img/IMG_9077.JPG
