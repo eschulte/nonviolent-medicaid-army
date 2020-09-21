@@ -405,6 +405,9 @@ function showSlides(n) {
   if (slides[slideIndex-1] && slides[slideIndex-1].style) {
     slides[slideIndex-1].style.display = "block";  
     dots[slideIndex-1].className += " active";
+  } else {
+    slides[slides.length].style.display = "block";  
+    dots[slides.length].className += " active";
   }
 }
 
