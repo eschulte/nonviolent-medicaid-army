@@ -179,6 +179,98 @@ marches:
       For more on these and other statewide demands see: www.putpeoplefirstpa.org/coronavirus
 
       Masks are a necessity for marching and we will be following strict safety and social distancing protocols.
+  - name: "Webinar and Online Protest with the Nonviolent Medicaid Army: No More Death in the Streets! Housing and Healthcare Now!"
+    link: https://www.facebook.com/events/321287095768632
+    image: /img/119600602_2966810910091568_7236645374287735241_o.jpg
+    day: 2020-09-30
+    date: Wednesday, September 30, 2020 at 7:00 PM – 9:00 PM EDT
+    address: online event
+    details: |
+      Leaders from the National Union of the Homeless from across the country will speak to the growing public health crisis of evictions and connected the dots between the denial of housing and healthcare both before and during the pandemic. This webinar is part of a nationwide week of action with the Nonviolent Medicaid Army taking place across 13 states. 
+  - name: "Madison March for Medicaid: We Get Sick, They Get Rich"
+    link: https://www.facebook.com/events/s/madison-march-for-medicaid-we-/338903297313606/
+    image: /img/119908855_1017503422042339_3945386923915495974_o.jpg
+    day: 2020-10-04
+    date: Sunday, October 4, 2020 at 2:00 PM – 4:00 PM CDT
+    details: |
+      October 4th we hit the streets!
+
+      The Wisconsin Poor People's Campaign is joining the Non-Violent Medicaid Army for a week of action to center poor and dispossessed people in the fight for healthcare as a human right! 
+
+      We are facing a crisis *within* a crisis. While the system treats healthcare as a money-making scheme—not a fundamental human right—we continue to drown in hospital bills, getting sicker as a few get richer. This is particularly true during this pandemic, when more than 5 million people have lost their health insurance nationally. Wisconsin is no different: 
+      - More than 100,000 COVID-19 infections and 1,300 fatalities
+      - Three-feet tall piles of bills
+      - More than 300,000 who have lost health insurance
+      - Ever-growing anxiety, fatigue, and depression
+      - College closures due to premature move-in plans
+      - More than 100,000 eviction filings
+      - Suffocating prisons trapping 21,000 people in with COVID-19 
+
+      And so much more. Still worse, while we march against the murders of Black lives, our caste-like healthcare, housing, education, and carceral systems kill countless Black lives daily.
+
+      Join us in connecting healthcare and the fight for housing, living wages, education, freedom of migration, and freedom from criminalization and incarceration. We’ll meet at the Capitol building to call on politicians who prioritize private profit over Wisconsinites’ well-being, and march to the Wisconsin Manufacturers and Commerce Office to call on the corporations that benefit from our despair.
+
+      We demand an end to state violence in all its forms. It is tragically wrong that nearly 200,000 people—disproportionately poor and people of color—have died from COVID-19 at the hands of a government more committed to bailing out corporations than keeping people safe, and it is tragically wrong that 700 people were dying every day from poverty before this pandemic. It is time to call out the system that profits off of our pain, our sickness, and our death. It is time to March for Medicaid. See you on October 4th.
+
+       ✅Please bring a mask and stay 6+ feet apart ✅
+  - name: "Burlington: Medicaid Picket & Picnic"
+    link: https://www.facebook.com/events/998200570633625/
+    image: /img/119514925_10157496464227592_2191977211787401802_o.jpg
+    day: 2020-10-02
+    date: Friday, October 2, 2020 at 4:00 PM – 6:00 PM EDT
+    address: 462 Shelburne Rd, Burlington, VT 05401-6947, United States
+    details: |
+      Join us for a picket and a picnic at the executive offices of UVM Health Network to demand an end to the state of Vermont's contract with OneCare Vermont, a for-profit company siphoning off millions in Medicaid funding that should be spent on people's healthcare.
+
+      This picket is part of a "Medicaid March" week of action with the National Nonviolent Medicaid Army across California, Kansas, Maine, Massachusetts, North Carolina, Pennsylvania, Wisconsin, and Vermont that will:
+
+      - Make visible a collective expression of anger and outrage at the state violence on a mass scale represented by the over 190k deaths and counting from COVID19, which are disproportionately impacting poor and dispossessed people, unhoused people, low-wage and essential workers, Black, Latinx and Indigenous people.
+
+      - Reject being treated as disposable by the ruling class while they maintain their profit as we are forced back to work and have austerity budgets, privatization and permanent elimination of jobs imposed upon us.
+
+      - Call attention to the crisis that preceded COVID with 700 people dying every day in this country due to poverty.
+
+      - Take action together united across lines of division as the leading social force that has a program to address the prolonged crisis that we are in, drawing on and from the Jubilee policy platform of the Poor People’s Campaign: A National Call for Moral Revival and using healthcare as a rallying point for our class. The platform can be found here: https://www.poorpeoplescampaign.org/about/jubilee-platform/
+  - name: "Barre: Medicaid Picket"
+    link: https://www.facebook.com/events/621697665201910/
+    image: /img/119649438_10157496464902592_1267698399203978454_o.jpg
+    day: 2020-10-02
+    date: Friday, October 2, 2020 at 4:00 PM EDT
+    address: City Hall Park, Barre, VT
+    details: |
+      Join us for a picket to demand Governor Scott expand Medicaid to everyone and cut the state's contract with OneCare, a for-profit company siphoning off millions in Medicaid funding that should be spent on people's healthcare.
+
+      This picket is part of a "Medicaid March" week of action with the National Nonviolent Medicaid Army across California, Kansas, Maine, Massachusetts, North Carolina, Pennsylvania, Wisconsin, and Vermont that will:
+
+      - Make visible a collective expression of anger and outrage at the state violence on a mass scale represented by the over 190k deaths and counting from COVID19, which are disproportionately impacting poor and dispossessed people, unhoused people, low-wage and essential workers, Black, Latinx and Indigenous people.
+
+      - Reject being treated as disposable by the ruling class while they maintain their profit as we are forced back to work and have austerity budgets, privatization and permanent elimination of jobs imposed upon us.
+
+      - Call attention to the crisis that preceded COVID with 700 people dying every day in this country due to poverty.
+
+      - Take action together united across lines of division as the leading social force that has a program to address the prolonged crisis that we are in, drawing on and from the Jubilee policy platform of the Poor People’s Campaign: A National Call for Moral Revival and using healthcare as a rallying point for our class. The platform can be found here: https://www.poorpeoplescampaign.org/about/jubilee-platform/
+
+      We will be distributing a safely prepared light supper in to go containers for all interested. 
+  - name: "St. Johnsbury: Medicaid Honk & Wave"
+    link: https://www.facebook.com/events/2392193227742017
+    image: /img/119467910_10157496465672592_3443029899758970950_o.jpg
+    day: 2020-10-02
+    date: Friday, October 2, 2020 at 5:30 PM EDT
+    address: United Community Church, UCC -- 1325 Main St, Saint Johnsbury, VT 05819
+    details: |
+      Please wear mask, we will be spread out on the lawn facing Main Street.  Bring signs! 
+
+      Join us to call on Governor Scott to expand Medicaid to everyone and cut the state's contract with OneCare, a for-profit company siphoning off millions in Medicaid funding that should be spent on people's healthcare.
+
+      This Honk & Wave is part of a "Medicaid March" week of action with the National Nonviolent Medicaid Army across California, Kansas, Maine, Massachusetts, North Carolina, Pennsylvania, Wisconsin, and Vermont  that will:
+
+      - Make visible a collective expression of anger and outrage at the state violence on a mass scale represented by the over 190k deaths and counting from COVID19, which are disproportionately impacting poor and dispossessed people, unhoused people, low-wage and essential workers, Black, Latinx and Indigenous people.
+
+      - Reject being treated as disposable by the ruling class while they maintain their profit as we are forced back to work and have austerity budgets, privatization and permanent elimination of jobs imposed upon us.
+
+      - Call attention to the crisis that preceded COVID with 700 people dying every day in this country due to poverty.
+
+      - Take action together united across lines of division as the leading social force that has a program to address the prolonged crisis that we are in, drawing on and from the Jubilee policy platform of the Poor People’s Campaign: A National Call for Moral Revival and using healthcare as a rallying point for our class. The platform can be found here: https://www.poorpeoplescampaign.org/about/jubilee-platform/
 slides:
   - img/bojangles.jpg
   - img/IMG_9077.JPG
