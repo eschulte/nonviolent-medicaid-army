@@ -180,7 +180,7 @@ img {vertical-align: middle;}
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
 <nav class="w3-sidebar w3-small w3-hide-small w3-center w3-text-white" style="background:transparent; top:0px; left:0px;">
   <!-- Avatar image in top left corner -->
-  <a href="#"><img src='{{ "/img/national-logo-1-alpha.png" | url }}' style="width:100%"></a>
+  <a href="#"><img src='{{ "/img/national-logo-1-alpha.png" | url }}' alt="logo" style="width:100%"></a>
   <a href="#" class="w3-bar-item">
     <i class="fa fa-home w3-xxlarge"></i>
     <div class="en"><p>HOME</p></div>
@@ -230,7 +230,7 @@ img {vertical-align: middle;}
 
 <div class="w3-half w3-container w3-margin-bottom">
   <div style="min-height: 300px" class="w3-gray">
-    <img src="{{ march.image | url}}" alt="" style="width:100%; max-height: 300px; object-fit: cover;">
+    <img src="{{ march.image | url}}" alt="march image" style="width:100%; max-height: 300px; object-fit: cover;">
   </div>
 <div class="w3-container w3-gray march-details clamped">
 <h3><a href="{{ march.link }}">{{ march.name }}</a></h3>
@@ -255,6 +255,7 @@ img {vertical-align: middle;}
 <div class="sidebar-padded w3-container w3-padding-64 w3-dark-grey " id="about">
   <div class="w3-content">
     <img class="w3-right w3-round " src='{{"/img/Jublee-Harrisburg-2020-0018.jpg" | url}}'
+         alt="Jublee-Harrisburg-2020"
          style="width:100%;margin:32px 0;max-width:600px;">
   <h2 class="w3-text-white big-up"><div class="en">About</div><div class="es" style="display:none">Sobre</div></h2>
   <hr style="width:200px" class="w3-opacity">
@@ -275,6 +276,7 @@ img {vertical-align: middle;}
 <div class="sidebar-padded w3-display-container bgimg2 w3-padding-64" id="goals">
   <div class="w3-content w3-text-light-grey">
     <img class="w3-right w3-round " src='{{"/img/image2-crop.jpg" | url}}'
+         alt="poor peoples campaign event image"
          style="width:90%; margin:0 5%; max-width:700px;">
     <h2 class="w3-text-white bigger-up"><div class="en">Goals</div><div class="es" style="display:none">Metas</div></h2>
     <hr style="width:200px" class="w3-opacity">
@@ -297,7 +299,7 @@ img {vertical-align: middle;}
     {% for slide in slides %}
     <div class="mySlides fade">
       <div class="numbertext">{{ loop.index }} / {{ slides.length }}</div>
-      <img src='{{ slide | url }}' style="max-height: 600px; max-width: 100%;">
+      <img src='{{ slide | url }}' alt="slide show image {{ loop.index }}" style="max-height: 600px; max-width: 100%;">
     </div>
     {% endfor %}
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -315,7 +317,7 @@ img {vertical-align: middle;}
       <span class="es" style="display:none">Para obtener más información y participar, comuníquese con:</span></br>
       <a href="mailto:putpeoplefirstpa@gmail.com">putpeoplefirstpa@gmail.com</a>
     </p>
-    <img src='{{ "/img/national-logo-0.jpg" | url }}' style="max-width:100%; max-height: 300px;">
+    <img src='{{ "/img/national-logo-0.jpg" | url }}' alt="National Logo" style="max-width:100%; max-height: 300px;">
   </div>
 </div>
 
@@ -396,8 +398,10 @@ function showSlides(n) {
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
+  if (slides[slideIndex-1].style) {
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  }
 }
 
 function cycle(){
