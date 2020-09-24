@@ -278,6 +278,23 @@ marches:
     address: Methadone Mile, Melnea Cass Blvd. & Massachusetts Avenue, Boston, MA. -- Ending in a "Rock the Vote" Rally, speak-out in the hood, location, Bartlett Yard Community Drive-In. Roxbury, MA.
     details: |
       Massachusetts (Massachusetts joins the National Medicaid March convened by the MAPPC, 1199SEIU Healthcare Workers, MA.,MA. Union of the Homeless,Mass Peace Action Fund Healthcare not Warfare Coalition, Racial Justice groups, Physicians, Educators, Impactors and Faith Community) unite together to call attention to homelessness, healthcare, housing horror on "Methadone Mile" known as one of the best hospital area and first responder Triage areas...located on the New Market Square Development Mile.
+  - name: "Alabama Medicaid March"
+    link: http://bit.ly/South4MedExVigil
+    image: /img/alabama.png 
+    day: 2020-10-01
+    date: Thursday, October 1, 2020 at 12:00 noon and 6:30pm
+    address: Alabama State Capitol
+    details: |
+      October 1, 2020 at 12 Noon Alabama State Capitol
+      
+      October 1, 2020 at 6:30 pm Watch Webinar with Rev. William Barber and Stacy Abrams sponsored by Southerners for Medicaid Expansion.
+
+      We are uniting with others around Alabama and the nation to call attention to the crisis that preceded COVID-19 with 700 people dying everyday from poverty, much of it health related issues.	Health care is a human right!
+      
+      Nearly 500,000 people in Alabama are uninsured. This is before COVID-19.
+      Access to rural hospitals are few and far between. Lack of healthcare is a threat to our well-being. Somebody's hurting our people and it's gone on far too long, and we won't be silent anymore!
+      Contact us: alabama@poorpeoplescampaign.org
+
 slides:
   - img/bojangles.jpg
   - img/IMG_9077.JPG
