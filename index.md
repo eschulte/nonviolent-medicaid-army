@@ -189,7 +189,7 @@ marches:
       Leaders from the National Union of the Homeless from across the country will speak to the growing public health crisis of evictions and connected the dots between the denial of housing and healthcare both before and during the pandemic. This webinar is part of a nationwide week of action with the Nonviolent Medicaid Army taking place across 13 states. 
   - name: "Madison March for Medicaid: We Get Sick, They Get Rich"
     link: https://www.facebook.com/events/s/madison-march-for-medicaid-we-/338903297313606/
-    image: /img/119908855_1017503422042339_3945386923915495974_o.jpg
+    image: "/img/Madison Medicaid March.jpg"
     day: 2020-10-04
     date: Sunday, October 4, 2020 at 2:00 PM – 4:00 PM CDT
     details: |
