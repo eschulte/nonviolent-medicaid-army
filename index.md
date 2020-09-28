@@ -271,13 +271,14 @@ marches:
       - Call attention to the crisis that preceded COVID with 700 people dying every day in this country due to poverty.
 
       - Take action together united across lines of division as the leading social force that has a program to address the prolonged crisis that we are in, drawing on and from the Jubilee policy platform of the Poor People’s Campaign: A National Call for Moral Revival and using healthcare as a rallying point for our class. The platform can be found here: https://www.poorpeoplescampaign.org/about/jubilee-platform/
-  - name: "Massachusetts Medicaid Army Caravan March"
-    image: /img/national-logo-0.jpg
+  - name: "Medicaid Caravan & Speakout!"
+    link: https://www.facebook.com/events/368603390978095
+    image: /img/119941199_729593597622843_3681801466680465690_o.jpg
     day: 2020-10-02
     date: Friday, October 2, 2020 at 12:00 noon to 2:00pm EST
-    address: Methadone Mile, Melnea Cass Blvd. & Massachusetts Avenue, Boston, MA. -- Ending in a "Rock the Vote" Rally, speak-out in the hood, location, Bartlett Yard Community Drive-In. Roxbury, MA.
+    address: 10 Putnam Street, Roxbury, MA 02119 (White Church)
     details: |
-      Massachusetts (Massachusetts joins the National Medicaid March convened by the MAPPC, 1199SEIU Healthcare Workers, MA.,MA. Union of the Homeless,Mass Peace Action Fund Healthcare not Warfare Coalition, Racial Justice groups, Physicians, Educators, Impactors and Faith Community) unite together to call attention to homelessness, healthcare, housing horror on "Methadone Mile" known as one of the best hospital area and first responder Triage areas...located on the New Market Square Development Mile.
+      (Park along side the church.)Decorate your cars. Bring your banners, placards, bullhorns and outrage. Healthcare is a Human Right! We will drive down Washington to Mass & Cass. To the BMC area, the SB jail and down Massachusetts Avenue and Melnea Cass blvd. Speak-out TBA
   - name: "Alabama Medicaid March"
     link: http://bit.ly/South4MedExVigil
     image: /img/alabama.png 
