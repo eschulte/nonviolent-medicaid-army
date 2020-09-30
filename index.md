@@ -179,14 +179,14 @@ marches:
       For more on these and other statewide demands see: www.putpeoplefirstpa.org/coronavirus
 
       Masks are a necessity for marching and we will be following strict safety and social distancing protocols.
-  - name: "Webinar and Online Protest with the Nonviolent Medicaid Army: No More Death in the Streets! Housing and Healthcare Now!"
-    link: https://www.facebook.com/events/321287095768632
-    image: /img/119600602_2966810910091568_7236645374287735241_o.jpg
-    day: 2020-09-30
-    date: Wednesday, September 30, 2020 at 7:00 PM – 9:00 PM EDT
+  - name: "Housing and Healthcare, NOW: No more death in the streets!"
+    link: https://nonviolentmedicaidarmy.org/img/NHUFlyerMedicaidArmyRe-Corrected-page0001.jpg
+    image: /img/no-more-homeless-deaths.png
+    day: 2020-10-29
+    date: Friday, October 9, 2020 at 5:00PM PST / 7:00PM CST / 8:00PM EDT
     address: online event
     details: |
-      Leaders from the National Union of the Homeless from across the country will speak to the growing public health crisis of evictions and connected the dots between the denial of housing and healthcare both before and during the pandemic. This webinar is part of a nationwide week of action with the Nonviolent Medicaid Army taking place across 13 states. 
+      Join us in preparing for the Winter Offensive "Project Survival."  The National Union of the Homeless is marching with the "Non-Violent Medicaid Army" to confront the twin pandemics of COVID-19 and poverty.
   - name: "Madison March for Medicaid: We Get Sick, They Get Rich"
     link: https://www.facebook.com/events/s/madison-march-for-medicaid-we-/338903297313606/
     image: "/img/Madison Medicaid March.jpg"
@@ -295,6 +295,21 @@ marches:
       Nearly 500,000 people in Alabama are uninsured. This is before COVID-19.
       Access to rural hospitals are few and far between. Lack of healthcare is a threat to our well-being. Somebody's hurting our people and it's gone on far too long, and we won't be silent anymore!
       Contact us: alabama@poorpeoplescampaign.org
+  - name: "Nonviolent Medicaid Army: Housing & Healthcare Panel Discussion"
+    link: https://www.facebook.com/events/695691327964818
+    image: /img/120518320_619538528740497_8716938204831664716_o.jpg
+    day: 2020-10-06
+    date: Tuesday, October 6, 2020 at 6:30 PM – 8:00 PM EDT
+    address: "Online Event: https://ithaca.zoom.us/j/92322080417?pwd=elVpOU9vY0Q5K0dUNGRZWVhlUS9XZz09"
+    details: |
+      Community organizers from Rochester Homeless Union, National Union of the Homeless, NYS Poor People's Campaign, House of Mercy, City Wide Tenants Union, and Rochester Campaign for NY Health will come together to discuss the current interlocking housing and healthcare injustices occurring in the national, state, and local context. Discussion will focus on the current issues and structural barriers in Rochester, NY, as well as on the strategies, actions, and grassroots solutions being organized to achieve equitable housing and healthcare for all. 
+
+      Access through zoom:
+      Join Zoom Meeting
+      https://ithaca.zoom.us/j/92322080417?pwd=elVpOU9vY0Q5K0dUNGRZWVhlUS9XZz09
+
+      Meeting ID: 923 2208 0417
+      Passcode: 508473
 
 slides:
   - img/bojangles.jpg
