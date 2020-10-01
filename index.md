@@ -310,6 +310,30 @@ marches:
 
       Meeting ID: 923 2208 0417
       Passcode: 508473
+  - only: "/img/Medicaid March Meme - Buffalo Tenant Speakout 10-1.jpg"
+    day: 2020-10-01
+  - only: "/img/Medicaid March Meme - Capital Region Organizing and Leadership Forum 10-3-20(1).jpg"
+    link: https://fb.com/LaborReligion
+    day: 2020-10-03
+  - only: "/img/Medicaid March Meme - Capital Region - The Fight to Heal Healthcare 10-5-20(1).jpg"
+    link: https://bit.ly/OCT520
+    day: 2020-10-05
+
+  - only: "/img/Medicaid March Meme - Capital Region Eviction Resistance 10-1-20(1).jpg"
+    day: 2020-10-01
+
+  - only: "/img/Medicaid March Meme - Rochester Fund Healthcare Not Police - 10-10-20(1).jpg"
+    day: 2020-10-10
+
+  - only: "/img/Medicaid March Meme - NYC March Against Evictions - 10-1-20(1).jpg"
+    day: 2020-10-01
+
+  - only: "/img/Medicaid March Meme - Rochester Eviction Resistance 10-1-20(1).jpg"
+    day: 2020-10-01
+
+  - only: "/img/Medicaid March Meme - Intersecting Healthcare and Housing in Rochester 10-6-20.jpg"
+    link: https://fb.com/rochomeless
+    day: 2020-10-06
 
 slides:
   - img/bojangles.jpg
@@ -321,5 +345,6 @@ slides:
   - img/image1.jpeg
   - img/27E6D2BB-B7DE-4184-ADFA-9CEAB47DC328.jpeg
   - img/2EDA5F3F-2216-41A1-AF50-35229ACE38B1.jpeg
-  - img/640641E4-BCFC-4D5F-9046-F71D51B10945.jpeg 
+  - img/640641E4-BCFC-4D5F-9046-F71D51B10945.jpeg
+  - "img/Medicaid March Meme - Eviction=Death.jpg"
 ---
