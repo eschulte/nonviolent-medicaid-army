@@ -19,13 +19,13 @@ p {line-height: 2}
 }
 sidebar-padded {}
 @media (min-width: 600px){ .sidebar-padded { padding-left:200px; } }
-.bgimg {background-image: 
+.bgimg {background-image:
     linear-gradient(
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.2)
     ),
     url('{{"/img/72286505_3307812459243757_5697027247718793216_o-crop.jpg" | url}}')}
-.bgimg2 {background-image: 
+.bgimg2 {background-image:
     linear-gradient(
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
@@ -143,12 +143,12 @@ img {vertical-align: middle;}
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
@@ -189,8 +189,8 @@ img {vertical-align: middle;}
   </br>
   <a href="#marches" class="w3-bar-item">
     <i class="fa fa-users w3-xxlarge"></i>
-    <div class="en"><p>MARCHES</p></div>
-    <div class="es" style="display:none"><p>MANIFESTACIÓN</p></div>
+    <div class="en"><p>ACTION</p></div>
+    <div class="es" style="display:none"><p>ACCIÓN</p></div>
   </a>
   </br>
   <a href="#about" class="w3-bar-item">
@@ -210,7 +210,7 @@ img {vertical-align: middle;}
 <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
   <div class="w3-bar w3-opacity w3-hover-opacity-off w3-center w3-small">
     <a href="#" class="w3-bar-item w3-button" style="width:25% !important"><div class="en">HOME</div><div class="es" style="display:none">HOGAR</div></a>
-    <a href="#marches" class="w3-bar-item w3-button w3-text-white"><div class="en">MARCHES</div><div class="es" style="display:none">MANIFESTACIÓN</div></a>
+    <a href="#marches" class="w3-bar-item w3-button w3-text-white"><div class="en">ACTION</div><div class="es" style="display:none">ACCIÓN</div></a>
     <a href="#about" class="w3-bar-item w3-button w3-text-white"><div class="en">ABOUT</div><div class="es" style="display:none">SOBRE</div></a>
     <a href="#goals" class="w3-bar-item w3-button w3-text-white"><div class="en">GOALS</div><div class="es" style="display:none">METAS</div>
   </div></a>
@@ -219,49 +219,22 @@ img {vertical-align: middle;}
 <!-- Marches Section -->
 <div class="sidebar-padded w3-padding-64 w3-dark-grey " id="marches">
   <div class="w3-content">
-    <h2 class="w3-text-white"><div class="en">Marches</div><div class="es" style="display:none">MANIFESTACIÓN</div></h2>
+    <h2 class="w3-text-white"><div class="en">Week of Action: September 13-20, 2021</div><div class="es" style="display:none">Semana de acción: septiembre 13-20, 2021</div></h2>
     <hr style="width:200px" class="w3-opacity">
-    <div class="w3-row-padding w3-padding-16 w3-center">
-{% for march in marches|sort(attribute='day') %}
-
-{% if (loop.index0 % 2) == 0 %}
-</div><div class="w3-row-padding w3-padding-16 w3-center">
-{% endif %}
-
-<div class="w3-half w3-container w3-margin-bottom">
-{% if march.only %}
-{% if march.link %}
-<a href="{{ march.link }}">
-{% else %}
-<a href="{{ march.only | url}}">
-{% endif%}
-<img src="{{ march.only | url}}" alt="march only image" style="width:100%; max-height: 100%; object-fit: cover;">
-</a>
-{% else %}  
-  <div style="min-height: 300px" class="w3-gray">
-    <img src="{{ march.image | url}}" alt="march image" style="width:100%; max-height: 300px; object-fit: cover;">
-  </div>
-<div class="w3-container w3-gray march-details clamped">
-{% if march.link %}
-<h3><a href="{{ march.link }}">{{ march.name }}</a></h3>
-{% else %}
-<h3>{{ march.name }}</h3>
-{% endif%}
-<b>Date:</b> {{ march.date }}</br>
-{% if march.address %}
-<b>Address:</b> {{ march.address }}</br>
-{% endif %}
-</br>
-<b>Details:</b>
-<hr style="width:100px; border-top: 1px solid black; margin: 0.25em 0;" class="w3-opacity">
-{% markdown %}
-{{ march.details }}
-{% endmarkdown %}
-</div>
-{% endif %}
-</div>
-{% endfor %}
-    </div>
+    <ul>
+      <li>Check out the <a href="https://docs.google.com/document/d/1t0UkMau18RUZr3uLSsR0KuZ6u-SP41BnE5HTklsnB1M/edit#heading=h.jk549myzknvu">Toolkit.</li>
+      <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdb1v-SVAEk1ZDI1DVS_qd9CNyoLVTuIz1vNOxIX9XYWKsfFg/viewform">Register your action here</a>.</li>
+    </ul>
+    <center>
+      <img class="w3-center w3-round " src='{{"/img/week-of-action.png" | url}}'
+           alt="2021 Nonviolent Medicaid Army Week of Action Flow Chart"
+           usemap="#weekmap">
+      <map name="weekmap">
+        <area shape="rect" coords="54, 709, 402, 1007" alt="toolkit" href="https://docs.google.com/document/d/1t0UkMau18RUZr3uLSsR0KuZ6u-SP41BnE5HTklsnB1M/edit#heading=h.jk549myzknvu">
+        <area shape="rect" coords="54, 1023, 402, 1362" alt="register" href="https://docs.google.com/forms/d/e/1FAIpQLSdb1v-SVAEk1ZDI1DVS_qd9CNyoLVTuIz1vNOxIX9XYWKsfFg/viewform">
+        <area shape="rect" coords="400, 1528, 770, 1661" alt="join the NVMA" href="https://facebook.com/nonviolentmedicaidarmy">
+      </map>
+    </center>
   </div>
 </div>
 
@@ -322,7 +295,7 @@ img {vertical-align: middle;}
   <br>
     <div style="text-align:center">
       {% for slide in slides %}
-      <span class="dot" onclick="currentSlide({{ loop.index }})"></span> 
+      <span class="dot" onclick="currentSlide({{ loop.index }})"></span>
       {% endfor %}
     </div>
     </br>
@@ -404,19 +377,19 @@ function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
+  if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
+      slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
   if (slides[slideIndex-1] && slides[slideIndex-1].style) {
-    slides[slideIndex-1].style.display = "block";  
+    slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
   } else {
-    slides[slides.length].style.display = "block";  
+    slides[slides.length].style.display = "block";
     dots[slides.length].className += " active";
   }
 }
