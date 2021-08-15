@@ -1,16 +1,3 @@
-### El Contexto Actual
-
-Nosotros en los Estados Unidos estamos al comienzo de una pandemia
-global combinada con una depresión global. Las cifras actuales indican
-que más de 40 millones, o el 25% de la fuerza laboral de los
-EE. UU. ha solicitado el desempleo desde el comienzo de la
-pandemia. Más de 5 millones de personas perdieron su seguro de salud
-en el mismo período en que 190,000 personas y contando han muerto por
-el virus. La pandemia y la depresión se basan en una crisis más
-profunda y permanente que ya ha afectado a nuestras comunidades, con
-140 millones de pobres o casi pobres en los EE. UU.
-
-
 ### ¿Qué es El Ejército No Violento de Medicaid?
 
 El Ejército No Violento de Medicaid de los pobres es una creciente

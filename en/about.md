@@ -1,15 +1,3 @@
-### Current Context
-
-We in the U.S. are at the start of a global pandemic combined with a
-global depression. Current numbers indicate that over 40 million, or
-25% of the U.S. workforce has filed for unemployment since the
-beginning of the pandemic. Over 5 million people lost their healthcare
-coverage in the same period that 190,000 people and counting have been
-killed by the virus. The pandemic and depression are layered upon a
-deeper and permanent crisis that has already been afflicting our
-communities - with 140 million poor or near poor in the U.S.
-
-
 ### What is the Nonviolent Medicaid Army?
 
 The Nonviolent Medicaid Army of the poor is a growing militant force
