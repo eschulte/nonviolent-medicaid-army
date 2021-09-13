@@ -38,6 +38,10 @@ marches:
     day: 2021-09-18
   - only: "/img/nvma-2021/vwc.nvma.1.jpg"
     day: 2021-09-18
+  - only: "/img/nvma-2021/240635268_4973224832690806_2026186310011736458_n.JPG"
+    day: 2021-09-18
+  - only: "/img/nvma-2021/nvma-mt-vernon.jpg"
+    day: 2021-09-17
 
 slides:
   - img/bojangles.jpg
