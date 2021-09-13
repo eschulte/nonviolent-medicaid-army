@@ -28,7 +28,7 @@ marches:
     day: 2021-09-13
   - only: "/img/nvma-2021/SouthCentralPA.NVMA.jpg"
     day: 2021-09-19
-  - only: "/img/nvma-2021/VWC.nvma.jpg"
+  - only: "/img/nvma-2021/VWC.nvma.prime.jpg"
     day: 2021-09-13
   - only: "/img/nvma-2021/VWC.NVMA.2.jpg"
     day: 2021-09-13
@@ -36,7 +36,7 @@ marches:
     day: 2021-09-15
   - only: "/img/nvma-2021/Wilkes Barre.jpg"
     day: 2021-09-18
-  - only: "/img/nvma-2021/vwc.nvma(1).jpg"
+  - only: "/img/nvma-2021/vwc.nvma.1.jpg"
     day: 2021-09-18
 
 slides:
