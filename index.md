@@ -2,48 +2,27 @@
 layout: default
 title: Nonviolent Medicaid Army
 marches:
-  - only: "/img/nvma-2021/appleton-wi-nvma-week-of-action.jpg"
-    day: 2021-09-18
-    link: mailto:cindycat1@sbcglobal.net
-  - only: "/img/nvma-2021/Copy of Milwaukee 1 NVMA week of action.jpg"
-    day: 2021-09-18
-    link: mailto:ofakinmoladun@gmail.com
-  - only: "/img/nvma-2021/Copy of Milwaukee Southside NVMA week of action_.jpg"
-    day: 2021-09-18
-    link: https://www.facebook.com/events/859385211354605
-  - only: "/img/nvma-2021/Copy of Wausau NVMA week of action.jpg"
-    day: 2021-09-18
-    link: https://fb.me/e/3Qhrs2cLB
-  - only: "/img/nvma-2021/Florida.NVMA.jpg"
-    day: 2021-09-17
-  - only: "/img/nvma-2021/Johnstown.jpg"
-    day: 2021-09-15
-  - only: "/img/nvma-2021/MonValley.jpg"
-    day: 2021-09-18
-  - only: "/img/nvma-2021/Montco.jpg"
-    day: 2021-09-18
-  - only: "/img/nvma-2021/Philly.jpg"
-    day: 2021-09-14
-  - only: "/img/nvma-2021/Pittsburgh.jpg"
-    day: 2021-09-13
-  - only: "/img/nvma-2021/SouthCentralPA.NVMA.jpg"
-    day: 2021-09-19
-  - only: "/img/nvma-2021/VWC.nvma.prime.jpg"
-    day: 2021-09-13
-  - only: "/img/nvma-2021/VWC.NVMA.2.jpg"
-    day: 2021-09-13
-  - only: "/img/nvma-2021/WY.NVMA.jpg"
-    day: 2021-09-15
-  - only: "/img/nvma-2021/Wilkes Barre.jpg"
-    day: 2021-09-18
-  - only: "/img/nvma-2021/vwc.nvma.1.jpg"
-    day: 2021-09-18
-  - only: "/img/nvma-2021/240635268_4973224832690806_2026186310011736458_n.JPG"
-    day: 2021-09-18
-  - only: "/img/nvma-2021/nvma-mt-vernon.jpg"
-    day: 2021-09-17
-  - only: "/img/nvma-2021/IMG_3480.jpg"
-    day: 2021-09-20
+  - only: "/img/nvma-2022/302469050_403349948597839_6241085271345193249_n.jpg"
+    day: 2022-09-12
+  - only: "/img/nvma-2022/305146471_10159376211978611_2181745998399908254_n.jpg"
+    day: 2022-09-14
+  - only: "/img/nvma-2022/305157500_8159672217406192_139263521464526290_n.jpg"
+    day: 2022-09-15
+  - only: "/img/nvma-2022/Healthcare-Emergency-Stop-the-Medicaid-Cut-Offs.png"
+    day: 2022-09-13
+  - only: "/img/nvma-2022/IMG_6559.JPG"
+    day: 2022-09-10
+    link: https://zoom.us/i/5483957623
+  - only: "/img/nvma-2022/keep-our-hospitals-open.png"
+    day: 2022-09-12
+  - only: "/img/nvma-2022/Pack-the-Courts--Clog-the-System-Organizing-to-Fight-Medicaid-Cut-offs-1.png"
+    day: 2022-09-15
+  - only: "/img/nvma-2022/Pack-the-Courts--Clog-the-System-Organizing-to-Fight-Medicaid-Cut-offs-2.png"
+    day: 2022-09-10
+  - only: "/img/nvma-2022/keep-our-hospitals-open.png"
+    day: 2022-09-12
+  - only: "/img/nvma-2022/we-cry-justice.png"
+    day: 2022-09-18
 
 slides:
   - img/bojangles.jpg
