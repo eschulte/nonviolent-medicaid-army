@@ -13,16 +13,18 @@ marches:
   - only: "/img/nvma-2022/IMG_6559.JPG"
     day: 2022-09-10
     link: https://zoom.us/i/5483957623
-  - only: "/img/nvma-2022/keep-our-hospitals-open.png"
-    day: 2022-09-12
   - only: "/img/nvma-2022/Pack-the-Courts--Clog-the-System-Organizing-to-Fight-Medicaid-Cut-offs-1.png"
     day: 2022-09-15
   - only: "/img/nvma-2022/Pack-the-Courts--Clog-the-System-Organizing-to-Fight-Medicaid-Cut-offs-2.png"
     day: 2022-09-10
   - only: "/img/nvma-2022/keep-our-hospitals-open.png"
-    day: 2022-09-12
+    day: 2022-09-15
   - only: "/img/nvma-2022/we-cry-justice.png"
     day: 2022-09-18
+  - only: "/img/nvma-2022/peoples-clinic-and-healthcare-story-speakout.png"
+    day: 2022-09-18
+  - only: "/img/nvma-2022/strike-for-quality-healthcare.png"
+    day: 2022-09-13
 
 slides:
   - img/bojangles.jpg
