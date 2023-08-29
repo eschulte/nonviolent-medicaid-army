@@ -5,5 +5,4 @@
 
 - Identify, develop and unite leaders
 
-- Achieve a universal, single-payer healthcare system and all of our
-  human rights
+- Expand Medicaid to all and de-commodify the healthcare system
