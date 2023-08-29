@@ -8,7 +8,8 @@ states like Wyoming, Wisconsin, Texas, Indiana, Georgia, Kansas,
 Pennsylvania, New York, Maryland and Vermont. We are not a coalition 
 or a campaign but a network of organizations and committees that 
 understand healthcare to be a strategic front of struggle
-to unite the working class.
+to unite the working class. Find us on Facebook at 
+https://www.facebook.com/nonviolentmedicaidarmy
 
 ### What is the Nonviolent Medicaid Army Week of Action?
 
@@ -21,7 +22,8 @@ spending bill of December 2022 and then signed by President Biden. Actions
 around the country will make the invisible visible and shift the 
 narrative, calling for an end to Medicaid cuts. In the richest country
 that has ever existed in the history of the world, we know there
-is enough!
+is enough! 
+Download the Week of Action Toolkit here: https://bit.ly/MedicaidToolkitPA
 
 ### Who makes up the Nonviolent Medicaid Army?
 
