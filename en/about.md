@@ -10,6 +10,18 @@ or a campaign but a network of organizations and committees that
 understand healthcare to be a strategic front of struggle
 to unite the working class.
 
+### What is the Nonviolent Medicaid Army Week of Action?
+
+The 2023 Nonviolent Medicaid Army Week of Action will take place 
+around the country between September 17-23, 2023. The Week of Action
+will focus on the theme Medicaid Cuts = Death and call attention to 
+the up to 24 million people who are losing their healthcare right now
+as the result of a bipartisan decision that was included in the Omnibus 
+spending bill of December 2022 and then signed by President Biden. Actions 
+around the country will make the invisible visible and shift the 
+narrative, calling for an end to Medicaid cuts. In the richest country
+that has ever existed in the history of the world, we know there
+is enough!
 
 ### Who makes up the Nonviolent Medicaid Army?
 
