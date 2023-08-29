@@ -2,29 +2,38 @@
 
 The Nonviolent Medicaid Army of the poor is a growing militant force
 of the poor and dispossessed, united across identities, regions, races
-and issues, modeled after King’s ‘nonviolent army of the poor’ from
-the first Poor People’s Campaign of 1968.
+and issues, modeled after MLK’s ‘nonviolent army of the poor’ from
+the first Poor People’s Campaign of 1968. We are currently active in 
+states like Wyoming, Wisconsin, Texas, Indiana, Georgia, Kansas, 
+Pennsylvania, New York, Maryland and Vermont. We are not a coalition 
+or a campaign but a network of organizations and committees that 
+understand healthcare to be a strategic front of struggle
+to unite the working class.
 
 
 ### Who makes up the Nonviolent Medicaid Army?
 
-Those who are on or excluded from Medicaid represent the diversity of
-the entire working class and are impacted by every single front of
-struggle there is - be it the fight for housing, living wages, food,
-education, freedom from debt, freedom of migration, or freedom from
-criminalization and incarceration.  The fight for Medicaid is common
-to the North and the South of the U.S. and the fight for healthcare
-broadly unites the global working class.
+There are currently over 90 million people in the U.S. who get
+their healthcare through Medicaid and CHIP (Children's Health
+Insurance Program). Those who are on or excluded from Medicaid 
+represent the diversity of the entire working class and are 
+impacted by every single front of struggle there is - be it 
+the fight for housing, living wages, food, education, freedom 
+from debt, freedom of migration, or freedom from criminalization 
+and incarceration. The fight for Medicaid is common to the North 
+and the South of the U.S. and the fight for healthcare broadly 
+unites the global working class.
 
 
 ### Why the Nonviolent Medicaid Army?
 
 As millions more in this country are thrown into the ranks of the
-unemployed or underemployed, the demand for Medicaid is going to
-skyrocket, and healthcare will continue to be one of the top concerns
-on the minds of the American people. Medicaid can and should be
-expanded to be a truly universal and comprehensive single payer
-healthcare system. The Nonviolent Medicaid Army centers the leading
+unemployed or underemployed, the need for Medicaid steadily increases
+and healthcare will continue to be one of the top concerns
+on the minds of the everyday people. We call for "Medicaid for All" - 
+expanding Medicaid to every resident alongside the abolition of
+Managed Care Organizations and de-commodification of the healthcare
+system overall. The Nonviolent Medicaid Army centers the leading
 social force - the poor and dispossessed - in the fight for healthcare
 as a human right, a transformative demand in the context of a system
 that seeks to profit off of our pain, sickness and death.
