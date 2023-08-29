@@ -18,11 +18,11 @@ their healthcare through Medicaid and CHIP (Children's Health
 Insurance Program). Those who are on or excluded from Medicaid 
 represent the diversity of the entire working class and are 
 impacted by every single front of struggle there is - be it 
-the fight for housing, living wages, food, education, freedom 
-from debt, freedom of migration, or freedom from criminalization 
-and incarceration. The fight for Medicaid is common to the North 
-and the South of the U.S. and the fight for healthcare broadly 
-unites the global working class.
+the fight for housing, a healthy environment, living wages, 
+food, education, freedom from debt, freedom of migration, or 
+freedom from criminalization and incarceration. The fight for 
+Medicaid is common to the North and the South of the U.S. 
+and the fight for healthcare broadly unites the global working class.
 
 
 ### Why the Nonviolent Medicaid Army?
