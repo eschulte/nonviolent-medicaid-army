@@ -14,6 +14,19 @@ events:
     day: 2023-09-19
   - only: "/img/nvma-2023/2023-09-24-montpelier.jpg"
     day: 2023-09-24
+  - only: "/img/nvma-2023/2023-09-12-spokesperson-training.jpg"
+    day: 2023-09-12
+  - only: "/img/nvma-2023/2023-09-17-vigils.jpg"
+    day: 2023-09-17
+  - only: "/img/nvma-2023/2023-09-20-cuts-are-death.png"
+    day: 2023-09-20
+  - only: "/img/nvma-2023/2023-09-20-harrisburg.png"
+    day: 2023-09-20
+  - only: "/img/nvma-2023/2023-09-23-flier.jpg"
+    day: 2023-09-23
+  - only: "/img/nvma-2023/2023-09-23-southwest.jpg"
+    day: 2023-09-23
+
 
 slides:
   - img/bojangles.jpg
