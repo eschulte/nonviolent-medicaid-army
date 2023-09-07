@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Nonviolent Medicaid Army
-marches:
+events:
   - only: "/img/nvma-2023/2023-09-09-prep.jpg"
     day: 2023-09-09
   - only: "/img/nvma-2023/2023-09-16-elmira.jpg"
