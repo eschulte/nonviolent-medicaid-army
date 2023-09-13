@@ -4,8 +4,6 @@ title: Nonviolent Medicaid Army
 events:
   - only: "/img/nvma-2023/2023-09-09-prep.jpg"
     day: 2023-09-09
-  - only: "/img/nvma-2023/2023-09-16-elmira.jpg"
-    day: 2023-09-16
   - only: "/img/nvma-2023/2023-09-17-peoples-clinic.jpg"
     day: 2023-09-17
   - only: "/img/nvma-2023/2023-09-19-central-appalachia.jpg"
@@ -16,17 +14,24 @@ events:
     day: 2023-09-24
   - only: "/img/nvma-2023/2023-09-12-spokesperson-training.jpg"
     day: 2023-09-12
-  - only: "/img/nvma-2023/2023-09-17-vigils.jpg"
+  - only: "/img/nvma-2023/2023-09-17-vigils.png"
     day: 2023-09-17
+  - only: "/img/nvma-2023/2023-09-18-texas.png"
+    day: 2023-09-18
+  - only: "/img/nvma-2023/2023-09-19-se-pa.jpg"
+    day: 2023-09-19
+  - only: "/img/nvma-2023/2023-09-19-southwest.jpg"
+    day: 2023-09-19
   - only: "/img/nvma-2023/2023-09-20-cuts-are-death.png"
     day: 2023-09-20
   - only: "/img/nvma-2023/2023-09-20-harrisburg.png"
     day: 2023-09-20
+  - only: "/img/nvma-2023/2023-09-21-elmira.jpg"
+    day: 2023-09-21
+  - only: "/img/nvma-2023/2023-09-22-texas.png"
+    day: 2023-09-22
   - only: "/img/nvma-2023/2023-09-23-flier.jpg"
     day: 2023-09-23
-  - only: "/img/nvma-2023/2023-09-23-southwest.jpg"
-    day: 2023-09-23
-
 
 slides:
   - img/bojangles.jpg
