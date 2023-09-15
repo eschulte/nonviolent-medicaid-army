@@ -28,9 +28,13 @@ events:
     day: 2023-09-20
   - only: "/img/nvma-2023/2023-09-21-elmira.jpg"
     day: 2023-09-21
+  - only: "/img/nvma-2023/2023-09-21-wyoming.jpg"
+    day: 2023-09-21
   - only: "/img/nvma-2023/2023-09-22-texas.png"
     day: 2023-09-22
   - only: "/img/nvma-2023/2023-09-23-flier.jpg"
+    day: 2023-09-23
+  - only: "/img/nvma-2023/2023-09-23-debt.jpg"
     day: 2023-09-23
 
 slides:
