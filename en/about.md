@@ -1,29 +1,33 @@
 ### What is the Nonviolent Medicaid Army?
 
-The Nonviolent Medicaid Army of the poor is a growing militant force
-of the poor and dispossessed, united across identities, regions, races
-and issues, modeled after MLK’s ‘nonviolent army of the poor’ from
-the first Poor People’s Campaign of 1968. We are currently active in 
-states like Wyoming, Wisconsin, Texas, Indiana, Georgia, Kansas, 
-Pennsylvania, New York, Maryland and Vermont. We are not a coalition 
-or a campaign but a network of organizations and committees that 
-understand healthcare to be a strategic front of struggle
-to unite the working class. Find us on Facebook at 
+The Nonviolent Medicaid Army of the poor is a growing, politically
+independent force of the poor and dispossessed, united across
+identities, regions, races and issues, modeled after MLK's 'nonviolent
+army of the poor' from the first Poor People's Campaign of 1968. We
+are currently active in states like Wyoming, Wisconsin, Texas,
+Indiana, Georgia, Massachusetts, Illinois, North Carolina,
+Pennsylvania, New York, Ohio, Maryland and Vermont. We are not a
+coalition or a campaign but a network of organizations and committees
+that understand healthcare to be a strategic front of struggle to
+unite the working class. Find us on Facebook at
 <https://www.facebook.com/nonviolentmedicaidarmy>.
 
 ### What is the Nonviolent Medicaid Army Week of Action?
 
-The 2023 Nonviolent Medicaid Army Week of Action will take place 
-around the country between September 17-23, 2023. The Week of Action
-will focus on the theme Medicaid Cuts = Death and call attention to 
-the up to 24 million people who are losing their healthcare right now
-as the result of a bipartisan decision that was included in the Omnibus 
-spending bill of December 2022 and then signed by President Biden. Actions 
-around the country will make the invisible visible and shift the 
-narrative, calling for an end to Medicaid cuts. In the richest country
-that has ever existed in the history of the world, we know there
-is enough! 
-Download the Week of Action Toolkit here: <https://bit.ly/MedicaidToolkitPA>.
+The 2024 Nonviolent Medicaid Army Week of Action will take place
+around the country between September 21-28, 2024. The Week of Action
+will focus on the theme Medicaid Cuts = Death and call attention to
+more than 25 million people who have been cut from Medicaid since
+April 1, 2023 as the result of a bipartisan decision that was included
+in the Omnibus spending bill of December 2022 and then signed by
+President Biden. Actions around the country will make the invisible
+visible and shift the narrative, calling for an end to Medicaid cuts,
+keeping our hospitals open, stopping the privatization of Medicaid,
+Medicare, and the Veterans Administration and calling for Medicaid 4
+All. In the richest country that has ever existed in the history of
+the world, we know there is enough!  
+Download the Week of Action Toolkit here:
+<https://bit.ly/NVMA2024WoAToolkit>.
 
 ### Who makes up the Nonviolent Medicaid Army?
 

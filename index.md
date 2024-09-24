@@ -2,40 +2,40 @@
 layout: default
 title: Nonviolent Medicaid Army
 events:
-  - only: "/img/nvma-2023/2023-09-09-prep.jpg"
-    day: 2023-09-09
-  - only: "/img/nvma-2023/2023-09-17-peoples-clinic.jpg"
-    day: 2023-09-17
-  - only: "/img/nvma-2023/2023-09-19-central-appalachia.jpg"
-    day: 2023-09-19
-  - only: "/img/nvma-2023/2023-09-19-northeast.jpg"
-    day: 2023-09-19
-  - only: "/img/nvma-2023/2023-09-24-montpelier.jpg"
-    day: 2023-09-24
-  - only: "/img/nvma-2023/2023-09-12-spokesperson-training.jpg"
-    day: 2023-09-12
-  - only: "/img/nvma-2023/2023-09-17-vigils.png"
-    day: 2023-09-17
-  - only: "/img/nvma-2023/2023-09-18-texas.png"
-    day: 2023-09-18
-  - only: "/img/nvma-2023/2023-09-19-se-pa.jpg"
-    day: 2023-09-19
-  - only: "/img/nvma-2023/2023-09-19-southwest.jpg"
-    day: 2023-09-19
-  - only: "/img/nvma-2023/2023-09-20-cuts-are-death.png"
-    day: 2023-09-20
-  - only: "/img/nvma-2023/2023-09-20-harrisburg.png"
-    day: 2023-09-20
-  - only: "/img/nvma-2023/2023-09-21-elmira.jpg"
-    day: 2023-09-21
-  - only: "/img/nvma-2023/2023-09-21-wyoming.jpg"
-    day: 2023-09-21
-  - only: "/img/nvma-2023/2023-09-22-texas.png"
-    day: 2023-09-22
-  - only: "/img/nvma-2023/2023-09-23-flier.jpg"
-    day: 2023-09-23
-  - only: "/img/nvma-2023/2023-09-23-debt.jpg"
-    day: 2023-09-23
+  - only: "/img/nvma-2024/2024-09-18-FCOP.2.jpeg"
+    day: 2024-09-18
+  - only: "/img/nvma-2024/2024-09-21-IN.2.jpeg"
+    day: 2024-09-21
+  - only: "/img/nvma-2024/2024-09-21-MA.png"
+    day: 2024-09-21
+  - only: "/img/nvma-2024/2024-09-21-NTL.png"
+    day: 2024-09-21
+  - only: "/img/nvma-2024/2024-09-22-FCOP.jpeg"
+    day: 2024-09-22
+  - only: "/img/nvma-2024/2024-09-23-VT.jpg"
+    day: 2024-09-23
+  - only: "/img/nvma-2024/2024-09-24-NY.2.jpeg"
+    day: 2024-09-24
+  - only: "/img/nvma-2024/2024-09-24-WI.png"
+    day: 2024-09-24
+  - only: "/img/nvma-2024/2024-09-26-Baltimore.jpg"
+    day: 2024-09-26
+  - only: "/img/nvma-2024/2024-09-27-Cumberland.jpg"
+    day: 2024-09-27
+  - only: "/img/nvma-2024/2024-09-27-Galveston.png"
+    day: 2024-09-27
+  - only: "/img/nvma-2024/2024-09-27-NY.1.jpg"
+    day: 2024-09-27
+  - only: "/img/nvma-2024/2024-09-27-Westminster.jpg"
+    day: 2024-09-27
+  - only: "/img/nvma-2024/2024-09-28-GA.png"
+    day: 2024-09-28
+  - only: "/img/nvma-2024/2024-09-29-IN.jpeg"
+    day: 2024-09-29
+  - only: "/img/nvma-2024/2024-09-30-PA (1).png"
+    day: 2024-09-30
+  - only: "/img/nvma-2024/2024-09-30-PA.png"
+    day: 2024-09-30
 
 slides:
   - img/bojangles.jpg
