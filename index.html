@@ -1,517 +1,129 @@
 <!DOCTYPE html>
 <html>
-<title>Nonviolent Medicaid Army</title>
-<meta charset="UTF-8">
-<meta name="description" content="The Nonviolent Medicaid Army of the poor is a growing militant force of the poor and dispossessed, united across identities, regions, races and issues, modeled after King’s ‘nonviolent army of the poor’ from the first Poor People’s Campaign of 1968.">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Design by Eric Schulte, source at https://github.com/eschulte/nonviolent-medicaid-army. -->
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.14.0/css/all.css">
-<style>
-body,h1,h2{font-family: "Raleway", sans-serif}
-body, html {height: 100%}
-p {line-height: 2}
-.bgimg, .bgimg2 {
-  min-height: 100%;
-  background-position: center;
-  background-size: cover;
-}
-sidebar-padded {}
-#myNavbar {
-    background-color: rgba(0,0,0,0.5);
-}
-.w3-content{ padding-left: 0.5em; }
-@media only screen and (max-width: 440px) {
-    #myNavbar > div > .w3-button {
-        padding: 4px 8px;
-    }
-}
-@media only screen and (max-width: 360px) {
-    #myNavbar > div > .w3-button {
-        padding: 4px 6px;
-    }
-}
-@media (min-width: 600px){ .sidebar-padded { padding-left:200px; } }
-.bgimg {background-image:
-    linear-gradient(
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2)
-    ),
-    url('/img/72286505_3307812459243757_5697027247718793216_o-crop.jpg')}
-.bgimg2 {background-image:
-    linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
-    ),url('/img/zachary-keimig-s8ZTEbJNN7E-unsplash-prog.jpg')}
-.event-details{ text-align: left; }
-.w3-display-middle-high{position:absolute;top:26%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
-.clamped{
-  height: 400px;
-  max-height: 400px;
-  overflow-y: scroll;
-}
-/* Hide scrollbar for Chrome, Safari and Opera */
-.clamped::-webkit-scrollbar {
-  display: none;
-}
-/* Hide scrollbar for IE, Edge and Firefox */
-.clamped{
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-}
-@media (min-width:600px){.big-up{clear:both;}}
-@media (min-width:900px){.big-up{clear:both;transform: translateY(-64px);height:0;}}
-@media (min-width:600px){.bigger-up{clear:both;}}
-@media (min-width:1080px){.bigger-up{clear:both;transform: translateY(-64px);height:0;}}
-</style>
-<!-- Carousel from: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow -->
-<style>
-* {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
-.mySlides {display: none}
-img {vertical-align: middle;}
+  <head>
+    <title>Nonviolent Medicaid Army</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="The Nonviolent Medicaid Army of the poor is a growing militant force of the poor and dispossessed, united across identities, regions, races and issues, modeled after King’s ‘nonviolent army of the poor’ from the first Poor People’s Campaign of 1968.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" property="og:title" content="Nonviolent Medicaid Army">
+    <meta name="type" property="og:type" content="website">
+    <meta name="image" property="og:image" content=".">
+    <!-- Design by Eric Schulte, source at https://github.com/eschulte/nonviolent-medicaid-army. -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.14.0/css/all.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="/favicon.ico">
+  </head>
+  <body id="top" class="w3-dark-grey">
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* Position the "prev button" to the right */
-.prev {
-  left: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
-</style>
-<body class="w3-dark-grey">
-
+    
 <!-- Header / Home-->
 <header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
-  <div class="en w3-display-middle-high w3-text-light-gray w3-center">
+  <div class="w3-display-middle-high w3-text-light-gray w3-center">
     <h1 class="w3-jumbo">Nonviolent Medicaid Army</h1>
   </div>
-  <div class="es w3-display-middle-high w3-text-light-gray w3-center" style="display:none;">
-    <h1 class="w3-jumbo">El&nbsp;Ejército No&nbsp;Violento de&nbsp;Medicaid</h1>
-  </div>
 </header>
-
-<!-- Language switcher. -->
-<div class="w3-display-topright">
-  <button id="local" href="javascript:void(0)" class="w3-xlarge w3-padding w3-display-topright w3-text-white"
-          style="background-color:transparent; text-decoration:none; border:none;">
-    Es
-  </button>
-</div>
 
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
 <nav class="w3-sidebar w3-small w3-hide-small w3-center w3-text-white" style="background:transparent; top:0px; left:0px;">
   <!-- Avatar image in top left corner -->
   <a href="#"><img src='/img/national-logo-1-alpha.png' alt="logo" style="width:100%"></a>
-  <a href="#" class="w3-bar-item">
-    <i class="fa fa-home w3-xxlarge"></i>
-    <div class="en"><p>HOME</p></div>
-    <div class="es" style="display:none"><p>HOGAR</p></div>
-  </a>
-  </br>
-  <a href="#WOA" class="w3-bar-item">
-    <i class="fa fa-hands-helping w3-xxlarge"></i>
-    <div class="en"><p>WEEK OF ACTION</br>2024</p></div>
-    <div class="es" style="display:none"><p>SEMANA DE ACCIÓN</p></div>
-  </a>
-  </br>
-  <a href="#about" class="w3-bar-item">
-    <i class="fa fa-book w3-xxlarge"></i>
-    <div class="en"><p>ABOUT</p></div>
-    <div class="es" style="display:none"><p>SOBRE</p></div>
-  </a>
-  </br>
-  <a href="#goals" class="w3-bar-item">
-    <i class="fa fa-check-square w3-xxlarge"></i>
-    <div class="en"><p>GOALS</p></div>
-    <div class="es" style="display:none"><p>METAS</p></div>
-  </a>
+    
+    <a href="#top" class="w3-bar-item"><i class="fa fa-home w3-xxlarge"></i><div><p>HOME</p></div></a></br>
+    
+    <a href="#events" class="w3-bar-item"><i class="fa fa-hands-helping w3-xxlarge"></i><div><p>EVENTS</p></div></a></br>
+    
+    <a href="#medicaid-mondays" class="w3-bar-item"><i class="fa fa-bullhorn w3-xxlarge"></i><div><p>MEDICAID MONDAYS</p></div></a></br>
+    
+    <a href="#about" class="w3-bar-item"><i class="fa fa-book w3-xxlarge"></i><div><p>ABOUT</p></div></a></br>
+    
+    <a href="#goals" class="w3-bar-item"><i class="fa fa-check-square w3-xxlarge"></i><div><p>GOALS</p></div></a></br>
+    
 </nav>
 
 <!-- Navbar on small screens (Hidden on medium and large screens) -->
 <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
   <div class="w3-bar w3-opacity w3-hover-opacity-off w3-center w3-small">
-    <a href="#" class="w3-bar-item w3-button"><div class="en">HOME</div><div class="es" style="display:none">HOGAR</div></a>
-    <a href="#WOA" class="w3-bar-item w3-button w3-text-white"><div class="en">WEEK OF ACTION 2024</div><div class="es" style="display:none">SEMANA DE ACCIÓN</div></a>
-    <a href="#about" class="w3-bar-item w3-button w3-text-white"><div class="en">ABOUT</div><div class="es" style="display:none">SOBRE</div></a>
-    <a href="#goals" class="w3-bar-item w3-button w3-text-white"><div class="en">GOALS</div><div class="es" style="display:none">METAS</div>
+    
+    <a href="#top" class="w3-bar-item w3-button w3-text-white"><div>HOME</div></a>
+    
+    <a href="#events" class="w3-bar-item w3-button w3-text-white"><div>EVENTS</div></a>
+    
+    <a href="#medicaid-mondays" class="w3-bar-item w3-button w3-text-white"><div>MEDICAID MONDAYS</div></a>
+    
+    <a href="#about" class="w3-bar-item w3-button w3-text-white"><div>ABOUT</div></a>
+    
+    <a href="#goals" class="w3-bar-item w3-button w3-text-white"><div>GOALS</div></a>
+    
   </div></a>
 </div>
 
-<!-- Events Section -->
-<div class="sidebar-padded w3-padding-64 w3-dark-grey " id="events">
-  <div class="w3-content">
-    <h2 class="w3-text-white"><div class="en">Week of Action Events</div><div class="es" style="display:none">Eventos de la Semana de Acción</div></h2>
-    <hr style="width:200px" class="w3-opacity">
-    <div class="w3-row-padding w3-padding-16 w3-center">
-
-
-
-</div><div class="w3-row-padding w3-padding-16 w3-center">
-
-
-<div class="w3-half w3-container w3-margin-bottom">
-
-
-<a href="/img/nvma-2024/2024-09-18-FCOP.2.jpeg">
-
-<img src="/img/nvma-2024/2024-09-18-FCOP.2.jpeg" alt="event only image" style="width:100%; max-height: 100%; object-fit: cover;">
-</a>
-
-</div>
-
-
-
-
-<div class="w3-half w3-container w3-margin-bottom">
-
-
-<a href="/img/nvma-2024/2024-09-21-IN.2.jpeg">
-
-<img src="/img/nvma-2024/2024-09-21-IN.2.jpeg" alt="event only image" style="width:100%; max-height: 100%; object-fit: cover;">
-</a>
-
-</div>
-
-
-
-</div><div class="w3-row-padding w3-padding-16 w3-center">
-
-
-<div class="w3-half w3-container w3-margin-bottom">
-
-
-<a href="/img/nvma-2024/2024-09-21-MA.png">
-
-<img src="/img/nvma-2024/2024-09-21-MA.png" alt="event only image" style="width:100%; max-height: 100%; object-fit: cover;">
-</a>
-
-</div>
-
-
-
-
-<div class="w3-half w3-container w3-margin-bottom">
-
-
-<a href="/img/nvma-2024/2024-09-21-NTL.png">
-
-<img src="/img/nvma-2024/2024-09-21-NTL.png" alt="event only image" style="width:100%; max-height: 100%; object-fit: cover;">
-</a>
-
-</div>
-
-
-
-</div><div class="w3-row-padding w3-padding-16 w3-center">
-
-
-<div class="w3-half w3-container w3-margin-bottom">
-
-
-<a href="/img/nvma-2024/2024-09-22-FCOP.jpeg">
-
-<img src="/img/nvma-2024/2024-09-22-FCOP.jpeg" alt="event only image" style="width:100%; max-height: 100%; object-fit: cover;">
-</a>
-
-</div>
-
-
-
-
-<div class="w3-half w3-container w3-margin-bottom">
-
-
-<a href="/img/nvma-2024/2024-09-23-VT.jpg">
-
-<img src="/img/nvma-2024/2024-09-23-VT.jpg" alt="event only image" style="width:100%; max-height: 100%; object-fit: cover;">
-</a>
-
-</div>
-
-
-
-</div><div class="w3-row-padding w3-padding-16 w3-center">
-
-
-<div class="w3-half w3-container w3-margin-bottom">
-
-
-<a href="/img/nvma-2024/2024-09-24-NY.2.jpeg">
-
-<img src="/img/nvma-2024/2024-09-24-NY.2.jpeg" alt="event only image" style="width:100%; max-height: 100%; object-fit: cover;">
-</a>
-
-</div>
-
-
-
-
-<div class="w3-half w3-container w3-margin-bottom">
-
-
-<a href="/img/nvma-2024/2024-09-24-WI.png">
-
-<img src="/img/nvma-2024/2024-09-24-WI.png" alt="event only image" style="width:100%; max-height: 100%; object-fit: cover;">
-</a>
-
-</div>
-
-
-
-</div><div class="w3-row-padding w3-padding-16 w3-center">
-
-
-<div class="w3-half w3-container w3-margin-bottom">
-
-
-<a href="/img/nvma-2024/2024-09-26-Baltimore.jpg">
-
-<img src="/img/nvma-2024/2024-09-26-Baltimore.jpg" alt="event only image" style="width:100%; max-height: 100%; object-fit: cover;">
-</a>
-
-</div>
-
-
-
-
-<div class="w3-half w3-container w3-margin-bottom">
-
-
-<a href="/img/nvma-2024/2024-09-27-Cumberland.jpg">
-
-<img src="/img/nvma-2024/2024-09-27-Cumberland.jpg" alt="event only image" style="width:100%; max-height: 100%; object-fit: cover;">
-</a>
-
-</div>
-
-
-
-</div><div class="w3-row-padding w3-padding-16 w3-center">
-
-
-<div class="w3-half w3-container w3-margin-bottom">
-
-
-<a href="/img/nvma-2024/2024-09-27-Galveston.png">
-
-<img src="/img/nvma-2024/2024-09-27-Galveston.png" alt="event only image" style="width:100%; max-height: 100%; object-fit: cover;">
-</a>
-
-</div>
-
-
-
-
-<div class="w3-half w3-container w3-margin-bottom">
-
-
-<a href="/img/nvma-2024/2024-09-27-NY.1.jpg">
-
-<img src="/img/nvma-2024/2024-09-27-NY.1.jpg" alt="event only image" style="width:100%; max-height: 100%; object-fit: cover;">
-</a>
-
-</div>
-
-
-
-</div><div class="w3-row-padding w3-padding-16 w3-center">
-
-
-<div class="w3-half w3-container w3-margin-bottom">
-
-
-<a href="/img/nvma-2024/2024-09-27-Westminster.jpg">
-
-<img src="/img/nvma-2024/2024-09-27-Westminster.jpg" alt="event only image" style="width:100%; max-height: 100%; object-fit: cover;">
-</a>
-
-</div>
-
-
-
-
-<div class="w3-half w3-container w3-margin-bottom">
-
-
-<a href="/img/nvma-2024/2024-09-28-GA.png">
-
-<img src="/img/nvma-2024/2024-09-28-GA.png" alt="event only image" style="width:100%; max-height: 100%; object-fit: cover;">
-</a>
-
-</div>
-
-
-
-</div><div class="w3-row-padding w3-padding-16 w3-center">
-
-
-<div class="w3-half w3-container w3-margin-bottom">
-
-
-<a href="/img/nvma-2024/2024-09-29-IN.jpeg">
-
-<img src="/img/nvma-2024/2024-09-29-IN.jpeg" alt="event only image" style="width:100%; max-height: 100%; object-fit: cover;">
-</a>
-
-</div>
-
-
-
-
-<div class="w3-half w3-container w3-margin-bottom">
-
-
-<a href="/img/nvma-2024/2024-09-30-PA (1).png">
-
-<img src="/img/nvma-2024/2024-09-30-PA (1).png" alt="event only image" style="width:100%; max-height: 100%; object-fit: cover;">
-</a>
-
-</div>
-
-
-
-</div><div class="w3-row-padding w3-padding-16 w3-center">
-
-
-<div class="w3-half w3-container w3-margin-bottom">
-
-
-<a href="/img/nvma-2024/2024-09-30-PA.png">
-
-<img src="/img/nvma-2024/2024-09-30-PA.png" alt="event only image" style="width:100%; max-height: 100%; object-fit: cover;">
-</a>
-
-</div>
-
-    </div>
-  </div>
-</div>
-
-<!-- Week of Action -->
-<div class="sidebar-padded w3-padding-64 w3-dark-grey " id="WOA">
-  <div class="w3-content">
-    <h2 class="w3-text-white"><div class="en">Week of Action: September 21-28, 2024</div><div class="es" style="display:none">Semana de acción: Septiembre 21-28, 2024</div></h2>
-    <hr style="width:200px" class="w3-opacity">
-Week of Action: September 21-28, 2024
-    <ul>
-      <li>Check out the <a href="https://docs.google.com/document/d/143woVyrS6FDwORDoFvCDDErZUBMaOVIQTy_Zj-6e5Vg">Toolkit.</li>
-    </ul>
-    <center>
-      <div style="position: relative">
-      <a title="Toolkit" href="https://docs.google.com/document/d/143woVyrS6FDwORDoFvCDDErZUBMaOVIQTy_Zj-6e5Vg"><div style="position: absolute; left: 6.75%; top: 35.45%; width: 43.5%; height: 14.9%"></div></a>
-      <a title="Register" href="https://docs.google.com/forms/d/e/1FAIpQLSdb1v-SVAEk1ZDI1DVS_qd9CNyoLVTuIz1vNOxIX9XYWKsfFg/viewform"><div style="position: absolute; left: 6.75%; top: 51.15%; width: 43.5%; height: 16.95%"></div></a>
-      <a title="Join the NVMA" href="https://facebook.com/nonviolentmedicaidarmy"><div style="position: absolute; left: 50%; top: 76.4%; width: 50%; height: 6.65%"></div></a>
-      </div>
-      <img class="w3-round w3-margin" src='/img/nvma-2021/Ppf3-01-01.png'
-           alt="Jublee-Harrisburg-2020"
-           style="margin:32px 0;max-width:min(80%, 600px);">
-    </center>
-  </div>
-</div>
-
-<!-- About Section -->
-<div class="sidebar-padded w3-container w3-padding-64 w3-dark-grey " id="about">
-  <div class="w3-content">
-    <img class="w3-right w3-round " src='/img/Jublee-Harrisburg-2020-0018.jpg'
-         alt="Jublee-Harrisburg-2020"
-         style="width:100%;margin:32px 0;max-width:600px;">
-  <h2 class="w3-text-white big-up"><div class="en">About</div><div class="es" style="display:none">Sobre</div></h2>
-  <hr style="width:200px" class="w3-opacity">
-  <div class="en">
-    <h3 id="what-is-the-nonviolent-medicaid-army%3F" tabindex="-1">What is the Nonviolent Medicaid Army?</h3>
+<div class="sidebar-padded w3-dark-grey main-content">
+  <h2 id="events" tabindex="-1">Events</h2>
+<p><img src="/img/nvma-2021/Ppf3-01-01.png" alt="Week of Action Essential Infrastructure"></p>
+<p>No week of action scheduled yet for 2025.</p>
+<p>Information on historical events and weeks of action are available at the following:</p>
+<ul>
+<li><a href="/woa/2024">2024 Week of Action September 21-28</a></li>
+<li><a href="/woa/2023">2023 Events</a></li>
+<li><a href="/woa/2022">2022 Events</a></li>
+<li><a href="/woa/2021">2021 Events</a></li>
+</ul>
+<p>Check out the <a href="https://docs.google.com/document/d/143woVyrS6FDwORDoFvCDDErZUBMaOVIQTy_Zj-6e5Vg">Toolkit</a>.</p>
+<div style="clear:both;"></div>
+<h2 id="medicaid-mondays" tabindex="-1">Medicaid Mondays</h2>
+<p>Personal stories are powerful. The NVMA calls on folks to share their
+stories as part of #MedicaidMondays, a critical tactic in our ongoing
+Medicaid Cut-Offs Organizing Drive. When we share our own experience,
+our own healthcare story, we break our isolation and we build our
+movement!</p>
+<p>And it’s easy to do!  Post a photo of yourself on social media holding
+a sign, a piece of paper or a dry erase board with the hashtags
+<code>#MedicaidCutsEqualsDeath</code>, <code>#NonviolentMedicaidArmy</code>,
+<code>#OrganizeProtectExpandMedicaid</code>, and <code>#Medicaid4All</code>.  Include a few
+sentences on the sign itself (Example 1) stating why protecting and
+expanding Medicaid is important to you and your family or (Example 2)
+include only the hashtag on the sign and put your story in the body of
+the post.</p>
+<p>Another option is to make a short video, no longer than a minute or
+two, stating why protecting and expanding Medicaid is important to you
+and post to social media with a short blurb and the same
+hashtags. Examples are below.</p>
+<p>Additionally, if it’s easier, you can complete <a href="https://forms.gle/JsW4LCHouoEz2mZy5">this
+form</a> to share your story with
+us!</p>
+<ol>
+<li>
+<p><strong>Example 1</strong>:</p>
+<p><img src="/img/mm-example-1.png" alt="Example 1"></p>
+<p>Share why protecting Medicaid and expanding it to
+all residents is important to you along with the hashtags on
+something such as poster board, a dry erase board, or a piece of
+paper then take a photo of yourself holding said written statement
+and post to social media #MedicaidCutsEqualsDeath
+#NonviolentMedicaidArmy #OrganizeProtectExpandMedicaid
+#Medicaid4All</p>
+</li>
+</ol>
+<div style="clear:both;"></div>
+<ol start="2">
+<li>
+<p><strong>Example 2</strong>:</p>
+<p><img src="/img/mm-example-2.png" alt="Example 2"></p>
+<p>My name is Tammy Rosing, and I live in Lancaster
+County. Protecting Medicaid and expanding it to all residents is
+important to me because we all deserve healthcare and I need to be
+able to continue to take my life sustaining medication and to keep
+being able to see my specialist doctors. No one should be cut off
+of healthcare in Pennsylvania or anywhere in the U.S.
+#MedicaidCutsEqualsDeath #NonviolentMedicaidArmy
+#OrganizeProtectExpandMedicaid #Medicaid4All</p>
+</li>
+</ol>
+<div style="clear:both;"></div>
+<h2 id="about" tabindex="-1">About</h2>
+<h3 id="what-is-the-nonviolent-medicaid-army%3F" tabindex="-1">What is the Nonviolent Medicaid Army?</h3>
 <p>The Nonviolent Medicaid Army of the poor is a growing, politically
 independent force of the poor and dispossessed, united across
 identities, regions, races and issues, modeled after MLK's 'nonviolent
@@ -569,85 +181,8 @@ Nonviolent Medicaid Army is a vehicle through which we can cohere
 leaders to assess the terrain and take strategic action together to
 grow “the new and unsettling force” into an unstoppable nonviolent
 army commensurate with the times we are living in.</p>
-
-  </div>
-  <div class="es" style="display:none">
-    <h3 id="%C2%BFqu%C3%A9-es-el-ej%C3%A9rcito-no-violento-de-medicaid%3F" tabindex="-1">¿Qué es El Ejército No Violento de Medicaid?</h3>
-<p>El Ejército No Violento de Medicaid de los pobres es una creciente
-fuerza militante de los pobres y desposeídos, unidos a través de
-identidades, regiones, razas y problemas, siguiendo el modelo del
-&quot;ejército no violento de los pobres&quot; del Reverendo Dr. Martin Luther
-King de la primera Campaña de los Pobres de 1968.</p>
-<h3 id="%C2%BFqui%C3%A9n-forma-parte-del-ej%C3%A9rcito-no-violento-de-medicaid%3F" tabindex="-1">¿Quién forma parte del Ejército No Violento de Medicaid?</h3>
-<p>Los que tienen o están excluidos de Medicaid representan la diversidad
-de toda nuestra clase y se ven afectados por cada frente de lucha que
-existe, ya sea la lucha por la vivienda, los salarios dignos, la
-alimentación, la educación, la libertad de la deuda, la libertad de
-migración o ser libre de criminalización y encarcelamiento. La lucha
-por Medicaid une al norte y al sur de los EE. UU. y la lucha por la
-atención médica une ampliamente al proletariado global.</p>
-<p>En esencia, como veremos al avanzar en este período, la totalidad de
-la clase trabajadora está conectada a la lucha por Medicaid para
-todos. Se convierte en una lente a través de la cual las masas de
-personas pobres y desposeídas pueden verse y unirse en torno a un
-centro de gravedad político, lo que nos mantiene avanzando en una
-dirección acorde con el espíritu y el potencial de la Campaña de la
-Gente Pobre: Un llamado nacional para el avivamiento moral.</p>
-<h3 id="%C2%BFpor-qu%C3%A9-el-ej%C3%A9rcito-no-violento-de-medicaid%3F" tabindex="-1">¿Por qué El Ejército No Violento de Medicaid?</h3>
-<p>A medida que millones más en este país se colocan en las filas de los
-desempleados o subempleados, la demanda de Medicaid se disparará, y la
-atención médica seguirá siendo una de las principales preocupaciones
-en la mente del pueblo estadounidense. El Ejército No Violento de
-Medicaid centra la fuerza social líder, los pobres y desposeídos, en
-la lucha por la atención médica como un derecho humano, una demanda
-revolucionaria en el contexto de un sistema que busca sacar provecho
-de nuestro dolor, enfermedad y muerte.</p>
-<h3 id="%C2%BFqui%C3%A9n-puede-unirse-al-ej%C3%A9rcito-no-violento-de-medicaid%3F" tabindex="-1">¿Quién puede unirse al Ejército No Violento de Medicaid?</h3>
-<p>Cualquier organización de pobres y desposeídos cuyos miembros se vean
-directamente afectados por la lucha por la atención médica como un
-derecho humano o cualquiera de los frentes de lucha que enfrentan
-aquellos que están en Medicaid o que lo necesitan, pueden y deben
-unirse al Ejército No Violento de Medicaid para asestar un golpe a la
-clase dominante. El Ejército No Violento de Medicaid es un vehículo a
-través del cual podemos unir a los líderes para evaluar el terreno y
-tomar medidas estratégicas juntos para hacer crecer &quot;la nueva fuerza
-inquietante&quot; en un ejército no violento imparable acorde con los
-tiempos en que vivimos.</p>
-
-  </div>
-  </div>
-</div>
-
-<!-- Goals Section -->
-<div class="sidebar-padded w3-display-container bgimg2 w3-padding-64" id="goals">
-  <div class="w3-content w3-text-light-grey">
-    <img class="w3-right w3-round " src='/img/image2-crop.jpg'
-         alt="poor peoples campaign event image"
-         style="width:90%; margin:0 5%; max-width:700px;">
-    <h2 class="w3-text-white bigger-up"><div class="en">Goals</div><div class="es" style="display:none">Metas</div></h2>
-    <hr style="width:200px" class="w3-opacity">
-    <div class="en">
-    <ul>
-<li>
-<p>Unite the working class across lines of division</p>
-</li>
-<li>
-<p>Strengthen the organized forces of the over 140 million poor and
-dispossessed people in the U.S. today</p>
-</li>
-<li>
-<p>Identify, develop and unite leaders</p>
-</li>
-<li>
-<p>Expand Medicaid to all and de-commodify the healthcare system</p>
-</li>
-</ul>
-
-    </div>
-    <div class="es" style="display:none">
-    <blockquote>
-<p><em>Goals are currently only available in English.</em></p>
-</blockquote>
+<p><img src="/img/image2-crop.jpg" alt="Poor Peoples Campaign Event Image"></p>
+<h2 id="goals" tabindex="-1">Goals</h2>
 <ul>
 <li>
 <p>Unite the working class across lines of division</p>
@@ -665,109 +200,99 @@ human rights</p>
 </li>
 </ul>
 
-    </div>
-  </div>
 </div>
 
-<div class="sidebar-padded w3-container w3-padding-64 w3-dark-grey  w3-center" id="wedding">
-  <div class="w3-content">
-    <div class="slideshow-container">
-    
-    <div class="mySlides fade">
-      <div class="numbertext">1 / 11</div>
-      <img src='img/bojangles.jpg' alt="slide show image 1" style="max-height: 600px; max-width: 100%;">
+    <div class="sidebar-padded w3-container w3-padding-64 w3-dark-grey w3-center" id="wedding">
+      <div class="w3-content">
+        <div class="slideshow-container">
+          
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 11</div>
+            <img src='img/bojangles.jpg' alt="slide show image 1" style="max-height: 600px; max-width: 100%;">
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 11</div>
+            <img src='img/IMG_9077.JPG' alt="slide show image 2" style="max-height: 600px; max-width: 100%;">
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 11</div>
+            <img src='img/vermont.jpg' alt="slide show image 3" style="max-height: 600px; max-width: 100%;">
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 11</div>
+            <img src='img/WhatsApp Image 2020-09-06 at 12.09.51.jpeg' alt="slide show image 4" style="max-height: 600px; max-width: 100%;">
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">5 / 11</div>
+            <img src='img/WhatsApp Image 2020-09-06 at 12.10.33.jpeg' alt="slide show image 5" style="max-height: 600px; max-width: 100%;">
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">6 / 11</div>
+            <img src='img/image0.jpeg' alt="slide show image 6" style="max-height: 600px; max-width: 100%;">
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">7 / 11</div>
+            <img src='img/image1.jpeg' alt="slide show image 7" style="max-height: 600px; max-width: 100%;">
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">8 / 11</div>
+            <img src='img/27E6D2BB-B7DE-4184-ADFA-9CEAB47DC328.jpeg' alt="slide show image 8" style="max-height: 600px; max-width: 100%;">
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">9 / 11</div>
+            <img src='img/2EDA5F3F-2216-41A1-AF50-35229ACE38B1.jpeg' alt="slide show image 9" style="max-height: 600px; max-width: 100%;">
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">10 / 11</div>
+            <img src='img/640641E4-BCFC-4D5F-9046-F71D51B10945.jpeg' alt="slide show image 10" style="max-height: 600px; max-width: 100%;">
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">11 / 11</div>
+            <img src='img/Medicaid March Meme - Eviction=Death.jpg' alt="slide show image 11" style="max-height: 600px; max-width: 100%;">
+          </div>
+          
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+          
+          <span class="dot" onclick="currentSlide(1)"></span>
+          
+          <span class="dot" onclick="currentSlide(2)"></span>
+          
+          <span class="dot" onclick="currentSlide(3)"></span>
+          
+          <span class="dot" onclick="currentSlide(4)"></span>
+          
+          <span class="dot" onclick="currentSlide(5)"></span>
+          
+          <span class="dot" onclick="currentSlide(6)"></span>
+          
+          <span class="dot" onclick="currentSlide(7)"></span>
+          
+          <span class="dot" onclick="currentSlide(8)"></span>
+          
+          <span class="dot" onclick="currentSlide(9)"></span>
+          
+          <span class="dot" onclick="currentSlide(10)"></span>
+          
+          <span class="dot" onclick="currentSlide(11)"></span>
+          
+        </div>
+      </div>
     </div>
-    
-    <div class="mySlides fade">
-      <div class="numbertext">2 / 11</div>
-      <img src='img/IMG_9077.JPG' alt="slide show image 2" style="max-height: 600px; max-width: 100%;">
-    </div>
-    
-    <div class="mySlides fade">
-      <div class="numbertext">3 / 11</div>
-      <img src='img/vermont.jpg' alt="slide show image 3" style="max-height: 600px; max-width: 100%;">
-    </div>
-    
-    <div class="mySlides fade">
-      <div class="numbertext">4 / 11</div>
-      <img src='img/WhatsApp Image 2020-09-06 at 12.09.51.jpeg' alt="slide show image 4" style="max-height: 600px; max-width: 100%;">
-    </div>
-    
-    <div class="mySlides fade">
-      <div class="numbertext">5 / 11</div>
-      <img src='img/WhatsApp Image 2020-09-06 at 12.10.33.jpeg' alt="slide show image 5" style="max-height: 600px; max-width: 100%;">
-    </div>
-    
-    <div class="mySlides fade">
-      <div class="numbertext">6 / 11</div>
-      <img src='img/image0.jpeg' alt="slide show image 6" style="max-height: 600px; max-width: 100%;">
-    </div>
-    
-    <div class="mySlides fade">
-      <div class="numbertext">7 / 11</div>
-      <img src='img/image1.jpeg' alt="slide show image 7" style="max-height: 600px; max-width: 100%;">
-    </div>
-    
-    <div class="mySlides fade">
-      <div class="numbertext">8 / 11</div>
-      <img src='img/27E6D2BB-B7DE-4184-ADFA-9CEAB47DC328.jpeg' alt="slide show image 8" style="max-height: 600px; max-width: 100%;">
-    </div>
-    
-    <div class="mySlides fade">
-      <div class="numbertext">9 / 11</div>
-      <img src='img/2EDA5F3F-2216-41A1-AF50-35229ACE38B1.jpeg' alt="slide show image 9" style="max-height: 600px; max-width: 100%;">
-    </div>
-    
-    <div class="mySlides fade">
-      <div class="numbertext">10 / 11</div>
-      <img src='img/640641E4-BCFC-4D5F-9046-F71D51B10945.jpeg' alt="slide show image 10" style="max-height: 600px; max-width: 100%;">
-    </div>
-    
-    <div class="mySlides fade">
-      <div class="numbertext">11 / 11</div>
-      <img src='img/Medicaid March Meme - Eviction=Death.jpg' alt="slide show image 11" style="max-height: 600px; max-width: 100%;">
-    </div>
-    
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-  </div>
-  <br>
-    <div style="text-align:center">
-      
-      <span class="dot" onclick="currentSlide(1)"></span>
-      
-      <span class="dot" onclick="currentSlide(2)"></span>
-      
-      <span class="dot" onclick="currentSlide(3)"></span>
-      
-      <span class="dot" onclick="currentSlide(4)"></span>
-      
-      <span class="dot" onclick="currentSlide(5)"></span>
-      
-      <span class="dot" onclick="currentSlide(6)"></span>
-      
-      <span class="dot" onclick="currentSlide(7)"></span>
-      
-      <span class="dot" onclick="currentSlide(8)"></span>
-      
-      <span class="dot" onclick="currentSlide(9)"></span>
-      
-      <span class="dot" onclick="currentSlide(10)"></span>
-      
-      <span class="dot" onclick="currentSlide(11)"></span>
-      
-    </div>
-    </br>
-    <p class="w3-medium">
-      <span class="en">For more information and to get involved contact:</span>
-      <span class="es" style="display:none">Para obtener más información y participar, comuníquese con:</span></br>
-      <a href="mailto:putpeoplefirstpa@gmail.com">putpeoplefirstpa@gmail.com</a>
-    </p>
-    <img src='/img/national-logo-0.jpg' alt="National Logo" style="max-width:100%; max-height: 300px;">
-  </div>
-</div>
-
-</body>
+  </body>
 
 <script>
 // Missing in some older browsers
@@ -792,30 +317,8 @@ document.getElementsByClass = function(needle) {
   }
   return outArray;
 }
-
-function switch_language(){
-  if (document.getElementById("local").innerHTML == "En" ){
-    document.getElementById("local").innerHTML = "Es";
-  } else {
-    document.getElementById("local").innerHTML = "En";
-  }
-  ["en", "es"].forEach(function(lang)
-{
-    var elements = document.getElementsByClassName(lang);
-    for (var i in elements) {
-      if (elements.hasOwnProperty(i)) {
-        if (elements[i].style.display == 'none'){
-            elements[i].style.display = 'inline';
-        } else {
-            elements[i].style.display = 'none';
-        }
-      }
-    }
-  }
-  )
-}
-document.getElementById("local").addEventListener('click', switch_language);
 </script>
+
 <!-- Carousel from: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow -->
 <script>
 var slideIndex = 1;
@@ -861,4 +364,16 @@ function cycle(){
 }
 cycle();
 </script>
+
+
+  <div class="sidebar-padded w3-container w3-center">
+    <p class="w3-medium">
+      <span>For more information and to get involved contact:</span>
+      <a href="mailto:putpeoplefirstpa@gmail.com">putpeoplefirstpa@gmail.com</a>
+    </p>
+    <a href="/">
+      <img src='/img/national-logo-0.jpg' alt="National Logo" style="max-width:100%; max-height: 300px;">
+    </a>
+  </div>
+  </body>
 </html>
