@@ -6,8 +6,9 @@ layout: default
   {{ content }}
 </div>
 
+{% assign data = events | sort: 'day' %}
 
-{% for event in events|sort(attribute='day') %}
+{% for event in data %}
 
 {% if (loop.index0 % 2) == 0 %}
 </div><div class="w3-row-padding w3-padding-16 w3-center">
