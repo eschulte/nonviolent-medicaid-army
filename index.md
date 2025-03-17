@@ -8,7 +8,7 @@ anchors:
   - text: Events
     icon: fa-hands-helping # Consider: fa-calendar
     link: events
-  - text: Medicaid Mondays
+  - text: "Medicaid</br>Mondays"
     icon: fa-bullhorn
     link: medicaid-mondays
   - text: About
