@@ -10,10 +10,6 @@ layout: default
 
 {% for event in data %}
 
-{% if (forloop.index0 % 2) == 0 %}
-</div><div class="w3-row-padding w3-padding-16 w3-center">
-{% endif %}
-
 <div class="w3-half w3-container w3-margin-bottom">
 {% if event.only %}
 {% if event.link %}
