@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="The Nonviolent Medicaid Army of the poor is a growing militant force of the poor and dispossessed, united across identities, regions, races and issues, modeled after King’s ‘nonviolent army of the poor’ from the first Poor People’s Campaign of 1968.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" property="og:title" content="{{ title }}">
+    <meta name="type" property="og:type" content="website">
+    <meta name="image" property="og:image" content="{{ preview_image | url}}">
+    <!-- Design by Eric Schulte, source at https://github.com/eschulte/nonviolent-medicaid-army. -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.14.0/css/all.css">
+    <link rel="stylesheet" href="{{ "/style.css"|url }}">
+    <link rel="icon" href="{{ "/favicon.ico" |url }}">
+  </head>
+  <body id="top" class="w3-dark-grey">
+
+    {{ content }}
+
+    <div class="sidebar-padded w3-container w3-padding-64 w3-dark-grey  w3-center" id="wedding">
+      <div class="w3-content">
+        <div class="slideshow-container">
+          {% for slide in slides %}
+          <div class="mySlides fade">
+            <div class="numbertext">{{ loop.index }} / {{ slides.length }}</div>
+            <img src='{{ slide | url }}' alt="slide show image {{ loop.index }}" style="max-height: 600px; max-width: 100%;">
+          </div>
+          {% endfor %}
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+          {% for slide in slides %}
+          <span class="dot" onclick="currentSlide({{ loop.index }})"></span>
+          {% endfor %}
+        </div>
+    </br>
+        <p class="w3-medium">
+          <span>For more information and to get involved contact:</span>
+          <a href="mailto:putpeoplefirstpa@gmail.com">putpeoplefirstpa@gmail.com</a>
+        </p>
+        <a href="{{ "/"|url }}">
+        <img src='{{ "/img/national-logo-0.jpg" | url }}' alt="National Logo" style="max-width:100%; max-height: 300px;">
+        </a>
+      </div>
+    </div>
+  </body>
+
+<script>
+// Missing in some older browsers
+document.getElementsByClass = function(needle) {
+  function acceptNode(node) {
+    if (node.hasAttribute("class")) {
+      var c = " " + node.className + " ";
+       if (c.indexOf(" " + needle + " ") != -1)
+         return NodeFilter.FILTER_ACCEPT;
+    }
+    return NodeFilter.FILTER_SKIP;
+  }
+  var treeWalker = document.createTreeWalker(document.documentElement,
+      NodeFilter.SHOW_ELEMENT, acceptNode, true);
+  var outArray = new Array();
+  if (treeWalker) {
+    var node = treeWalker.nextNode();
+    while (node) {
+      outArray.push(node);
+      node = treeWalker.nextNode();
+    }
+  }
+  return outArray;
+}
+</script>
+
+<!-- Carousel from: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow -->
+<script>
+var slideIndex = 1;
+var clicked = false;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  clicked = true;
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  clicked = true;
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  if (slides[slideIndex-1] && slides[slideIndex-1].style) {
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  } else {
+    slides[slides.length].style.display = "block";
+    dots[slides.length].className += " active";
+  }
+}
+
+function cycle(){
+    if(! clicked){
+        showSlides(slideIndex++);
+        setTimeout(cycle, 4000);
+    }
+}
+cycle();
+</script>
+</html>
