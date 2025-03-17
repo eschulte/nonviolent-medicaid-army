@@ -36,8 +36,8 @@ layout: default
         <div class="slideshow-container">
           {% for slide in slides %}
           <div class="mySlides fade">
-            <div class="numbertext">{{ loop.index }} / {{ slides.length }}</div>
-            <img src='{{ slide | url }}' alt="slide show image {{ loop.index }}" style="max-height: 600px; max-width: 100%;">
+            <div class="numbertext">{{ forloop.index }} / {{ slides.length }}</div>
+            <img src='{{ slide | url }}' alt="slide show image {{ forloop.index }}" style="max-height: 600px; max-width: 100%;">
           </div>
           {% endfor %}
           <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -46,7 +46,7 @@ layout: default
         <br>
         <div style="text-align:center">
           {% for slide in slides %}
-          <span class="dot" onclick="currentSlide({{ loop.index }})"></span>
+          <span class="dot" onclick="currentSlide({{ forloop.index }})"></span>
           {% endfor %}
         </div>
       </div>
