@@ -76,15 +76,13 @@ us!
 
 1. **Example 1**:
 
-    ![Example 1]({{ "/img/mm-example-1.png"|url }})
+    ![Example 1]({{ "/img/woody-medicaid-monday.jpg"|url }})
 
-    Share why protecting Medicaid and expanding it to
-    all residents is important to you along with the hashtags on
-    something such as poster board, a dry erase board, or a piece of
-    paper then take a photo of yourself holding said written statement
-    and post to social media #MedicaidCutsEqualsDeath
-    #NonviolentMedicaidArmy #OrganizeProtectExpandMedicaid
-    #Medicaid4All
+    I just replaced one hip, I need the other done. It’s great to have
+    Medicaid, but the only problem is when the insurance wanna take
+    you through the ringer. It’s a shame when they know you’re needing
+    help but hassle you for what you need. I need a cardiologist but
+    it’s not easy to get them.
 
 <div style="clear:both;"></div>
 
