@@ -2,21 +2,18 @@
 layout: home
 title: Nonviolent Medicaid Army
 anchors:
-  - text: Home
-    icon: fa-home
-    link: top
+  - text: About
+    icon: fa-book
+    link: about
   - text: Events
-    icon: fa-hands-helping # Consider: fa-calendar
+    icon: fa-calendar # Consider: fa-calendar
     link: events
   - text: "Medicaid</br>Mondays"
     icon: fa-bullhorn
     link: medicaid-mondays
-  - text: About
-    icon: fa-book
-    link: about
-  - text: Goals
-    icon: fa-check-square
-    link: goals
+  - text: "Social</br>Media"
+    icon: fa-comments
+    link: social-media
 slides:
   - img/bojangles.jpg
   - img/IMG_9077.JPG
@@ -30,76 +27,6 @@ slides:
   - img/640641E4-BCFC-4D5F-9046-F71D51B10945.jpeg
   - "img/Medicaid March Meme - Eviction=Death.jpg"
 ---
-
-## Events
-
-![Week of Action Essential Infrastructure]({{"/img/nvma-2021/Ppf3-01-01.png" | url}})
-
-No week of action scheduled yet for 2025.
-
-Information on historical events and weeks of action are available at the following:
-
-- [2024 Week of Action September 21-28]({{"/woa/2024" | url}})
-- [2023 Events]({{"/woa/2023" | url}})
-- [2022 Events]({{"/woa/2022" | url}})
-- [2021 Events]({{"/woa/2021" | url}})
-
-Check out the [Toolkit](https://docs.google.com/document/d/143woVyrS6FDwORDoFvCDDErZUBMaOVIQTy_Zj-6e5Vg).
-
-<div style="clear:both;"></div>
-
-## Medicaid Mondays
-
-Personal stories are powerful. The NVMA calls on folks to share their
-stories as part of #MedicaidMondays, a critical tactic in our ongoing
-Medicaid Cut-Offs Organizing Drive. When we share our own experience,
-our own healthcare story, we break our isolation and we build our
-movement!
-
-And it’s easy to do!  Post a photo of yourself on social media holding
-a sign, a piece of paper or a dry erase board with the hashtags
-`#MedicaidCutsEqualsDeath`, `#NonviolentMedicaidArmy`,
-`#OrganizeProtectExpandMedicaid`, and `#Medicaid4All`.  Include a few
-sentences on the sign itself (Example 1) stating why protecting and
-expanding Medicaid is important to you and your family or (Example 2)
-include only the hashtag on the sign and put your story in the body of
-the post.
-
-Another option is to make a short video, no longer than a minute or
-two, stating why protecting and expanding Medicaid is important to you
-and post to social media with a short blurb and the same
-hashtags. Examples are below.
-
-Additionally, if it’s easier, you can complete [this
-form](https://forms.gle/JsW4LCHouoEz2mZy5) to share your story with
-us!
-
-1. **Example 1**:
-
-    ![Example 1]({{ "/img/woody-medicaid-monday.jpg"|url }})
-
-    I just replaced one hip, I need the other done. It’s great to have
-    Medicaid, but the only problem is when the insurance wanna take
-    you through the ringer. It’s a shame when they know you’re needing
-    help but hassle you for what you need. I need a cardiologist but
-    it’s not easy to get them.
-
-<div style="clear:both;"></div>
-
-2. **Example 2**:
-
-    ![Example 2]({{ "/img/mm-example-2.png"|url }})
-
-    My name is Tammy Rosing, and I live in Lancaster
-    County. Protecting Medicaid and expanding it to all residents is
-    important to me because we all deserve healthcare and I need to be
-    able to continue to take my life sustaining medication and to keep
-    being able to see my specialist doctors. No one should be cut off
-    of healthcare in Pennsylvania or anywhere in the U.S.
-    #MedicaidCutsEqualsDeath #NonviolentMedicaidArmy
-    #OrganizeProtectExpandMedicaid #Medicaid4All
-
-<div style="clear:both;"></div>
 
 ## About
 
@@ -175,7 +102,7 @@ army commensurate with the times we are living in.
 
 ![Poor Peoples Campaign Event Image]({{"/img/image2-crop.jpg" | url}})
 
-## Goals
+### Goals
 
 - Unite the working class across lines of division
 
@@ -186,3 +113,94 @@ army commensurate with the times we are living in.
 
 - Achieve a universal, single-payer healthcare system and all of our
   human rights
+
+
+## Events
+
+![Week of Action Essential Infrastructure]({{"/img/nvma-2021/Ppf3-01-01.png" | url}})
+
+No week of action scheduled yet for 2025.
+
+Information on historical events and weeks of action are available at the following:
+
+- [2024 Week of Action September 21-28]({{"/woa/2024" | url}})
+- [2023 Events]({{"/woa/2023" | url}})
+- [2022 Events]({{"/woa/2022" | url}})
+- [2021 Events]({{"/woa/2021" | url}})
+
+Check out the [Toolkit](https://docs.google.com/document/d/143woVyrS6FDwORDoFvCDDErZUBMaOVIQTy_Zj-6e5Vg).
+
+<div style="clear:both;"></div>
+
+## Medicaid Mondays
+
+Personal stories are powerful. The NVMA calls on folks to share their
+stories as part of `#MedicaidMondays`, a critical tactic in our ongoing
+Medicaid Cut-Offs Organizing Drive. When we share our own experience,
+our own healthcare story, we break our isolation and we build our
+movement!
+
+And it’s easy to do!  Post a photo of yourself on social media holding
+a sign, a piece of paper or a dry erase board with the hashtags
+`#MedicaidCutsEqualsDeath`, `#NonviolentMedicaidArmy`,
+`#OrganizeProtectExpandMedicaid`, and `#Medicaid4All`.  Include a few
+sentences on the sign itself (Example 1) stating why protecting and
+expanding Medicaid is important to you and your family or (Example 2)
+include only the hashtag on the sign and put your story in the body of
+the post.
+
+Another option is to make a short video, no longer than a minute or
+two, stating why protecting and expanding Medicaid is important to you
+and post to social media with a short blurb and the same
+hashtags. Examples are below.
+
+Additionally, if it’s easier, you can complete [**THIS
+FORM**](https://forms.gle/JsW4LCHouoEz2mZy5) to share your story with
+us!
+
+- **Example 1**
+
+    ![Example 1]({{ "/img/woody-medicaid-monday.jpg"|url }})
+
+    I just replaced one hip, I need the other done. It’s great to have
+    Medicaid, but the only problem is when the insurance wanna take
+    you through the ringer. It’s a shame when they know you’re needing
+    help but hassle you for what you need. I need a cardiologist but
+    it’s not easy to get them.
+    `#MedicaidMondays` `#Medicaid4All` `#HealthcareIsAHumanRight`
+    
+    -- Woody, Southeast PA
+
+<div style="clear:both;"></div>
+
+- **Example 2**
+
+    ![Example 2]({{ "/img/mm-example-2.png"|url }})
+
+    My name is Tammy Rosing, and I live in Lancaster
+    County. Protecting Medicaid and expanding it to all residents is
+    important to me because we all deserve healthcare and I need to be
+    able to continue to take my life sustaining medication and to keep
+    being able to see my specialist doctors. No one should be cut off
+    of healthcare in Pennsylvania or anywhere in the U.S.
+    #MedicaidCutsEqualsDeath #NonviolentMedicaidArmy
+    #OrganizeProtectExpandMedicaid #Medicaid4All
+
+    -- Tammy, Lancaster County
+
+<div style="clear:both;"></div>
+
+## Social Media
+
+Follow us on social media to keep up-to-date with what's going on, get
+announcements and see people's `#MedicaidMondays` stories!  You can also
+connect with us here!
+
+<i class="fa fa-facebook-square"></i> **Facebook**  
+<https://www.facebook.com/nonviolentmedicaidarmy>
+
+<i class="fa fa-instagram"></i> **Instagram**  
+<https://www.instagram.com/nationalnonviolentmedicaidarmy/>
+
+<i class="fab fa-tiktok"></i> **TikTok**  
+<https://tiktok.com/@medicaidarmy>
