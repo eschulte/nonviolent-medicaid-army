@@ -117,9 +117,11 @@ army commensurate with the times we are living in.
 
 ## Events
 
-![Week of Action Essential Infrastructure]({{"/img/nvma-2021/Ppf3-01-01.png" | url}})
+### **NATIONAL DAY OF ACTION FOR MEDICAID on SEPTEMBER 6!**
 
-No week of action scheduled yet for 2025.
+![National Day of Action]({{"/img/2025-09-06.png" | url}}){class="full"}
+
+<div style="clear:both;"></div>
 
 Information on historical events and weeks of action are available at the following:
 

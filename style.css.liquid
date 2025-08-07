@@ -79,10 +79,17 @@ sidebar-padded {}
 }
 
 @media (min-width:600px) {
-    .main-content img {
+    .main-content img:not(.full) {
         float: right;
         padding:2em;
         width: 40%;
+        height: auto;
+    }
+    .main-content img.full {
+        margin:auto;
+        display:block;
+        padding:2em;
+        width: 80%;
         height: auto;
     }
 }
