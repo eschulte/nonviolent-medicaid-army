@@ -123,6 +123,18 @@ army commensurate with the times we are living in.
 
 <div style="clear:both;"></div>
 
+Every year since 2020, the Nonviolent Medicaid Army has hosted a
+national Week of Action in September.  This year, the NVMA is
+organizing a coordinated **National Day of Action for Medicaid** on
+September 6. Each participating state is asked to hold a
+rally/speakout, big or small, consisting of speakers, songs,
+education, and most importantly, people lifting up their own stories
+and experiences, describing the plight (impact), fight (the power of
+our collective struggle) and insight (what we’re learning). Join with
+the Nonviolent Medicaid Army and partners in states around the country
+to make the invisible visible, develop our leadership and grow our
+army!
+
 Information on historical events and weeks of action are available at the following:
 
 - [2024 Week of Action September 21-28]({{"/woa/2024" | url}})
