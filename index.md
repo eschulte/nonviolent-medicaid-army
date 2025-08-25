@@ -2,18 +2,50 @@
 layout: home
 title: Nonviolent Medicaid Army
 anchors:
+  - text: "National Day</br>of Action"
+    link: "national-day-of-action-for-medicaid-on-september-6!"
+    icon: fa-hands-helping
   - text: About
     icon: fa-book
     link: about
-  - text: Events
+  - text: "Past</br>Events"
     icon: fa-calendar # Consider: fa-calendar
-    link: events
+    link: past-events
   - text: "Medicaid</br>Mondays"
     icon: fa-bullhorn
     link: medicaid-mondays
   - text: "Social</br>Media"
     icon: fa-comments
     link: social-media
+events:
+  - only: "/img/nvma-2025/Armstrong County PA DOA 2025.png"
+    day: 2025-09-06
+  - only: "/img/nvma-2025/CORRECTED Albany NY NVMA 2025 Graphic Instagram Post.png"
+    day: 2025-09-06
+  - only: "/img/nvma-2025/Cumberland MD DOA 2025.jpg"
+    day: 2025-09-06
+  - only: "/img/nvma-2025/Greenfield MA DOA 2025.jpg"
+    day: 2025-09-06
+  - only: "/img/nvma-2025/IN WOA 2025.png"
+    day: 2025-09-06
+  - only: "/img/nvma-2025/NEPA DOA 2025.png"
+    day: 2025-09-06
+  - only: "/img/nvma-2025/NYC NVMA DOA image.png"
+    day: 2025-09-06
+  - only: "/img/nvma-2025/Ohio NVMA WOA Graphic.png"
+    day: 2025-09-06
+  - only: "/img/nvma-2025/SEPA NVMA DOA 2025.jpeg"
+    day: 2025-09-06
+  - only: "/img/nvma-2025/SWPA DOA 2025.jpg"
+    day: 2025-09-06
+  - only: "/img/nvma-2025/Tulsa OK DOA 2025.png"
+    day: 2025-09-06
+  - only: "/img/nvma-2025/VWC DOA 2025.jpeg"
+    day: 2025-09-06
+  - only: "/img/nvma-2025/WI WOA 2025.png"
+    day: 2025-09-06
+  - only: "/img/nvma-2025/Westminster MD DOA 2025.jpg"
+    day: 2025-09-06
 slides:
   - img/bojangles.jpg
   - img/IMG_9077.JPG
@@ -27,6 +59,60 @@ slides:
   - img/640641E4-BCFC-4D5F-9046-F71D51B10945.jpeg
   - "img/Medicaid March Meme - Eviction=Death.jpg"
 ---
+
+## **NATIONAL DAY OF ACTION FOR MEDICAID on SEPTEMBER 6!**
+
+![National Day of Action]({{"/img/2025-09-06.png" | url}}){class="full"}
+
+<div style="clear:both;"></div>
+
+Every year since 2020, the Nonviolent Medicaid Army has hosted a
+national Week of Action in September.  This year, the NVMA is
+organizing a coordinated **National Day of Action for Medicaid** on
+September 6. Each participating state is asked to hold a
+rally/speakout, big or small, consisting of speakers, songs,
+education, and most importantly, people lifting up their own stories
+and experiences, describing the plight (impact), fight (the power of
+our collective struggle) and insight (what we’re learning). Join with
+the Nonviolent Medicaid Army and partners in states around the country
+to make the invisible visible, develop our leadership and grow our
+army!
+
+{% for event in events %}
+
+<div class="w3-half w3-container w3-margin-bottom">
+{% if event.only %}
+{% if event.link %}
+<a href="{{ event.link }}">
+{% else %}
+<a href="{{ event.only | url}}">
+{% endif%}
+<img src="{{ event.only | url}}" alt="event only image" style="width:100%; max-height: 100%; object-fit: cover;">
+</a>
+{% else %}
+  <div style="min-height: 300px" class="w3-gray">
+    <img src="{{ event.image | url}}" alt="event image" style="width:100%; max-height: 300px; object-fit: cover;">
+  </div>
+<div class="w3-container w3-gray event-details clamped">
+{% if event.link %}
+<h3><a href="{{ event.link }}">{{ event.name }}</a></h3>
+{% else %}
+<h3>{{ event.name }}</h3>
+{% endif%}
+<b>Date:</b> {{ event.date }}</br>
+{% if event.address %}
+<b>Address:</b> {{ event.address }}</br>
+{% endif %}
+</br>
+<b>Details:</b>
+<hr style="width:100px; border-top: 1px solid black; margin: 0.25em 0;" class="w3-opacity">
+{% markdown %}
+{{ event.details }}
+{% endmarkdown %}
+</div>
+{% endif %}
+</div>
+{% endfor %}
 
 ## About
 
@@ -115,25 +201,7 @@ army commensurate with the times we are living in.
   commodity
 
 
-## Events
-
-### **NATIONAL DAY OF ACTION FOR MEDICAID on SEPTEMBER 6!**
-
-![National Day of Action]({{"/img/2025-09-06.png" | url}}){class="full"}
-
-<div style="clear:both;"></div>
-
-Every year since 2020, the Nonviolent Medicaid Army has hosted a
-national Week of Action in September.  This year, the NVMA is
-organizing a coordinated **National Day of Action for Medicaid** on
-September 6. Each participating state is asked to hold a
-rally/speakout, big or small, consisting of speakers, songs,
-education, and most importantly, people lifting up their own stories
-and experiences, describing the plight (impact), fight (the power of
-our collective struggle) and insight (what we’re learning). Join with
-the Nonviolent Medicaid Army and partners in states around the country
-to make the invisible visible, develop our leadership and grow our
-army!
+## Past Events
 
 Information on historical events and weeks of action are available at the following:
 

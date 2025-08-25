@@ -14,7 +14,7 @@ layout: default
   <!-- Avatar image in top left corner -->
   <a href="#"><img src='{{ "/img/national-logo-1-alpha.png" | url }}' alt="logo" style="width:100%"></a>
     {% for anchor in anchors %}
-    <a href="#{{ anchor.link|url }}" class="w3-bar-item"><i class="fa {{ anchor.icon }} w3-xxlarge"></i><div><p>{{ anchor.text |upcase }}</p></div></a></br>
+    <a href="#{{ anchor.link|url }}" class="w3-bar-item"><i class="fas {{ anchor.icon }} w3-xxlarge"></i><div><p>{{ anchor.text |upcase }}</p></div></a></br>
     {% endfor %}
 </nav>
 
