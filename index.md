@@ -78,8 +78,14 @@ the Nonviolent Medicaid Army and partners in states around the country
 to make the invisible visible, develop our leadership and grow our
 army!
 
-{% for event in events %}
+Check out the
+[Toolkit](https://docs.google.com/document/d/1DX00RD3eDOtAiAtC-SBeLbTsfcdSLfrt2m3s3CULgao/edit?fbclid=IwY2xjawMZpsVleHRuA2FlbQIxMABicmlkETF6NEVpUlp2QzU3SlN6TXo2AR45Y22MtKs5TQZg4r3Szq1qPj_BP5-_R_j6GpfzuDOpRswDx_Tbkw9dpxZoJA_aem_98eDVj-5YneK67KRHZJyJg&tab=t.0)
+and the [Action
+Guidelines](https://docs.google.com/document/d/1WDiEKUruxrJ_vlzuxodho4sSeLFq553ZbvsaMVB8tWg/edit?fbclid=IwY2xjawMZpodleHRuA2FlbQIxMABicmlkETF6NEVpUlp2QzU3SlN6TXo2AR6N_I_mQut0M8AskDH7iX44gXq4mSCMWfMhEs2hu9r0oqAhz81-P0d6jY2zaA_aem_QiVLgmwvQebClcqwSwUzMg&tab=t.0).
 
+Here are some of the actions happening around the country!
+
+{% for event in events %}
 <div class="w3-half w3-container w3-margin-bottom">
 {% if event.only %}
 {% if event.link %}
