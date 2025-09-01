@@ -20,13 +20,17 @@ anchors:
 events:
   - only: "/img/nvma-2025/Armstrong County PA DOA 2025.png"
     day: 2025-09-06
+  - only: "/img/nvma-2025/Baltimore MD DOA 2025.jpg"
+    day: 2025-09-06
   - only: "/img/nvma-2025/CORRECTED Albany NY NVMA 2025 Graphic Instagram Post.png"
     day: 2025-09-06
   - only: "/img/nvma-2025/Cumberland MD DOA 2025.jpg"
     day: 2025-09-06
   - only: "/img/nvma-2025/Greenfield MA DOA 2025.jpg"
     day: 2025-09-06
-  - only: "/img/nvma-2025/IN WOA 2025.png"
+  - only: "/img/nvma-2025/IN DOA 2025.jpg"
+    day: 2025-09-06
+  - only: "/img/nvma-2025/LI NVMA DOA image.jpg"
     day: 2025-09-06
   - only: "/img/nvma-2025/NEPA DOA 2025.png"
     day: 2025-09-06
@@ -34,7 +38,9 @@ events:
     day: 2025-09-06
   - only: "/img/nvma-2025/Ohio NVMA WOA Graphic.png"
     day: 2025-09-06
-  - only: "/img/nvma-2025/SEPA NVMA DOA 2025.jpeg"
+  - only: "/img/nvma-2025/SEPA DOA 2025.jpeg"
+    day: 2025-09-06
+  - only: "/img/nvma-2025/Southern Story Share DOA 2025 image.jpg"
     day: 2025-09-06
   - only: "/img/nvma-2025/SWPA DOA 2025.jpg"
     day: 2025-09-06
