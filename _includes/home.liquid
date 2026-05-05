@@ -2,56 +2,46 @@
 layout: default
 ---
 
-<!-- Header / Home-->
+<nav class="topnav">
+  <div class="topnav-inner">
+    <a href="#top" class="topnav-logo">
+      <img src='{{ "/img/national-logo-1-alpha.png" | url }}' alt="logo">
+      <span class="desktop-title">Nonviolent Medicaid Army</span>
+      <span class="mobile-title">NVMA</span>
+    </a>
+    <div class="topnav-links">
+      {% for anchor in anchors %}
+      <a href="#{{ anchor.link|url }}">{{ anchor.text }}</a>
+      {% endfor %}
+    </div>
+  </div>
+</nav>
+
 <header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
   <div class="w3-display-middle-high w3-text-light-gray w3-center">
     <h1 class="w3-jumbo">Nonviolent Medicaid Army</h1>
   </div>
 </header>
 
-<!-- Icon Bar (Sidebar - hidden on small screens) -->
-<nav class="w3-sidebar w3-small w3-hide-small w3-center w3-text-white" style="background:transparent; top:0px; left:0px;">
-  <!-- Avatar image in top left corner -->
-  <a href="#"><img src='{{ "/img/national-logo-1-alpha.png" | url }}' alt="logo" style="width:100%"></a>
-    {% for anchor in anchors %}
-    <a href="#{{ anchor.link|url }}" class="w3-bar-item"><i class="fas {{ anchor.icon }} w3-xxlarge"></i><div><p>{{ anchor.text |upcase }}</p></div></a></br>
-    {% endfor %}
-</nav>
+<section id="state-organizers" class="state-organizers">
+  <h2 id="by-state">Connect with Organizers in Your State</h2>
+  <p>Select your state to connect with local organizers.</p>
+  {% include "us-map.liquid" %}
+</section>
 
-<!-- Navbar on small screens (Hidden on medium and large screens) -->
-<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-  <div class="w3-bar w3-opacity w3-hover-opacity-off w3-center w3-small">
-    {% for anchor in anchors %}
-    <a href="#{{ anchor.link|url }}" class="w3-bar-item w3-button w3-text-white"><div>{{ anchor.text |upcase }}</div></a>
-    {% endfor %}
-  </div></a>
-</div>
-
-<div class="sidebar-padded w3-dark-grey main-content">
+<div class="w3-dark-grey main-content">
   {{ content }}
 </div>
 
-    <div class="sidebar-padded w3-container w3-padding-64 w3-dark-grey w3-center" id="wedding">
-      <div class="w3-content">
-        <div class="slideshow-container">
-          {% for slide in slides %}
-          <div class="mySlides fade">
-            <div class="numbertext">{{ forloop.index }} / {{ slides.length }}</div>
-            <img src='{{ slide | url }}' alt="slide show image {{ forloop.index }}" style="max-height: 600px; max-width: 100%;">
-          </div>
-          {% endfor %}
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
-        <br>
-        <div style="text-align:center">
-          {% for slide in slides %}
-          <span class="dot" onclick="currentSlide({{ forloop.index }})"></span>
-          {% endfor %}
-        </div>
-      </div>
+<section id="past-events">
+  <div class="gallery-grid">
+    {% for image in past_event_gallery %}
+    <div class="gallery-item">
+      <img src="{{ image | url }}" alt="Past event image {{ forloop.index }}">
     </div>
-  </body>
+    {% endfor %}
+  </div>
+</section>
 
 <script>
 // Missing in some older browsers

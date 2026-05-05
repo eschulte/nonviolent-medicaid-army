@@ -1,58 +1,22 @@
 ---
 layout: home
 title: Nonviolent Medicaid Army
-anchors:
-  - text: "National Day</br>of Action"
-    link: "national-day-of-action-for-medicaid-on-september-6!"
-    icon: fa-hands-helping
-  - text: About
-    icon: fa-book
-    link: about
-  - text: "Past</br>Events"
-    icon: fa-calendar # Consider: fa-calendar
-    link: past-events
-  - text: "Medicaid</br>Mondays"
-    icon: fa-bullhorn
-    link: medicaid-mondays
-  - text: "Social</br>Media"
-    icon: fa-comments
-    link: social-media
-events:
-  - only: "/img/nvma-2025/Armstrong County PA DOA 2025.png"
-    day: 2025-09-06
-  - only: "/img/nvma-2025/Baltimore MD DOA 2025.jpg"
-    day: 2025-09-06
-  - only: "/img/nvma-2025/CORRECTED Albany NY NVMA 2025 Graphic Instagram Post.png"
-    day: 2025-09-06
-  - only: "/img/nvma-2025/Cumberland MD DOA 2025.jpg"
-    day: 2025-09-06
-  - only: "/img/nvma-2025/Greenfield MA DOA 2025.jpg"
-    day: 2025-09-06
-  - only: "/img/nvma-2025/IN DOA 2025.jpg"
-    day: 2025-09-06
-  - only: "/img/nvma-2025/LI NVMA DOA image.jpg"
-    day: 2025-09-06
-  - only: "/img/nvma-2025/NEPA DOA 2025.png"
-    day: 2025-09-06
-  - only: "/img/nvma-2025/NYC NVMA DOA image.png"
-    day: 2025-09-06
-  - only: "/img/nvma-2025/Ohio NVMA WOA Graphic.png"
-    day: 2025-09-06
-  - only: "/img/nvma-2025/SEPA DOA 2025.jpeg"
-    day: 2025-09-06
-  - only: "/img/nvma-2025/Southern Story Share DOA 2025 image.jpg"
-    day: 2025-09-06
-  - only: "/img/nvma-2025/SWPA DOA 2025.jpg"
-    day: 2025-09-06
-  - only: "/img/nvma-2025/Tulsa OK DOA 2025.png"
-    day: 2025-09-06
-  - only: "/img/nvma-2025/VWC DOA 2025.jpeg"
-    day: 2025-09-06
-  - only: "/img/nvma-2025/WI WOA 2025.png"
-    day: 2025-09-06
-  - only: "/img/nvma-2025/Westminster MD DOA 2025.jpg"
-    day: 2025-09-06
-slides:
+state_contacts:
+  Georgia: mailto:nonviolentmedicaidarmy@gmail.com
+  Indiana: mailto:nonviolentmedicaidarmy@gmail.com
+  Maryland: mailto:nonviolentmedicaidarmy@gmail.com
+  Massachusetts: mailto:nonviolentmedicaidarmy@gmail.com
+  Montana: mailto:nonviolentmedicaidarmy@gmail.com
+  New York: mailto:nonviolentmedicaidarmy@gmail.com
+  North Carolina: mailto:nonviolentmedicaidarmy@gmail.com
+  Ohio: mailto:nonviolentmedicaidarmy@gmail.com
+  Oklahoma: mailto:nonviolentmedicaidarmy@gmail.com
+  Pennsylvania: mailto:nonviolentmedicaidarmy@gmail.com
+  Texas: mailto:nonviolentmedicaidarmy@gmail.com
+  Vermont: mailto:nonviolentmedicaidarmy@gmail.com
+  Virginia: mailto:nonviolentmedicaidarmy@gmail.com
+  Wisconsin: mailto:nonviolentmedicaidarmy@gmail.com
+past_event_gallery:
   - img/bojangles.jpg
   - img/IMG_9077.JPG
   - img/vermont.jpg
@@ -63,68 +27,24 @@ slides:
   - img/27E6D2BB-B7DE-4184-ADFA-9CEAB47DC328.jpeg
   - img/2EDA5F3F-2216-41A1-AF50-35229ACE38B1.jpeg
   - img/640641E4-BCFC-4D5F-9046-F71D51B10945.jpeg
-  - "img/Medicaid March Meme - Eviction=Death.jpg"
+  - img/Medicaid March Meme - Eviction=Death.jpg
+anchors:
+  - text: By State
+    icon: fa-book
+    link: by-state
+  - text: About
+    icon: fa-book
+    link: about
+  - text: "Past Events"
+    icon: fa-calendar # Consider: fa-calendar
+    link: past-events
+  - text: "Medicaid Mondays"
+    icon: fa-bullhorn
+    link: medicaid-mondays
+  - text: "Social Media"
+    icon: fa-comments
+    link: social-media
 ---
-
-## **NATIONAL DAY OF ACTION FOR MEDICAID on SEPTEMBER 6!**
-
-![National Day of Action]({{"/img/2025-09-06.png" | url}}){class="full"}
-
-<div style="clear:both;"></div>
-
-Every year since 2020, the Nonviolent Medicaid Army has hosted a
-national Week of Action in September.  This year, the NVMA is
-organizing a coordinated **National Day of Action for Medicaid** on
-September 6. Each participating state is asked to hold a
-rally/speakout, big or small, consisting of speakers, songs,
-education, and most importantly, people lifting up their own stories
-and experiences, describing the plight (impact), fight (the power of
-our collective struggle) and insight (what we’re learning). Join with
-the Nonviolent Medicaid Army and partners in states around the country
-to make the invisible visible, develop our leadership and grow our
-army!
-
-Check out the
-[Toolkit](https://docs.google.com/document/d/1DX00RD3eDOtAiAtC-SBeLbTsfcdSLfrt2m3s3CULgao/edit?fbclid=IwY2xjawMZpsVleHRuA2FlbQIxMABicmlkETF6NEVpUlp2QzU3SlN6TXo2AR45Y22MtKs5TQZg4r3Szq1qPj_BP5-_R_j6GpfzuDOpRswDx_Tbkw9dpxZoJA_aem_98eDVj-5YneK67KRHZJyJg&tab=t.0)
-and the [Action
-Guidelines](https://docs.google.com/document/d/1WDiEKUruxrJ_vlzuxodho4sSeLFq553ZbvsaMVB8tWg/edit?fbclid=IwY2xjawMZpodleHRuA2FlbQIxMABicmlkETF6NEVpUlp2QzU3SlN6TXo2AR6N_I_mQut0M8AskDH7iX44gXq4mSCMWfMhEs2hu9r0oqAhz81-P0d6jY2zaA_aem_QiVLgmwvQebClcqwSwUzMg&tab=t.0).
-
-Here are some of the actions happening around the country!
-
-{% for event in events %}
-<div class="w3-half w3-container w3-margin-bottom">
-{% if event.only %}
-{% if event.link %}
-<a href="{{ event.link }}">
-{% else %}
-<a href="{{ event.only | url}}">
-{% endif%}
-<img src="{{ event.only | url}}" alt="event only image" style="width:100%; max-height: 100%; object-fit: cover;">
-</a>
-{% else %}
-  <div style="min-height: 300px" class="w3-gray">
-    <img src="{{ event.image | url}}" alt="event image" style="width:100%; max-height: 300px; object-fit: cover;">
-  </div>
-<div class="w3-container w3-gray event-details clamped">
-{% if event.link %}
-<h3><a href="{{ event.link }}">{{ event.name }}</a></h3>
-{% else %}
-<h3>{{ event.name }}</h3>
-{% endif%}
-<b>Date:</b> {{ event.date }}</br>
-{% if event.address %}
-<b>Address:</b> {{ event.address }}</br>
-{% endif %}
-</br>
-<b>Details:</b>
-<hr style="width:100px; border-top: 1px solid black; margin: 0.25em 0;" class="w3-opacity">
-{% markdown %}
-{{ event.details }}
-{% endmarkdown %}
-</div>
-{% endif %}
-</div>
-{% endfor %}
 
 ## About
 
@@ -212,11 +132,11 @@ army commensurate with the times we are living in.
 - Transform the system so that healthcare is a guaranteed right, not a
   commodity
 
-
 ## Past Events
 
 Information on historical events and weeks of action are available at the following:
 
+- [2025 Day of Action September 6]({{"/woa/2025" | url}})
 - [2024 Week of Action September 21-28]({{"/woa/2024" | url}})
 - [2023 Events]({{"/woa/2023" | url}})
 - [2022 Events]({{"/woa/2022" | url}})
