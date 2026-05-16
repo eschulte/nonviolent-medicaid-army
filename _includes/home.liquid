@@ -25,9 +25,112 @@ layout: default
 
 <section id="state-organizers" class="state-organizers">
   <h2 id="by-state">Connect with Organizers in Your State</h2>
-  <p>Select your state to connect with local organizers.</p>
-  {% include "us-map.liquid" %}
+  <p>Select a highlighted state to connect with local organizers.</p>
+  
+  <div id="map-shifting-container" class="full-width-map-container">
+    <div class="map-container">
+      {% include "us-map.liquid" %}
+    </div>
+  </div>
 </section>
+
+<div id="state-drawer" class="state-drawer">
+  <div class="drawer-header">
+    <h3 id="drawer-state-name">State Details</h3>
+    <button id="close-drawer-btn" class="close-btn">&times;</button>
+  </div>
+  <div class="drawer-body">
+    <div id="drawer-gallery" class="drawer-gallery"></div>
+  </div>
+  
+  <div class="drawer-actions">
+    <a id="drawer-email-btn" href="#" class="drawer-cta-btn">
+      <i class="fa fa-envelope"></i> Contact State Organizers
+    </a>
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const stateData = {
+    {% for contact in state_contacts %}
+    {% assign state_name = contact[0] %}
+    {% assign pics = state_pics[state_name] %}
+    "{{ state_name | downcase }}": {
+      name: "{{ state_name }}",
+      email: "{{ contact[1] }}",
+      images: [
+        {% if pics %}
+          {% for pic in pics %}
+            "{{ pic | prepend: '/' | url }}"{% unless forloop.last %},{% endunless %}
+          {% endfor %}
+        {% endif %}
+      ]
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  };
+
+  const drawer = document.getElementById("state-drawer");
+  const mapContainer = document.getElementById("map-shifting-container");
+  const paths = document.querySelectorAll(".map-container svg path");
+  
+  function closeDrawer() {
+    drawer.classList.remove("is-open");
+    mapContainer.classList.remove("map-shifted");
+    document.querySelectorAll(".is-selected").forEach(p => p.classList.remove("is-selected"));
+  }
+
+  paths.forEach(path => {
+    const title = path.querySelector("title")?.textContent?.trim().toLowerCase();
+    if (title && stateData[title]) {
+      path.classList.add("has-organizers");
+      path.addEventListener("click", function(e) {
+        e.stopPropagation();
+        document.querySelectorAll(".is-selected").forEach(p => p.classList.remove("is-selected"));
+        path.classList.add("is-selected");
+        displayStateDetails(stateData[title]);
+      });
+    }
+  });
+
+  function displayStateDetails(data) {
+    document.getElementById("drawer-state-name").textContent = data.name;
+    document.getElementById("drawer-email-btn").setAttribute("href", data.email);
+    const gallery = document.getElementById("drawer-gallery");
+    gallery.innerHTML = "";
+    
+    // Ensure we have images to show
+    if (data.images && data.images.length > 0) {
+      data.images.forEach(imgUrl => {
+        const img = document.createElement("img");
+        img.src = imgUrl;
+        img.alt = `Organizing in ${data.name}`;
+        gallery.appendChild(img);
+      });
+    } else {
+      const msg = document.createElement("p");
+      msg.textContent = "Photo gallery coming soon.";
+      msg.style.opacity = "0.6";
+      gallery.appendChild(msg);
+    }
+    
+    drawer.classList.add("is-open");
+    mapContainer.classList.add("map-shifted");
+  }
+
+  document.getElementById("close-drawer-btn").addEventListener("click", closeDrawer);
+
+  // Close on backdrop click (anywhere not inside the drawer)
+  document.addEventListener("click", function(event) {
+    const isClickInsideDrawer = drawer.contains(event.target);
+    const isClickOnCloseBtn = event.target.closest('#close-drawer-btn');
+    
+    if (!isClickInsideDrawer && drawer.classList.contains("is-open") && !isClickOnCloseBtn) {
+      closeDrawer();
+    }
+  });
+});
+</script>
 
 <div class="w3-dark-grey main-content">
   {{ content }}

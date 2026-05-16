@@ -280,57 +280,229 @@ a:focus {
 }
 
 /* =========================================================
-   STATE MAP
+   STATE MAP & DRAWER BROWSER
 ========================================================= */
 
-.state {
+.state-organizers {
+    padding: 4rem 1rem;
+    text-align: center;
+    overflow: hidden; /* Contain the shifting map */
+}
+
+.full-width-map-container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.full-width-map-container.map-shifted {
+    transform: translateX(-30%); /* Shift left when drawer opens */
+}
+
+@media(max-width: 1200px) {
+    .full-width-map-container.map-shifted {
+        transform: translateX(-40%);
+    }
+}
+
+@media(max-width: 1000px) {
+    .full-width-map-container.map-shifted {
+        transform: none; /* Mobile centering */
+    }
+}
+
+.map-container {
+  padding: 20px;
+  width: 100%;
+  max-width: 1000px; /* Reinstate constraints for better aesthetics */
+  background: transparent;
+}
+
+.map-container svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Slide-Out Drawer Styling */
+.state-drawer {
+  position: fixed;
+  top: 0;
+  right: -90%; /* Hidden off-screen */
+  width: 80%; /* Widen as requested */
+  max-width: 1200px;
+  height: 100%;
+  background: #1a1a1a; /* Dark background */
+  color: #fff;
+  box-shadow: -15px 0 50px rgba(0,0,0,0.7);
+  z-index: 10000;
+  transition: right 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.state-drawer.is-open {
+  right: 0;
+}
+
+.drawer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  background: #1b5e20;
+  color: #fff;
+}
+
+.drawer-header h3 {
+    margin: 0;
+    color: #fff;
+    border: none;
+    padding: 0;
+    font-size: 2.2rem;
+}
+
+.close-btn {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 48px;
+  cursor: pointer;
+  line-height: 1;
+  transition: transform 0.2s ease;
+}
+
+.close-btn:hover {
+    transform: scale(1.1);
+}
+
+.drawer-body {
+  padding: 30px;
+  overflow: hidden; /* No scroll, images must scale */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.drawer-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  flex: 1;
+  min-height: 0;
+}
+
+.drawer-gallery img {
+  width: 100%;
+  height: 100%;
+  max-height: 38vh; /* Limit height relative to viewport */
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+  float: none !important;
+  padding: 0 !important;
+  border: 4px solid rgba(255,255,255,0.08) !important;
+  background: #2a2a2a !important;
+}
+
+.drawer-actions {
+    padding: 20px 30px 40px 30px; /* Extra bottom padding */
+    text-align: center;
+    border-top: 1px solid rgba(255,255,255,0.05);
+}
+
+.drawer-cta-btn {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  background: #4caf50;
+  color: #ffffff !important;
+  padding: 24px 50px;
+  border-radius: 60px;
+  font-weight: bold;
+  font-size: 1.4rem;
+  text-decoration: none !important;
+  box-shadow: 0 10px 25px rgba(76, 175, 80, 0.4);
+  transition: all 0.3s ease;
+}
+
+.drawer-cta-btn:hover {
+  background: #66bb6a;
+  transform: translateY(-4px);
+  box-shadow: 0 15px 35px rgba(76, 175, 80, 0.5);
+}
+
+/* --- SVG INTERACTION HOVER STATES (RESTORING ORIGINAL COLORS) --- */
+.map-container svg .state {
     fill: #D0D0D0;
 }
 
-.borders {
+.map-container svg .borders {
     stroke: #FFFFFF;
     stroke-width: 1;
 }
 
-.ga,
-.in,
-.md,
-.ma,
-.mt,
-.ny,
-.nc,
-.oh,
-.ok,
-.pa,
-.tx,
-.vt,
-.va,
-.wi {
+/* Specific active state classes (as defined in original style.css) */
+.map-container svg path.ga,
+.map-container svg path.in,
+.map-container svg path.md,
+.map-container svg path.ma,
+.map-container svg path.mt,
+.map-container svg path.ny,
+.map-container svg path.nc,
+.map-container svg path.oh,
+.map-container svg path.ok,
+.map-container svg path.pa,
+.map-container svg path.tx,
+.map-container svg path.vt,
+.map-container svg path.va,
+.map-container svg path.wi {
     fill: #6E8B5B;
     cursor: pointer;
     transition: fill 0.2s ease;
 }
 
-.ga:hover,
-.in:hover,
-.md:hover,
-.ma:hover,
-.mt:hover,
-.ny:hover,
-.nc:hover,
-.oh:hover,
-.ok:hover,
-.pa:hover,
-.tx:hover,
-.vt:hover,
-.va:hover,
-.wi:hover {
-    fill: #FFD54F;
+/* Match classes used by JS logic */
+.map-container svg path.has-organizers {
+    fill: #6E8B5B !important;
+    cursor: pointer;
+    stroke: #fff;
+    stroke-width: 1.5;
 }
 
-.state-organizers {
-    padding: 4rem 1rem;
-    text-align: center;
+.map-container svg path.has-organizers:hover,
+.map-container svg path.is-selected {
+    fill: #FFD54F !important;
+    stroke: #fff;
+    stroke-width: 2;
+}
+
+/* Mobile Adjustments */
+@media(max-width: 800px) {
+  .state-drawer {
+    width: 100%;
+    right: -100%;
+    max-width: none;
+  }
+  .drawer-gallery {
+      grid-template-columns: 1fr;
+  }
+  .drawer-body {
+      padding: 20px;
+  }
+  .drawer-cta-btn {
+      min-width: 80%;
+  }
 }
 
 /* =========================================================

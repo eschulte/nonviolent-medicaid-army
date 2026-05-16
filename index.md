@@ -2,20 +2,55 @@
 layout: home
 title: Nonviolent Medicaid Army
 state_contacts:
-  Georgia: mailto:nonviolentmedicaidarmy@gmail.com
+  Georgia: mailto:neiltellier@yahoo.com
+  Illinois: mailto:nonviolentmedicaidarmy@gmail.com
   Indiana: mailto:nonviolentmedicaidarmy@gmail.com
   Maryland: mailto:nonviolentmedicaidarmy@gmail.com
-  Massachusetts: mailto:nonviolentmedicaidarmy@gmail.com
+  Massachusetts: mailto:nonviolentmedicaidma@gmail.com
   Montana: mailto:nonviolentmedicaidarmy@gmail.com
-  New York: mailto:nonviolentmedicaidarmy@gmail.com
+  New York: mailto:nvma-ny@proton.me
   North Carolina: mailto:nonviolentmedicaidarmy@gmail.com
   Ohio: mailto:nonviolentmedicaidarmy@gmail.com
   Oklahoma: mailto:nonviolentmedicaidarmy@gmail.com
-  Pennsylvania: mailto:nonviolentmedicaidarmy@gmail.com
+  Pennsylvania: mailto:info@putpeoplefirstpa.org
   Texas: mailto:nonviolentmedicaidarmy@gmail.com
   Vermont: mailto:nonviolentmedicaidarmy@gmail.com
   Virginia: mailto:nonviolentmedicaidarmy@gmail.com
-  Wisconsin: mailto:nonviolentmedicaidarmy@gmail.com
+  Wisconsin: mailto:wisconsin.nvma@gmail.com
+  Wyoming: mailto:nonviolentmedicaidarmy@gmail.com
+state_pics:
+  Georgia:
+    - states/ga/GA pic 1 of 3.jpeg
+    - states/ga/GA pic 2 of 3.jpeg
+    - states/ga/GA pic 3 of 3.jpeg
+  Illinois:
+  Indiana:
+  Maryland:
+  Massachusetts:
+    - states/ma/MA pic 2of2.jpeg
+    - states/ma/MA pic 1of2.jpeg
+  Montana:
+  New York:
+    - states/ny/NY 1 of 4.jpg
+    - states/ny/NY 3 of 4.jpg
+    - states/ny/NY 2 of 4.jpg
+    - states/ny/NY  4of 4.jpg
+  North Carolina:
+  Ohio:
+  Oklahoma:
+  Pennsylvania:
+    - states/pa/PA pic 1of1.jpeg
+  Texas:
+  Vermont:
+    - states/vt/Vermont 1of3.jpeg
+    - states/vt/Vermont2of3.jpeg
+    - states/vt/Vermont3of3.jpeg
+  Virginia:
+  Wisconsin:
+    - states/ws/WI pic 1 of 3.jpg
+    - states/ws/WI- Coffin NDA 2025 pic 2 of3.jpeg
+    - states/ws/WI - NDA 2025 March Pic 3 of 3.jpeg
+  Wyoming:
 past_event_gallery:
   - img/bojangles.jpg
   - img/IMG_9077.JPG
