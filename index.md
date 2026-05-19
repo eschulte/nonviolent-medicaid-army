@@ -4,7 +4,7 @@ title: Nonviolent Medicaid Army
 state_contacts:
   Georgia: mailto:neiltellier@yahoo.com
   Illinois: mailto:nonviolentmedicaidarmy@gmail.com
-  Indiana: mailto:nonviolentmedicaidarmy@gmail.com
+  Indiana: mailto:hhrc.richmond@gmail.com
   Maryland: mailto:nonviolentmedicaidarmy@gmail.com
   Massachusetts: mailto:nonviolentmedicaidma@gmail.com
   Montana: mailto:nonviolentmedicaidarmy@gmail.com
