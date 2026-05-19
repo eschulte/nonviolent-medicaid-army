@@ -25,6 +25,10 @@ state_pics:
     - states/ga/GA pic 3 of 3.jpeg
   Illinois:
   Indiana:
+    - states/in/Indiana 1 of 4.jpg
+    - states/in/Indiana 2 of 4.jpg
+    - states/in/Indiana 3 of 4.jpg
+    - states/in/Indiana 4 of 4.jpg
   Maryland:
   Massachusetts:
     - states/ma/MA pic 2of2.jpeg
@@ -32,8 +36,8 @@ state_pics:
   Montana:
   New York:
     - states/ny/NY 1 of 4.jpg
-    - states/ny/NY 3 of 4.jpg
     - states/ny/NY 2 of 4.jpg
+    - states/ny/NY 3 of 4.jpg
     - states/ny/NY  4of 4.jpg
   North Carolina:
   Ohio:
