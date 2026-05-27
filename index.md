@@ -17,7 +17,6 @@ state_contacts:
   Vermont: mailto:nonviolentmedicaidarmy@gmail.com
   Virginia: Ricaphillipsjohnson4@gmail.com
   Wisconsin: mailto:wisconsin.nvma@gmail.com
-  Wyoming: mailto:nonviolentmedicaidarmy@gmail.com
 state_pics:
   Georgia:
     - states/ga/GA pic 1 of 3.jpeg
@@ -63,7 +62,6 @@ state_pics:
     - states/ws/WI pic 1 of 3.jpg
     - states/ws/WI- Coffin NDA 2025 pic 2 of3.jpeg
     - states/ws/WI - NDA 2025 March Pic 3 of 3.jpeg
-  Wyoming:
 past_event_gallery:
   - img/bojangles.jpg
   - img/IMG_9077.JPG
@@ -102,7 +100,7 @@ The Nonviolent Medicaid Army of the poor is a growing, politically
 independent force of the poor and dispossessed, united across
 identities, regions, races and issues, modeled after MLK's 'nonviolent
 army of the poor' from the first Poor People's Campaign of 1968. We
-are currently active in states like Wyoming, Wisconsin, Texas,
+are currently active in states like Wisconsin, Texas,
 Indiana, Georgia, Massachusetts, Illinois, North Carolina,
 Pennsylvania, New York, Ohio, Maryland and Vermont. We are not a
 coalition or a campaign but a network of organizations and committees
