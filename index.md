@@ -9,13 +9,13 @@ state_contacts:
   Massachusetts: mailto:nonviolentmedicaidma@gmail.com
   Montana: mailto:nonviolentmedicaidarmy@gmail.com
   New York: mailto:nvma-ny@proton.me
-  North Carolina: mailto:nonviolentmedicaidarmy@gmail.com
-  Ohio: mailto:nonviolentmedicaidarmy@gmail.com
+  North Carolina: nchomelessunion@gmail.com
+  Ohio: OhioNVMA@gmail.com
   Oklahoma: mailto:nonviolentmedicaidarmy@gmail.com
   Pennsylvania: mailto:info@putpeoplefirstpa.org
   Texas: mailto:nonviolentmedicaidarmy@gmail.com
   Vermont: mailto:nonviolentmedicaidarmy@gmail.com
-  Virginia: mailto:nonviolentmedicaidarmy@gmail.com
+  Virginia: Ricaphillipsjohnson4@gmail.com
   Wisconsin: mailto:wisconsin.nvma@gmail.com
   Wyoming: mailto:nonviolentmedicaidarmy@gmail.com
 state_pics:
@@ -40,7 +40,13 @@ state_pics:
     - states/ny/NY 3 of 4.jpg
     - states/ny/NY  4of 4.jpg
   North Carolina:
+    - states/nc/IMG_3280.jpeg
+    - states/nc/IMG_3281.jpeg
+    - states/nc/IMG_3282.jpeg
+    - states/nc/IMG_FE7732BCA43C-1.jpeg
   Ohio:
+    - states/oh/Ohio 1 of 2.jpeg
+    - states/oh/Ohio 2 of 2.jpeg
   Oklahoma:
   Pennsylvania:
     - states/pa/PA pic 1of1.jpeg
@@ -50,6 +56,9 @@ state_pics:
     - states/vt/Vermont2of3.jpeg
     - states/vt/Vermont3of3.jpeg
   Virginia:
+    - states/va/IMG_DFC20637A11E-1.jpeg
+    - states/va/IMG_B9C032C41D85-1.jpeg
+    - states/va/IMG_E1ED3A503987-1.jpeg
   Wisconsin:
     - states/ws/WI pic 1 of 3.jpg
     - states/ws/WI- Coffin NDA 2025 pic 2 of3.jpeg
