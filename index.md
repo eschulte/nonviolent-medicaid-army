@@ -29,6 +29,10 @@ state_pics:
     - states/in/Indiana 3 of 4.jpg
     - states/in/Indiana 4 of 4.jpg
   Maryland:
+    - states/md/MD 1 of 4.jpeg
+    - states/md/MD 2 of 4.jpeg
+    - states/md/MD 3 of 4.jpeg
+    - states/md/MD 4 of 4.jpeg
   Massachusetts:
     - states/ma/MA pic 2of2.jpeg
     - states/ma/MA pic 1of2.jpeg
