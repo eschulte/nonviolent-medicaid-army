@@ -46,7 +46,8 @@ layout: default
   <div class="drawer-actions">
     <a id="drawer-email-btn" href="#" class="drawer-cta-btn">
       <i class="fa fa-envelope"></i> Contact State Organizers
-    </a>
+    </a></br>
+    <span id="drawer-email-txt" href="#"></span>
   </div>
 </div>
 
@@ -95,7 +96,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
   function displayStateDetails(data) {
     document.getElementById("drawer-state-name").textContent = data.name;
-    document.getElementById("drawer-email-btn").setAttribute("href", data.email);
+    document.getElementById("drawer-email-btn").setAttribute("href", "mailto:" + data.email);
+    document.getElementById("drawer-email-txt").textContent = data.email;
     const gallery = document.getElementById("drawer-gallery");
     gallery.innerHTML = "";
     

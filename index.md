@@ -2,21 +2,21 @@
 layout: home
 title: Nonviolent Medicaid Army
 state_contacts:
-  Georgia: mailto:neiltellier@yahoo.com
-  Illinois: mailto:nonviolentmedicaidarmy@gmail.com
-  Indiana: mailto:hhrc.richmond@gmail.com
-  Maryland: mailto:nonviolentmedicaidarmy@gmail.com
-  Massachusetts: mailto:nonviolentmedicaidma@gmail.com
-  Montana: mailto:nonviolentmedicaidarmy@gmail.com
-  New York: mailto:nvma-ny@proton.me
+  Georgia: neiltellier@yahoo.com
+  Illinois: nonviolentmedicaidarmy@gmail.com
+  Indiana: hhrc.richmond@gmail.com
+  Maryland: nonviolentmedicaidarmy@gmail.com
+  Massachusetts: nonviolentmedicaidma@gmail.com
+  Montana: nonviolentmedicaidarmy@gmail.com
+  New York: nvma-ny@proton.me
   North Carolina: nchomelessunion@gmail.com
   Ohio: OhioNVMA@gmail.com
-  Oklahoma: mailto:nonviolentmedicaidarmy@gmail.com
-  Pennsylvania: mailto:info@putpeoplefirstpa.org
-  Texas: mailto:nonviolentmedicaidarmy@gmail.com
-  Vermont: mailto:nonviolentmedicaidarmy@gmail.com
+  Oklahoma: nonviolentmedicaidarmy@gmail.com
+  Pennsylvania: info@putpeoplefirstpa.org
+  Texas: nonviolentmedicaidarmy@gmail.com
+  Vermont: nonviolentmedicaidarmy@gmail.com
   Virginia: Ricaphillipsjohnson4@gmail.com
-  Wisconsin: mailto:wisconsin.nvma@gmail.com
+  Wisconsin: wisconsin.nvma@gmail.com
 state_pics:
   Georgia:
     - states/ga/GA pic 1 of 3.jpeg
@@ -86,11 +86,14 @@ anchors:
     icon: fa-book
     link: about
   - text: "Past Events"
-    icon: fa-calendar # Consider: fa-calendar
+    icon: fa-calendar
     link: past-events
   - text: "Medicaid Mondays"
     icon: fa-bullhorn
     link: medicaid-mondays
+  - text: "Resources"
+    icon: fa-bullhorn
+    link: resources
   - text: "Social Media"
     icon: fa-comments
     link: social-media
@@ -253,6 +256,13 @@ us!
     -- Tammy, Lancaster County
 
 <div style="clear:both;"></div>
+
+## Resources
+
+- [Building From Scratch]({{ "/img/NVMA_doc.pdf"|url }}) guides you
+  through starting a new member-led NVMA formation.
+
+- (*Coming Soon*) **Tool Kit**
 
 ## Social Media
 
