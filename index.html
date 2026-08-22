@@ -36,6 +36,8 @@
       
       <a href="#medicaid-mondays">Medicaid Mondays</a>
       
+      <a href="#resources">Resources</a>
+      
       <a href="#social-media">Social Media</a>
       
     </div>
@@ -368,7 +370,8 @@ Place this code in the empty space below. */
   <div class="drawer-actions">
     <a id="drawer-email-btn" href="#" class="drawer-cta-btn">
       <i class="fa fa-envelope"></i> Contact State Organizers
-    </a>
+    </a></br>
+    <span id="drawer-email-txt" href="#"></span>
   </div>
 </div>
 
@@ -380,7 +383,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     "georgia": {
       name: "Georgia",
-      email: "mailto:neiltellier@yahoo.com",
+      email: "neiltellier@yahoo.com",
       images: [
         
           
@@ -398,7 +401,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     "illinois": {
       name: "Illinois",
-      email: "mailto:nonviolentmedicaidarmy@gmail.com",
+      email: "nonviolentmedicaidarmy@gmail.com",
       images: [
         
       ]
@@ -408,7 +411,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     "indiana": {
       name: "Indiana",
-      email: "mailto:hhrc.richmond@gmail.com",
+      email: "hhrc.richmond@gmail.com",
       images: [
         
           
@@ -428,7 +431,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     "maryland": {
       name: "Maryland",
-      email: "mailto:nonviolentmedicaidarmy@gmail.com",
+      email: "nonviolentmedicaidarmy@gmail.com",
       images: [
         
           
@@ -448,7 +451,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     "massachusetts": {
       name: "Massachusetts",
-      email: "mailto:nonviolentmedicaidma@gmail.com",
+      email: "nonviolentmedicaidma@gmail.com",
       images: [
         
           
@@ -464,7 +467,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     "montana": {
       name: "Montana",
-      email: "mailto:nonviolentmedicaidarmy@gmail.com",
+      email: "nonviolentmedicaidarmy@gmail.com",
       images: [
         
       ]
@@ -474,7 +477,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     "new york": {
       name: "New York",
-      email: "mailto:nvma-ny@proton.me",
+      email: "nvma-ny@proton.me",
       images: [
         
           
@@ -530,7 +533,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     "oklahoma": {
       name: "Oklahoma",
-      email: "mailto:nonviolentmedicaidarmy@gmail.com",
+      email: "nonviolentmedicaidarmy@gmail.com",
       images: [
         
       ]
@@ -540,7 +543,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     "pennsylvania": {
       name: "Pennsylvania",
-      email: "mailto:info@putpeoplefirstpa.org",
+      email: "info@putpeoplefirstpa.org",
       images: [
         
           
@@ -554,7 +557,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     "texas": {
       name: "Texas",
-      email: "mailto:nonviolentmedicaidarmy@gmail.com",
+      email: "nonviolentmedicaidarmy@gmail.com",
       images: [
         
       ]
@@ -564,7 +567,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     "vermont": {
       name: "Vermont",
-      email: "mailto:nonviolentmedicaidarmy@gmail.com",
+      email: "nonviolentmedicaidarmy@gmail.com",
       images: [
         
           
@@ -600,7 +603,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     "wisconsin": {
       name: "Wisconsin",
-      email: "mailto:wisconsin.nvma@gmail.com",
+      email: "wisconsin.nvma@gmail.com",
       images: [
         
           
@@ -641,7 +644,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
   function displayStateDetails(data) {
     document.getElementById("drawer-state-name").textContent = data.name;
-    document.getElementById("drawer-email-btn").setAttribute("href", data.email);
+    document.getElementById("drawer-email-btn").setAttribute("href", "mailto:" + data.email);
+    document.getElementById("drawer-email-txt").textContent = data.email;
     const gallery = document.getElementById("drawer-gallery");
     gallery.innerHTML = "";
     
@@ -818,6 +822,16 @@ of healthcare in Pennsylvania or anywhere in the U.S.
 </li>
 </ul>
 <div style="clear:both;"></div>
+<h2 id="resources" tabindex="-1">Resources</h2>
+<ul>
+<li>
+<p><a href="/img/NVMA_doc.pdf">Building From Scratch</a> guides you
+through starting a new member-led NVMA formation.</p>
+</li>
+<li>
+<p>(<em>Coming Soon</em>) <strong>Tool Kit</strong></p>
+</li>
+</ul>
 <h2 id="social-media" tabindex="-1">Social Media</h2>
 <p>Follow us on social media to keep up-to-date with what's going on, get
 announcements and see people's <code>#MedicaidMondays</code> stories!  You can also
