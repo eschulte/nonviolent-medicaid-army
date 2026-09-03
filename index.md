@@ -87,9 +87,9 @@ anchors:
   - text: About
     icon: fa-book
     link: about
-  - text: "Past Events"
-    icon: fa-calendar
-    link: past-events
+  - text: "Day of Action!"
+    icon: fist
+    link: doa
   - text: "Medicaid Mondays"
     icon: fa-bullhorn
     link: medicaid-mondays
@@ -187,7 +187,17 @@ army commensurate with the times we are living in.
 - Transform the system so that healthcare is a guaranteed right, not a
   commodity
 
-## Past Events
+## **NATIONAL DAY OF ACTION FOR MEDICAID on SEPTEMBER 19 2026!** {#doa}
+
+<a href="{{"/woa/2026" | url}}">
+<div id="doa_div">
+
+2026 Day of Action September 19.
+
+</div>
+</a>
+
+### Past Events
 
 Information on historical events and weeks of action are available at the following:
 
