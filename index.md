@@ -68,6 +68,19 @@ state_pics:
     - states/ws/WI pic 1 of 3.jpg
     - states/ws/WI- Coffin NDA 2025 pic 2 of3.jpeg
     - states/ws/WI - NDA 2025 March Pic 3 of 3.jpeg
+events:
+  - only: "/img/nvma-2026/442A3FA6-8308-4129-A778-D280B94F313F.jpg"
+    day: 2025-09-19
+  - only: "/img/nvma-2026/64F00DFD-722B-490C-9FD9-804DD52CDF22.jpg"
+    day: 2025-09-19
+  - only: "/img/nvma-2026/CF553DE0-354A-474A-8FDE-7A5D5975D5BF.jpg"
+    day: 2025-09-19
+  - only: "/img/nvma-2026/DDC8FD35-A69D-45E8-A45A-A3474C075348.jpg"
+    day: 2025-09-19
+  - only: "/img/nvma-2026/IMG_4791.JPG"
+    day: 2025-09-19
+  - only: "/img/nvma-2026/IMG_4792.JPG"
+    day: 2025-09-19
 past_event_gallery:
   - img/bojangles.jpg
   - img/IMG_9077.JPG
@@ -189,13 +202,51 @@ army commensurate with the times we are living in.
 
 ## **NATIONAL DAY OF ACTION FOR MEDICAID on SEPTEMBER 19 2026!** {#doa}
 
-<a href="{{"/woa/2026" | url}}">
-<div id="doa_div">
+The following participating states are holding rally/speakout, big or
+small, consisting of speakers, songs, education, and most importantly,
+people lifting up their own stories and experiences, describing the plight
+(impact), fight (the power of our collective struggle) and insight (what
+we’re learning).
 
-2026 Day of Action September 19.
+{% assign data = events | sort: 'day' %}
 
-</div>
+{% for event in data %}
+
+<div class="w3-half w3-container w3-margin-bottom">
+{% if event.only %}
+{% if event.link %}
+<a href="{{ event.link }}">
+{% else %}
+<a href="{{ event.only | url}}">
+{% endif%}
+<img src="{{ event.only | url}}" alt="event only image" style="width:100%; max-height: 100%; object-fit: cover;">
 </a>
+{% else %}
+  <div style="min-height: 300px" class="w3-gray">
+    <img src="{{ event.image | url}}" alt="event image" style="width:100%; max-height: 300px; object-fit: cover;">
+  </div>
+<div class="w3-container w3-gray event-details clamped">
+{% if event.link %}
+<h3><a href="{{ event.link }}">{{ event.name }}</a></h3>
+{% else %}
+<h3>{{ event.name }}</h3>
+{% endif%}
+<b>Date:</b> {{ event.date }}</br>
+{% if event.address %}
+<b>Address:</b> {{ event.address }}</br>
+{% endif %}
+</br>
+<b>Details:</b>
+<hr style="width:100px; border-top: 1px solid black; margin: 0.25em 0;" class="w3-opacity">
+{% markdown %}
+{{ event.details }}
+{% endmarkdown %}
+</div>
+{% endif %}
+</div>
+{% endfor %}
+
+<div style="clear:both;"></div>
 
 ### Past Events
 
