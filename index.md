@@ -3,17 +3,17 @@ layout: home
 title: Nonviolent Medicaid Army
 state_contacts:
   Georgia: neiltellier@yahoo.com
-  Illinois: nonviolentmedicaidarmy@gmail.com
+  Illinois: kavthiesen@gmail.com
   Indiana: hhrc.richmond@gmail.com
   Maryland: nonviolentmedicaidarmy@gmail.com
   Massachusetts: nonviolentmedicaidma@gmail.com
-  Montana: nonviolentmedicaidarmy@gmail.com
+  Montana: montananvma@gmail.com
   New York: nvma-ny@proton.me
   North Carolina: nchomelessunion@gmail.com
   Ohio: OhioNVMA@gmail.com
-  Oklahoma: nonviolentmedicaidarmy@gmail.com
+  Oklahoma: nvmatulsa@gmail.com
   Pennsylvania: info@putpeoplefirstpa.org
-  Texas: nonviolentmedicaidarmy@gmail.com
+  Texas: Citizenslabtx@gmail.com
   Vermont: nonviolentmedicaidarmy@gmail.com
   Virginia: Ricaphillipsjohnson4@gmail.com
   Wisconsin: wisconsin.nvma@gmail.com
@@ -23,6 +23,7 @@ state_pics:
     - states/ga/GA pic 2 of 3.jpeg
     - states/ga/GA pic 3 of 3.jpeg
   Illinois:
+    - states/il/4452-A5DE-8E-0.jpeg
   Indiana:
     - states/in/Indiana 1 of 4.jpg
     - states/in/Indiana 2 of 4.jpg
@@ -51,6 +52,7 @@ state_pics:
     - states/oh/Ohio 1 of 2.jpeg
     - states/oh/Ohio 2 of 2.jpeg
   Oklahoma:
+    - states/ok/IMG_48B727E00145-1.jpeg
   Pennsylvania:
     - states/pa/PA pic 1of1.jpeg
   Texas:
@@ -262,7 +264,7 @@ us!
 - [Building From Scratch]({{ "/img/NVMA_doc.pdf"|url }}) guides you
   through starting a new member-led NVMA formation.
 
-- (*Coming Soon*) **Tool Kit**
+- [Tool Kit](https://bit.ly/2026NVMADayOfActionToolkit)
 
 ## Social Media
 
@@ -278,3 +280,37 @@ connect with us here!
 
 <i class="fab fa-tiktok"></i> **TikTok**  
 <https://tiktok.com/@medicaidarmy>
+
+
+## Privacy Policy
+
+This Privacy Policy describes our policies and procedures on the
+collection, use and disclosure of your information when you contact us
+and tells you about your privacy rights and how the law protects
+you. We never share or sell your contact information to third
+parties. We only use your information so we can follow up with you
+about how you can get involved in upcoming events and actions.
+
+### Personal Data
+
+In the course of our work we may ask you to provide us with certain
+personally identifiable information that can be used to contact or
+identify you. Personally identifiable information may include, but is
+not limited to:
+
+- Email address
+- First name and last name
+- Phone number
+- Zip code or address
+
+### Use of Your Personal Data
+
+- To contact you: To contact You by email, telephone calls, SMS, or
+  other equivalent forms of electronic communication
+
+- To provide you with news, and general information about other
+  activities and events that are similar to those that you have
+  already enquired about unless you have opted not to receive such
+  information.
+
+- To manage your requests: to attend and manage your requests to us.
