@@ -81,6 +81,8 @@ events:
     day: 2025-09-19
   - only: "/img/nvma-2026/IMG_4792.JPG"
     day: 2025-09-19
+  - only: "/img/nvma-2026/IMG_37903194EFF0-1.jpeg"
+    day: 2025-09-19
 past_event_gallery:
   - img/bojangles.jpg
   - img/IMG_9077.JPG
