@@ -71,20 +71,28 @@ state_pics:
 events:
   - only: "/img/nvma-2026/442A3FA6-8308-4129-A778-D280B94F313F.jpg"
     day: 2025-09-19
+    desc: "Mass Action for Medicaid—Texas. Saturday, September 19, 9:30 AM, 5200 Harry Hines Blvd., Dallas (corner of Harry Hines and Lofland). Fund Medicaid Not War. Scan to RSVP."
   - only: "/img/nvma-2026/64F00DFD-722B-490C-9FD9-804DD52CDF22.jpg"
     day: 2025-09-19
+    desc: "Mass Action for Medicaid. Saturday, September 19. Speakout at Adams Park, 3:00 PM, Roslindale, MA. Fund Medicaid Not War. Scan to RSVP."
   - only: "/img/nvma-2026/CF553DE0-354A-474A-8FDE-7A5D5975D5BF.jpg"
     day: 2025-09-19
+    desc: "Mass Action for Medicaid. Saturday, September 19, 1 PM, outside NY Eye and Ear Infirmary, 310 E 14th St. in Manhattan. Join us as we take action to protect Medicaid! Contact nvma-ny@proton.me or 646-820-8073."
   - only: "/img/nvma-2026/DDC8FD35-A69D-45E8-A45A-A3474C075348.jpg"
     day: 2025-09-19
+    desc: "Mass Action for Medicaid. Saturday, September 19, 1:00 PM, Harrisburg Capitol Steps. Fund Medicaid Not War. Scan to RSVP."
   - only: "/img/nvma-2026/IMG_4791.JPG"
     day: 2025-09-19
+    desc: "Mass Action for Medicaid—New Mexico. Saturday, September 19, 9:30 AM, Highway 550 and Highway 528, Rio Rancho. Fund Medicaid Not War. Scan to RSVP."
   - only: "/img/nvma-2026/IMG_4792.JPG"
     day: 2025-09-19
+    desc: "Mass Action for Medicaid. Saturday, September 19, 9 AM–1 PM, Twin Bridges Farmer’s Market, Main Street Park, Twin Bridges, MT. Fund Medicaid Not War. Scan to RSVP."
   - only: "/img/nvma-2026/IMG_37903194EFF0-1.jpeg"
     day: 2025-09-19
+    desc: "Mass Action for Medicaid. Saturday, September 19, 8:30 AM–10:30 AM, Kinship Community Food Center, 924 East Clarke St., Milwaukee. Blood pressure checks, blood sugar screening, Medicaid resources, and free toilet paper. Contact wisconsin.nvma@gmail.com; www.nonviolentmedicaidarmy.org; Facebook, Instagram, and TikTok."
   - only: "/img/nvma-2026/IMG_89D54A9837BB-1.jpeg"
     day: 2025-09-19
+    desc: "The People's FSSA, presented by the Richmond HHRC. Saturday, September 19, noon–4 PM, Richmond FSSA Parking Lot. SNAP/Medicaid paperwork help clinic and free food. Ask the person posting this how to get updates. In association with the Nonviolent Medicaid Army."
 past_event_gallery:
   - img/bojangles.jpg
   - img/IMG_9077.JPG
@@ -223,7 +231,7 @@ we’re learning).
 {% else %}
 <a href="{{ event.only | url}}">
 {% endif%}
-<img src="{{ event.only | url}}" alt="event only image" style="width:100%; max-height: 100%; object-fit: cover;">
+<img src="{{ event.only | url}}" alt="{{ event.desc | default: 'Event image' | escape }}" style="width:100%; max-height: 100%; object-fit: cover;">
 </a>
 {% else %}
   <div style="min-height: 300px" class="w3-gray">
