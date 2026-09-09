@@ -93,6 +93,14 @@ events:
   - only: "/img/nvma-2026/IMG_89D54A9837BB-1.jpeg"
     day: 2025-09-19
     desc: "The People's FSSA, presented by the Richmond HHRC. Saturday, September 19, noon–4 PM, Richmond FSSA Parking Lot. SNAP/Medicaid paperwork help clinic and free food. Ask the person posting this how to get updates. In association with the Nonviolent Medicaid Army."
+  - only: "/img/nvma-2026/IMG_A66ACA70E93F-1.jpeg"
+    day: 2025-09-19
+  - only: "/img/nvma-2026/IMG_B3A7FE6225B6-1.jpeg"
+    day: 2025-09-19
+  - only: "/img/nvma-2026/IMG_B41427701EDF-1.jpeg"
+    day: 2025-09-19
+  - only: "/img/nvma-2026/IMG_BB4F63497DF2-1.jpeg"
+    day: 2025-09-19
 past_event_gallery:
   - img/bojangles.jpg
   - img/IMG_9077.JPG
