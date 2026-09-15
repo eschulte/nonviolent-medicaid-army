@@ -95,25 +95,25 @@ events:
     desc: "The People's FSSA, presented by the Richmond HHRC. Saturday, September 19, noon–4 PM, Richmond FSSA Parking Lot. SNAP/Medicaid paperwork help clinic and free food. Ask the person posting this how to get updates. In association with the Nonviolent Medicaid Army."
   - only: "/img/nvma-2026/IMG_A66ACA70E93F-1.jpeg"
     day: 2025-09-19
-    desc: ""
+    desc: "Freedom Church of the Poor, hosted by the NVMA Southern Table. Sunday, September 20, 6 PM ET / 5 PM CT / 4 PM MT / 3 PM PT. Tune in to the livestream on the NVMA Facebook page. Fund Medicaid Not War."
   - only: "/img/nvma-2026/IMG_B3A7FE6225B6-1.jpeg"
     day: 2025-09-19
-    desc: ""
+    desc: "Mass Action for Medicaid. Saturday, September 19, 11 AM–2 PM, Centre Congregational Church lawn, 193 Main Street, Brattleboro, VT. Speak out for Medicaid and our hospitals. Fund Medicaid Not War. Scan to RSVP."
   - only: "/img/nvma-2026/IMG_B41427701EDF-1.jpeg"
     day: 2025-09-19
-    desc: ""
+    desc: "Mass Action for Medicaid—Georgia. Saturday, September 19, 8 AM, DCCM, 430 8th St., Augusta, GA 30901. Fund Medicaid Not War. Scan to RSVP."
   - only: "/img/nvma-2026/IMG_BB4F63497DF2-1.jpeg"
     day: 2025-09-19
-    desc: ""
+    desc: "Mass Action for Medicaid—Illinois. Friday, September 18, 1:30 PM, Respond Now, 1439 Emerald Avenue, Chicago Heights, IL 60411. Fund Medicaid Not War. Scan to RSVP."
   - only: "/img/nvma-2026/IMG_1BCA026117EB-1.jpeg"
     day: 2025-09-19
-    desc: ""
+    desc: "Mass Action for Medicaid—Alabama. Saturday, September 19, 11 AM, Alabama Medicaid Agency, 501 Dexter Avenue, Montgomery, AL. Fund Medicaid Not War. Scan to RSVP."
   - only: "/img/nvma-2026/IMG_8C417F883882-1.jpeg"
     day: 2025-09-19
-    desc: ""
+    desc: "Mass Action for Medicaid—Maryland. Saturday, September 19, 2 PM, Belgrove State Park, Westminster, MD. Fund Medicaid Not War. Scan to RSVP."
   - only: "/img/nvma-2026/IMG_DCECA1721272-1.jpeg"
     day: 2025-09-19
-    desc: ""
+    desc: "Mass Action for Medicaid—Oklahoma. Saturday, September 19, 3–5 PM, Tulsa City County Library, Aaronson Auditorium. Fund Medicaid Not War. Scan to RSVP."
 past_event_gallery:
   - img/bojangles.jpg
   - img/IMG_9077.JPG
