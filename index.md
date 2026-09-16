@@ -114,6 +114,9 @@ events:
   - only: "/img/nvma-2026/IMG_DCECA1721272-1.jpeg"
     day: 2025-09-19
     desc: "Mass Action for Medicaid—Oklahoma. Saturday, September 19, 3–5 PM, Tulsa City County Library, Aaronson Auditorium. Fund Medicaid Not War. Scan to RSVP."
+  - only: "/img/nvma-2026/IMG_99F778128D36-1.jpeg"
+    day: 2025-09-19
+    desc: "Mass Action for Medicaid—Oklahoma. Saturday, September 19, Housing & Healthcare: Human Rights, 7 ET / 6 CT / 5 MT / 4 PT on Zoom."
 past_event_gallery:
   - img/bojangles.jpg
   - img/IMG_9077.JPG
